@@ -1,0 +1,4 @@
+revealjs:
+  theme: serif
+  transition: none
+  center: "false"
