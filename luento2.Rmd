@@ -1,0 +1,89 @@
+---
+title       : Käännösmuisteista ja käännösohjelmistoista
+author      : Juho Härme
+job         : tohtorikoulutettava / käännöstiede venäjä
+framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
+revealjs    : {theme: serif, transition: linear, center: "false"}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : mathjax            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+logo        : slidify_logo.png
+
+---
+
+<style>
+.reveal h2{
+    padding-bottom: 20px;
+}
+
+p { text-align: left;
+font-size: 12;
+
+}
+
+.reveal a:not(.image) {
+text-decoration:underline;
+}
+
+.coldiv {width:47%;float:left;}
+.coldiv2 {float:left;width:30%;}
+
+
+.rowdiv {width:100%;clear:left;}
+
+.reveal section img { background:none; border:none; box-shadow:none; }
+
+li.fragment{
+font-size:80%;
+}
+
+ul,li,li.fragment{
+font-size:80%;
+}
+
+</style>
+
+## Tradosin perusteet 1
+
+#### Juho Härme / 18.9.2015
+
+
+--- .class &vertical
+
+## Oppimistavoitteita
+
+<!--Linkit/sivunumerot tähän minioppaisiin asiasta! --> 
+
+***
+
+#### Perustaitoja
+
+<ul>
+<li style='font-size:75%;'> Oleellisen erottaminen käyttöliittymästä
+<li style='font-size:75%;'> Käännösmuistin hyödyntäminen
+<li style='font-size:75%;'> Pakettitiedoston avaaminen
+<li style='font-size:75%;'> Projektin luominen
+<li style='font-size:75%;'> Käännöksen palauttaminen asiakkaalle / toimistolle
+</ul>
+
+***
+
+#### Tärkeitä toimintoja
+
+<ul>
+<li style='font-size:75%;'> Konkordanssihaku
+<li style='font-size:75%;'> Muistiyksikön muokkaaminen
+<li style='font-size:75%;'> Esikatselutilat
+</ul>
+
+***
+
+#### Hyödyllisiä lisätaitoja
+
+<ul>
+<li style='font-size:75%;'> Käännösmuistin eksportoiminen
+<li style='font-size:75%;'> Termipankin käyttö ja rakentaminen
+<li style='font-size:75%;'> Tekstien kohdistaminen
+</ul>
