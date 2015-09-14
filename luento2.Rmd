@@ -1,5 +1,5 @@
 ---
-title       : Käännösmuisteista ja käännösohjelmistoista
+title       : Tradosin perusteet 1
 author      : Juho Härme
 job         : tohtorikoulutettava / käännöstiede venäjä
 framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
@@ -43,6 +43,15 @@ ul,li,li.fragment{
 font-size:80%;
 }
 
+.gr1{
+border-radius:3px;
+background:antiquewhite;
+}
+.gr2{
+border-radius:3px;
+background:aquamarine;
+}
+
 </style>
 
 ## Tradosin perusteet 1
@@ -54,18 +63,26 @@ font-size:80%;
 
 ## Oppimistavoitteita
 
-<!--Linkit/sivunumerot tähän minioppaisiin asiasta! --> 
+<!--Linkit/sivunumerot tähän minioppaisiin kustakin asiasta! --> 
 
 ***
 
 #### Perustaitoja
 
 <ul>
+
+<ul class='fragment gr2'>
 <li style='font-size:75%;'> Oleellisen erottaminen käyttöliittymästä
 <li style='font-size:75%;'> Käännösmuistin hyödyntäminen
+</ul>
+<br>
+<ul class='fragment gr1'>
+<li style='font-size:75%;'> Yksittäisen tiedoston kääntäminen
 <li style='font-size:75%;'> Pakettitiedoston avaaminen
 <li style='font-size:75%;'> Projektin luominen
 <li style='font-size:75%;'> Käännöksen palauttaminen asiakkaalle / toimistolle
+</ul>
+
 </ul>
 
 ***
