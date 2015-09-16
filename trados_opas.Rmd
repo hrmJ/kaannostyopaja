@@ -1,20 +1,61 @@
 ---
-title: 'Trados-opas'
-author: Juho Härme
+title: 'Sisällys'
 ---
 
-Oppitunti 1: yksittäiset tiedostot ja käyttöliittymä
-====================================================
+<article class='leftcontent'>
+
+Ennen kääntämistä
+==================
 
 Miten avaan yksittäisen tiedoston?
 ----------------------------------
 
+**Ongelma:** *Sinulla on yksi dokumentti, jonka haluat kääntää ja saada
+käännöksen tuloksena syntyvän muistin talteen/palautettavaksi toimeksiantajalle* 
+
+1. Avaa Trados
+
+2. Klikkaa Welcome-ruudulla 'Translate single file pair' -kohtaa
+
+3. Kahlaa avautuvan dialogin läpi
 
 
+Paketit ja projektit
+--------------------
 
-Oppitunti 2: projekteja, paketteja ja servereitä
-================================================
+**Ongelma:** *käännöksen tuloksena syntyvän muistin talteen/palautettavaksi toimeksiantajalle* 
+
+1. Avaa Trados
+
+2. Klikkaa Welcome-ruudulla 'Translate single file pair' -kohtaa
+
+3. Kahlaa avautuvan dialogin läpi
 
 
-Hakemisto
-=========
+Kääntäminen
+===========
+
+**Ongelma:** *käännöksen tuloksena syntyvän muistin talteen/palautettavaksi toimeksiantajalle* 
+
+1. Avaa Trados
+
+2. Klikkaa Welcome-ruudulla 'Translate single file pair' -kohtaa
+
+3. Kahlaa avautuvan dialogin läpi
+
+
+Kääntämisen jälkeen
+===================
+
+**Ongelma:** *käännöksen tuloksena syntyvän muistin talteen/palautettavaksi toimeksiantajalle* 
+
+1. Avaa Trados
+
+2. Klikkaa Welcome-ruudulla 'Translate single file pair' -kohtaa
+
+3. Kahlaa avautuvan dialogin läpi
+
+</article>
+<article class='rightcontent'>
+</article>
+</article>
