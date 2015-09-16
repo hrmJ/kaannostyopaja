@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
-  <title>Sisällys</title>
+  <title></title>
   <style type="text/css">code{white-space: pre;}</style>
   <script language='javascript'>
   // test
@@ -12,14 +12,12 @@
   <style type='text/css'>
   
   html,body{
-  padding-left:1%;
-  padding-right:1%;
-  height:100%; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  overflow:hidden;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  /*overflow:hidden;*/
   }
   
   p{
-  text-align:justify;
+  /*text-align:justify;*/
   }
   
   
@@ -43,42 +41,56 @@
   text-decoration:underline;
   }
   
-  .container{height:100%;}
+  .container{height:100%;
+      margin-top:2%;
+  margin-left:15%;}
   
   .leftcontent{
-      height:80%;
       float: left;
-      width: 32%;
-      margin-right: 2%;
-      padding-left: 5%;
-      padding-right: 7%;
+      width: 40%;
+      margin-right: 0.5%;
+      padding-left: 3%;
+      padding-right: 4%;
+      padding-bottom:500px;
       overflow: auto;
-      border-right: 1px dashed grey;
+      /*border-right: 1PX dashed grey;*/
       background:antiquewhite;
       border-radius:20px;
+      font-family:Consolas,"Lucida Console";
   }
   
-  .rightcontent{float:left;
-      width:40%;
-      height:80%;
+  .rightcontent{
+      position:fixed;
+      width:45%;
+      margin-left:55%;
   }
   
   #TOC{
-      float:left;
+      position:fixed;
       width:15%;
       font-size:89%;
   
+  }
+  
+  #imgframe{
+  }
+  
+  .imgcontainer
+       {
+       }
+  
+  #topbar{
+  position:fixed;
+  width:100%;
+  height:2%;
+  padding-bottom:5px;
+  background:grey;
   }
   
   
   </style>
 </head>
 <body>
-<em>Trados-opas. &copy; Juho Härme. Muokattu viimeksi <script language='javascript'>document.write(document.lastModified)</script></em>
-<article class='container'>
-<div id="header">
-<h1 class="title">Sisällys</h1>
-</div>
 <div id="TOC">
 <ul>
 <li><a href="#ennen-kääntämistä"><span class="toc-section-number">1</span> Ennen kääntämistä</a><ul>
@@ -89,8 +101,12 @@
 <li><a href="#kääntämisen-jälkeen"><span class="toc-section-number">3</span> Kääntämisen jälkeen</a></li>
 </ul>
 </div>
+<article class='container'>
 <article class='leftcontent'>
 
+<em>Trados-opas. © Juho Härme. Päivitetty
+<script language='javascript'>document.write(document.lastModified)</script>
+<p></em></p>
 <h1 id="ennen-kääntämistä"><a href="#ennen-kääntämistä"><span class="header-section-number">1</span> Ennen kääntämistä</a></h1>
 <h2 id="miten-avaan-yksittäisen-tiedoston"><a href="#miten-avaan-yksittäisen-tiedoston"><span class="header-section-number">1.1</span> Miten avaan yksittäisen tiedoston?</a></h2>
 <p><strong>Ongelma:</strong> <em>Sinulla on yksi dokumentti, jonka haluat kääntää ja saada käännöksen tuloksena syntyvän muistin talteen/palautettavaksi toimeksiantajalle</em></p>
@@ -121,8 +137,16 @@
 <li><p>Kahlaa avautuvan dialogin läpi</p></li>
 </ol>
 </article>
+</article>
+
 <article class='rightcontent'>
+<div class='imgcontainer'>
+<img id='eximg' src='guide_images/startscreen.gif' width='93%'>
+</div>
 </article>
-</article>
+
+<script language='javascript'>
+
+</script>
 </body>
 </html>

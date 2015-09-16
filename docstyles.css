@@ -1,14 +1,12 @@
 <style type='text/css'>
 
 html,body{
-padding-left:1%;
-padding-right:1%;
-height:100%; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-overflow:hidden;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+/*overflow:hidden;*/
 }
 
 p{
-text-align:justify;
+/*text-align:justify;*/
 }
 
 
@@ -32,31 +30,50 @@ color:#000000;
 text-decoration:underline;
 }
 
-.container{height:100%;}
+.container{height:100%;
+    margin-top:2%;
+margin-left:15%;}
 
 .leftcontent{
-    height:80%;
     float: left;
-    width: 32%;
-    margin-right: 2%;
-    padding-left: 5%;
-    padding-right: 7%;
+    width: 40%;
+    margin-right: 0.5%;
+    padding-left: 3%;
+    padding-right: 4%;
+    padding-bottom:500px;
     overflow: auto;
-    border-right: 1px dashed grey;
+    /*border-right: 1PX dashed grey;*/
     background:antiquewhite;
     border-radius:20px;
+    font-family:Consolas,"Lucida Console";
 }
 
-.rightcontent{float:left;
-    width:40%;
-    height:80%;
+.rightcontent{
+    position:fixed;
+    width:45%;
+    margin-left:55%;
 }
 
 #TOC{
-    float:left;
+    position:fixed;
     width:15%;
     font-size:89%;
 
+}
+
+#imgframe{
+}
+
+.imgcontainer
+     {
+     }
+
+#topbar{
+position:fixed;
+width:100%;
+height:2%;
+padding-bottom:5px;
+background:grey;
 }
 
 

@@ -1,8 +1,12 @@
 ---
-title: 'Sisällys'
 ---
 
+
+
+<article class='container'>
 <article class='leftcontent'>
+
+<em>Trados-opas. &copy; Juho Härme. Päivitetty <script language='javascript'>document.write(document.lastModified)</script></em>
 
 Ennen kääntämistä
 ==================
@@ -56,6 +60,14 @@ Kääntämisen jälkeen
 3. Kahlaa avautuvan dialogin läpi
 
 </article>
+</article>
+
 <article class='rightcontent'>
+<div class='imgcontainer'>
+<img id='eximg' src='guide_images/startscreen.gif' width='93%'>
+</div>
 </article>
-</article>
+
+<script language='javascript'>
+
+</script>
