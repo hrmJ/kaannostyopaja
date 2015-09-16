@@ -1,0 +1,20 @@
+---
+title: 'Trados-opas'
+author: Juho Härme
+---
+
+Oppitunti 1: yksittäiset tiedostot ja käyttöliittymä
+====================================================
+
+Miten avaan yksittäisen tiedoston?
+----------------------------------
+
+
+
+
+Oppitunti 2: projekteja, paketteja ja servereitä
+================================================
+
+
+Hakemisto
+=========
