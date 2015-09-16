@@ -1,5 +1,5 @@
 ---
-title       : Tradosin perusteet 1
+title       : Tradosin perusteet
 author      : Juho Härme
 job         : tohtorikoulutettava / käännöstiede venäjä
 framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
@@ -78,8 +78,13 @@ background:aquamarine;
 <br>
 <ul class='fragment gr1'>
 <li style='font-size:75%;'> Yksittäisen tiedoston kääntäminen
-<li style='font-size:75%;'> Pakettitiedoston avaaminen
+<li style='font-size:75%;'> Paketin kääntäminen
+<li style='font-size:75%;'> Erilaisten tiedostomuotojen hallitseminen
 <li style='font-size:75%;'> Projektin luominen
+</ul>
+<br>
+<ul class='fragment gr2'>
+<li style='font-size:75%;'> Käännöksen viimeistely ja eksportointi
 <li style='font-size:75%;'> Käännöksen palauttaminen asiakkaalle / toimistolle
 </ul>
 
@@ -90,9 +95,16 @@ background:aquamarine;
 #### Tärkeitä toimintoja
 
 <ul>
+<ul class='fragment gr1'>
 <li style='font-size:75%;'> Konkordanssihaku
 <li style='font-size:75%;'> Muistiyksikön muokkaaminen
-<li style='font-size:75%;'> Esikatselutilat
+<li style='font-size:75%;'> Esikatselu
+</ul>
+<br>
+<ul class='fragment gr2'>
+<li style='font-size:75%;'> Tägien ja muotoilujen syöttäminen
+<li style='font-size:75%;'> Lähdesegmentin kopioiminen
+</ul>
 </ul>
 
 ***
@@ -104,3 +116,31 @@ background:aquamarine;
 <li style='font-size:75%;'> Termipankin käyttö ja rakentaminen
 <li style='font-size:75%;'> Tekstien kohdistaminen
 </ul>
+
+--- 
+
+### Ensimmäisellä tunnilla:
+
+<br>
+<ul>
+<li style='font-size:75%;' class='fragment'> Käännösharjoitus 1: yksittäinen tiedosto, tyhjä muisti
+<li style='font-size:75%;' class='fragment'> Käännösharjoitus 2: yksittäinen tiedosto, valmis muisti
+<li style='font-size:75%;' class='fragment'> Käyttöliittymään tutustumista
+</ul>
+
+
+---
+
+### Toisella tunnilla
+
+<br>
+<ul>
+<li style='font-size:75%;' class='fragment'> Projektit ja paketit
+<li style='font-size:75%;' class='fragment'> Muisti serverillä
+</ul>
+
+---
+
+### Itsenäiset harjoituskerrat
+
+
