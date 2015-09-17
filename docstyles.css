@@ -58,9 +58,11 @@ margin-left:15%;}
 #TOC{
     position:fixed;
     width:14%;
-    font-size:89%;
+    font-size:79%;
     margin-right:1%;
 }
+
+
 
 #imgframe{
 }
@@ -122,14 +124,17 @@ width:70%;
 h1{
 font-size: x-large;
 border-bottom: 2px solid black;
+margin-top:5em;
 }
 
 
-ol{
+ol,ul{
 background:cornsilk;
 }
 
-h2{color:#826060;}
+h2{color:#826060;
+margin-top:3em;
+}
 h3{color:#A58585;}
 h3{color:#A58585;}
 

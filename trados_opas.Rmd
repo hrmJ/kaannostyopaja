@@ -13,14 +13,14 @@ Yksittäiset tiedostot
 ### Miten alan kääntää yksittäistä tiedostoa?
 
 <ol>
-<li> <a href='#' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
-<li> <a href='#' onClick='javascript:ChangeUpper(this,"guide_images/filepair1.gif")'>Klikkaa Welcome-ruudulla 'Translate single document'</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filepair1.gif")'>Klikkaa Welcome-ruudulla 'Translate single document'</a>
 <li> Valitse tiedosto
-<li> <a href='#' onClick='javascript:ChangeUpper(this,"guide_images/filepair2.gif")'>Valitse lähde- ja kohdekieli</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filepair2.gif")'>Valitse lähde- ja kohdekieli</a>
 <li> Valitse käytettävä käännösmuisti (Mahdollista käyttää myös useita muisteja)
 <ol type='a'>
-<li> <a href='#' onClick='javascript:ChangeUpper(this,"guide_images/newmemory.gif")'>Lisää uusi tyhjä käännösmuisti</a>
-<li> <a href='#' onClick='javascript:ChangeUpper(this,"guide_images/oldmemory.gif")'>Käytä jotain olemassaolevaa muistia</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/newmemory.gif")'>Lisää uusi tyhjä käännösmuisti</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/oldmemory.gif")'>Käytä jotain olemassaolevaa muistia</a>
 </ol>
 </ol>
 
@@ -31,9 +31,9 @@ Projektipaketit
 ### Miten alan kääntää tradospakettina tullutta käännöstehtävää?
 
 <ol>
-<li> <a href='#' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
 <li> Klikkaa Welcome-ruudulla 'Open package'
-<li> <a href='#' onClick='javascript:ChangeUpper(this,"guide_images/frompackage.gif")'>Valitse tiedosto, katso paketin kuvaus,ja paina ok. </a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/frompackage.gif")'>Valitse tiedosto, katso paketin kuvaus,ja paina ok. </a>
 </ol>
 
 *Varsinaiseen kääntämiseen pääsee kaksoisklikkaamalla ensin projektin kansiota, sitten tiedoston nimeä.*
@@ -45,7 +45,119 @@ Kääntäminen
 Käyttöliittymä
 ---------------
 
+### Yleisnäkymä
 
+<ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/whole_interface_annot.png")'>Varsinainen kääntäminen tapahtuu editor-ikkunassa</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/upper_bar.png")'>Ylhäällä office 2010-tyyliset välilehdet/valikot</a>
+<ul>
+<li> File
+<li> Home
+<li> Review
+<li> Advanced
+<li> View
+<li> Add-Ins
+<li> Help
+</ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/tm_bar.png")'>Valikkojen alla on käännösmuistin oma ikkuna</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/termit.png")'>Käännösmuistin oikealla puolella on termipankin ikkuna</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/translation.png")'>Itse käännöseditori on keskellä ruutua</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/preview.png")'>Esikatselun voi asettaa esimerkiksi oikealle</a>
+</ul>
+
+Miten käännän Tradosilla?
+-------------------------
+
+Trados ja muut käännösohjelmat tarjoavat ison joukon työkaluja ja
+työskentelytapoja, joiden paljouteen voi välillä hukkua. Tässä yksi esimerkki tavasta, jolla
+Tradosilla voit kääntää ja siitä, millainen workflow voisi olla.
+
+### Esimerkkimetodi 
+
+
+<ol>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pretrans1.gif")'>Anna Tradosin esikääntää teksti (Pre-translate)</a>
+<ul>
+<li> Tämä vaihe on jo tehtynä, jos olet projektin luomisen yhteydessä sen valinnut
+</ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/translating.gif")'>Lähde kääntämään segmentti segmentiltä ylhäältä alas.</a>
+<ul>
+<li> Siirry seuraavaan segmenttiin *painamalla alanuolta*
+</ul>
+<li> Käännä loppuun asti, muista <a href='#tärkeitä-toimintoja'>*tärkeät toiminnot*</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/empty.png")'>Nyt sinulla on raakakäännös. Siirry uudestaan alkuun</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/empty.png")'>Lähde liikkeelle alusta ja vahvista segmentit, joihin olet tyytyväinen</a>
+<ul>
+<li> Tässä vaiheessa voi hioa ja muokata kaikkia niitä kohtia, jotka saa siedettävään kuntoon ilman erityisen suuria
+<li> Todelliset ongelmakohdat voi vieläkin jättää vahvistamatta
+</ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/empty.png")'>Filtteröi näkyviin ainoastaan vahvistamattomat käännökset</a>
+<ul>
+<li> Käy näitä läpi ja hio, kunnes katsot voivasi vahvistaa
+<li> Filtteröi välillä uuedstaan, niin että vahvistamattomien segmenttien määrä koko ajan vähenee
+<li> **Huomaa**, *että Trados laskee sinulle tilastot siitä, kuinka monta on vahvistamatta, kuinka monta vahvistettu jne.*
+</ul>
+</ol>
+
+
+
+Tärkeitä toimintoja
+-------------------
+
+### Konkordanssihaku
+
+#### Käyttötarkoitus
+
+Konkordanssihaulla voit hakea yksittäistä tai useampaa sanaa 
+
+* Käännösmuisteista
+* Käännettävistä tiedostoista
+
+*Konkordanssihaku on tärkeä esimerkiksi silloin, kun käännösmuistissa ei ole tarpeeksi 
+hyvin vastaavaa lähdesegmenttiä, että Trados ehdottaisi sitä automaattisesti käännökseksi
+(voit itse asettaa rajan, kuinka tarkka täsmäys lähdesegmentin pitää olla). Voit kuitenkin 
+avainsanojen avulla etsiä konteksteja, joista olisi apua.
+*
+
+Konkordanssit toimivat usein myös termipankin korvikkeena: vaikket olisi luonut 
+varsinaista termipankkia, voit tutkia termin käännöksiä mustista konkordanssihaulla
+
+
+#### Miten teen konkordanssihaun?
+
+<ol type="a">
+<li> (Hitaampi tapa)
+<ol>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/gohome.gif")'>Siirry valikkopalkissa home-välilehdelle</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pressconc.gif")'>Paina concordance search -nappia</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/writeconc.gif")'>Kirjoita hakutermi ja paina enter</a>
+</ol>
+
+<li> (Nopeampi tapa)
+<ol>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/paintword.gif")'>Maalaa sana, jota haluat etsiä</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pressf3.gif")'>Paina F3-näppäintä</a>
+</ol>
+
+</ol>
+
+
+### Käännösmuistin muokkaaminen
+
+Projektiin liitetyn käännösmuistin muokkaaminen voi olla tarpeen esimerkiksi, kun
+
+* Haluat muuttaa aikaisemmin tekemääsi käännöstä, jonka olet jo vahvistanut
+* Et ole tyytyväinen muistissa olevaan käännökseen, ja haluat korvata sen paremmalla
+
+jatkoa tulossa...
+
+### Tagien (/tägien) syöttäminen
+
+tulossa...
+
+### Lähdesegmentin kopioiminen
+
+tulossa..
 
 Kääntämisen jälkeen
 ===================

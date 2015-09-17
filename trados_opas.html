@@ -69,9 +69,11 @@
   #TOC{
       position:fixed;
       width:14%;
-      font-size:89%;
+      font-size:79%;
       margin-right:1%;
   }
+  
+  
   
   #imgframe{
   }
@@ -133,14 +135,17 @@
   h1{
   font-size: x-large;
   border-bottom: 2px solid black;
+  margin-top:5em;
   }
   
   
-  ol{
+  ol,ul{
   background:cornsilk;
   }
   
-  h2{color:#826060;}
+  h2{color:#826060;
+  margin-top:3em;
+  }
   h3{color:#A58585;}
   h3{color:#A58585;}
   
@@ -159,7 +164,18 @@
 </ul></li>
 </ul></li>
 <li><a href="#kääntäminen"><span class="toc-section-number">2</span> Kääntäminen</a><ul>
-<li><a href="#käyttöliittymä"><span class="toc-section-number">2.1</span> Käyttöliittymä</a></li>
+<li><a href="#käyttöliittymä"><span class="toc-section-number">2.1</span> Käyttöliittymä</a><ul>
+<li><a href="#yleisnäkymä"><span class="toc-section-number">2.1.1</span> Yleisnäkymä</a></li>
+</ul></li>
+<li><a href="#miten-käännän-tradosilla"><span class="toc-section-number">2.2</span> Miten käännän Tradosilla?</a><ul>
+<li><a href="#esimerkkimetodi"><span class="toc-section-number">2.2.1</span> Esimerkkimetodi</a></li>
+</ul></li>
+<li><a href="#tärkeitä-toimintoja"><span class="toc-section-number">2.3</span> Tärkeitä toimintoja</a><ul>
+<li><a href="#konkordanssihaku"><span class="toc-section-number">2.3.1</span> Konkordanssihaku</a></li>
+<li><a href="#käännösmuistin-muokkaaminen"><span class="toc-section-number">2.3.2</span> Käännösmuistin muokkaaminen</a></li>
+<li><a href="#tagien-tägien-syöttäminen"><span class="toc-section-number">2.3.3</span> Tagien (/tägien) syöttäminen</a></li>
+<li><a href="#lähdesegmentin-kopioiminen"><span class="toc-section-number">2.3.4</span> Lähdesegmentin kopioiminen</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#kääntämisen-jälkeen"><span class="toc-section-number">3</span> Kääntämisen jälkeen</a><ul>
 <li><a href="#dokumentin-viimeistely-finalize"><span class="toc-section-number">3.1</span> Dokumentin viimeistely (Finalize)</a><ul>
@@ -180,35 +196,147 @@
 <h3 id="miten-alan-kääntää-yksittäistä-tiedostoa"><span class="header-section-number">1.1.1</span> Miten alan kääntää yksittäistä tiedostoa?</h3>
 <ol>
 <li>
-<a href='#' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
 <li>
-<a href='#' onClick='javascript:ChangeUpper(this,"guide_images/filepair1.gif")'>Klikkaa Welcome-ruudulla 'Translate single document'</a>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filepair1.gif")'>Klikkaa Welcome-ruudulla 'Translate single document'</a>
 <li>
 Valitse tiedosto
 <li>
-<a href='#' onClick='javascript:ChangeUpper(this,"guide_images/filepair2.gif")'>Valitse lähde- ja kohdekieli</a>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filepair2.gif")'>Valitse lähde- ja kohdekieli</a>
 <li>
 Valitse käytettävä käännösmuisti (Mahdollista käyttää myös useita muisteja)
 <ol type='a'>
 <li>
-<a href='#' onClick='javascript:ChangeUpper(this,"guide_images/newmemory.gif")'>Lisää uusi tyhjä käännösmuisti</a>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/newmemory.gif")'>Lisää uusi tyhjä käännösmuisti</a>
 <li>
-<a href='#' onClick='javascript:ChangeUpper(this,"guide_images/oldmemory.gif")'>Käytä jotain olemassaolevaa muistia</a>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/oldmemory.gif")'>Käytä jotain olemassaolevaa muistia</a>
 </ol>
 </ol>
 <h2 id="projektipaketit"><span class="header-section-number">1.2</span> Projektipaketit</h2>
 <h3 id="miten-alan-kääntää-tradospakettina-tullutta-käännöstehtävää"><span class="header-section-number">1.2.1</span> Miten alan kääntää tradospakettina tullutta käännöstehtävää?</h3>
 <ol>
 <li>
-<a href='#' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
 <li>
 Klikkaa Welcome-ruudulla 'Open package'
 <li>
-<a href='#' onClick='javascript:ChangeUpper(this,"guide_images/frompackage.gif")'>Valitse tiedosto, katso paketin kuvaus,ja paina ok. </a>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/frompackage.gif")'>Valitse tiedosto, katso paketin kuvaus,ja paina ok. </a>
 </ol>
 <p><em>Varsinaiseen kääntämiseen pääsee kaksoisklikkaamalla ensin projektin kansiota, sitten tiedoston nimeä.</em></p>
 <h1 id="kääntäminen"><span class="header-section-number">2</span> Kääntäminen</h1>
 <h2 id="käyttöliittymä"><span class="header-section-number">2.1</span> Käyttöliittymä</h2>
+<h3 id="yleisnäkymä"><span class="header-section-number">2.1.1</span> Yleisnäkymä</h3>
+<ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/whole_interface_annot.png")'>Varsinainen kääntäminen tapahtuu editor-ikkunassa</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/upper_bar.png")'>Ylhäällä office 2010-tyyliset välilehdet/valikot</a>
+<ul>
+<li>
+File
+<li>
+Home
+<li>
+Review
+<li>
+Advanced
+<li>
+View
+<li>
+Add-Ins
+<li>
+Help
+</ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/tm_bar.png")'>Valikkojen alla on käännösmuistin oma ikkuna</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/termit.png")'>Käännösmuistin oikealla puolella on termipankin ikkuna</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/translation.png")'>Itse käännöseditori on keskellä ruutua</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/preview.png")'>Esikatselun voi asettaa esimerkiksi oikealle</a>
+</ul>
+<h2 id="miten-käännän-tradosilla"><span class="header-section-number">2.2</span> Miten käännän Tradosilla?</h2>
+<p>Trados ja muut käännösohjelmat tarjoavat ison joukon työkaluja ja työskentelytapoja, joiden paljouteen voi välillä hukkua. Tässä yksi esimerkki tavasta, jolla Tradosilla voit kääntää ja siitä, millainen workflow voisi olla.</p>
+<h3 id="esimerkkimetodi"><span class="header-section-number">2.2.1</span> Esimerkkimetodi</h3>
+<ol>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pretrans1.gif")'>Anna Tradosin esikääntää teksti (Pre-translate)</a>
+<ul>
+<li>
+Tämä vaihe on jo tehtynä, jos olet projektin luomisen yhteydessä sen valinnut
+</ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/translating.gif")'>Lähde kääntämään segmentti segmentiltä ylhäältä alas.</a>
+<ul>
+<li>
+Siirry seuraavaan segmenttiin <em>painamalla alanuolta</em>
+</ul>
+<li>
+Käännä loppuun asti, muista <a href='#tärkeitä-toimintoja'><em>tärkeät toiminnot</em></a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/empty.png")'>Nyt sinulla on raakakäännös. Siirry uudestaan alkuun</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/empty.png")'>Lähde liikkeelle alusta ja vahvista segmentit, joihin olet tyytyväinen</a>
+<ul>
+<li>
+Tässä vaiheessa voi hioa ja muokata kaikkia niitä kohtia, jotka saa siedettävään kuntoon ilman erityisen suuria
+<li>
+Todelliset ongelmakohdat voi vieläkin jättää vahvistamatta
+</ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/empty.png")'>Filtteröi näkyviin ainoastaan vahvistamattomat käännökset</a>
+<ul>
+<li>
+Käy näitä läpi ja hio, kunnes katsot voivasi vahvistaa
+<li>
+Filtteröi välillä uuedstaan, niin että vahvistamattomien segmenttien määrä koko ajan vähenee
+<li>
+<strong>Huomaa</strong>, <em>että Trados laskee sinulle tilastot siitä, kuinka monta on vahvistamatta, kuinka monta vahvistettu jne.</em>
+</ul>
+</ol>
+<h2 id="tärkeitä-toimintoja"><span class="header-section-number">2.3</span> Tärkeitä toimintoja</h2>
+<h3 id="konkordanssihaku"><span class="header-section-number">2.3.1</span> Konkordanssihaku</h3>
+<h4 id="käyttötarkoitus"><span class="header-section-number">2.3.1.1</span> Käyttötarkoitus</h4>
+<p>Konkordanssihaulla voit hakea yksittäistä tai useampaa sanaa</p>
+<ul>
+<li>Käännösmuisteista</li>
+<li>Käännettävistä tiedostoista</li>
+</ul>
+<p><em>Konkordanssihaku on tärkeä esimerkiksi silloin, kun käännösmuistissa ei ole tarpeeksi hyvin vastaavaa lähdesegmenttiä, että Trados ehdottaisi sitä automaattisesti käännökseksi (voit itse asettaa rajan, kuinka tarkka täsmäys lähdesegmentin pitää olla). Voit kuitenkin avainsanojen avulla etsiä konteksteja, joista olisi apua. </em></p>
+<p>Konkordanssit toimivat usein myös termipankin korvikkeena: vaikket olisi luonut varsinaista termipankkia, voit tutkia termin käännöksiä mustista konkordanssihaulla</p>
+<h4 id="miten-teen-konkordanssihaun"><span class="header-section-number">2.3.1.2</span> Miten teen konkordanssihaun?</h4>
+<ol type="a">
+<li>
+(Hitaampi tapa)
+<ol>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/gohome.gif")'>Siirry valikkopalkissa home-välilehdelle</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pressconc.gif")'>Paina concordance search -nappia</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/writeconc.gif")'>Kirjoita hakutermi ja paina enter</a>
+</ol>
+<li>
+(Nopeampi tapa)
+<ol>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/paintword.gif")'>Maalaa sana, jota haluat etsiä</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pressf3.gif")'>Paina F3-näppäintä</a>
+</ol>
+</ol>
+<h3 id="käännösmuistin-muokkaaminen"><span class="header-section-number">2.3.2</span> Käännösmuistin muokkaaminen</h3>
+<p>Projektiin liitetyn käännösmuistin muokkaaminen voi olla tarpeen esimerkiksi, kun</p>
+<ul>
+<li>Haluat muuttaa aikaisemmin tekemääsi käännöstä, jonka olet jo vahvistanut</li>
+<li>Et ole tyytyväinen muistissa olevaan käännökseen, ja haluat korvata sen paremmalla</li>
+</ul>
+<p>jatkoa tulossa...</p>
+<h3 id="tagien-tägien-syöttäminen"><span class="header-section-number">2.3.3</span> Tagien (/tägien) syöttäminen</h3>
+<p>tulossa...</p>
+<h3 id="lähdesegmentin-kopioiminen"><span class="header-section-number">2.3.4</span> Lähdesegmentin kopioiminen</h3>
+<p>tulossa..</p>
 <h1 id="kääntämisen-jälkeen"><span class="header-section-number">3</span> Kääntämisen jälkeen</h1>
 <h2 id="dokumentin-viimeistely-finalize"><span class="header-section-number">3.1</span> Dokumentin viimeistely (Finalize)</h2>
 <h3 id="mahdollisia-virheviestejä"><span class="header-section-number">3.1.1</span> Mahdollisia virheviestejä</h3>
