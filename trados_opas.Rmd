@@ -10,7 +10,7 @@ Ennen kääntämistä
 Yksittäiset tiedostot
 ----------------------
 
-### Miten alan kääntää yksittäistä tiedostoa?
+*Miten alan kääntää yksittäistä tiedostoa?*
 
 <ol>
 <li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
@@ -25,10 +25,10 @@ Yksittäiset tiedostot
 </ol>
 
 
-Projektipaketit
----------------
+Valmiit projektipaketit
+-----------------------
 
-### Miten alan kääntää tradospakettina tullutta käännöstehtävää?
+*Miten alan kääntää tradospakettina tullutta käännöstehtävää?*
 
 <ol>
 <li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
@@ -37,6 +37,36 @@ Projektipaketit
 </ol>
 
 *Varsinaiseen kääntämiseen pääsee kaksoisklikkaamalla ensin projektin kansiota, sitten tiedoston nimeä.*
+
+
+Projektin luominen itse
+-----------------------
+
+<ol>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/newproject.gif")'>Klikkaa Welcome-ruudulla 'New project'</a>
+<li> Valitse tiedosto
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/setprojectname.gif")'>Siirry eteenpäin ja kirjoita projektille nimi ja kuvaus, aseta deadline</a>
+<ul>
+<li> Deadline (kohdassa Due date) näkyy myöhemmin projektiruudussa. Erityisen hyvä käyttää, jos useita projekteja meneillään, tällöin priorisointi helpottuu.
+<li> Jos sinulla on asiakkaita, esim. tietty käännöstoimisto, jolle usein käännät, voit luoda niille valmiita profiileja *customers*-kohdassa
+</ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/chooseprojectlanguage.gif")'>Valitse lähde- ja kohdekielet</a>
+<ul>
+<li> Tämä kielinäyttö on vähän hämäävä ja eroaa siitä, mitä yksittäisissä tiedostoissa
+<li> Hämäävyys johtuu mahdollisuudesta lisätä useitä kohdekieliä, mikä on tietysti projekteissa mahdollista 
+<li> Valitse kieli/kielet vasemmasta reunasta ja paina 'Add', jolloin kieli siirtyy oikeanpuoleiseen laatikkoon ja homma on valmis
+</ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/chooseprojectfiles.gif")'>Lisää tiedosto tai tiedostoja</a>
+<ul>
+<li> Voit lisätä niin monta tiedostoa kuin tarve vaatii, myös kansioita
+<li> Tässä kohtaa voi lisätä myös <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/referencemat.gif")'>referenssimateriaaleja</a>, eli vaikka aiheeseen liittyviä pdf-tiedostoja, asiakasyrityksen dokumentaatiota jne
+</ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projmemory.gif")'>Lisää tai luo uusi käännösmuisti (tai valitse jokin oletuksena olevista)</a>
+</ol>
+
+
+
 
 
 Kääntäminen
@@ -159,6 +189,12 @@ tulossa...
 
 tulossa..
 
+
+Projektin asetusten muuttaminen kääntämisen aikana
+--------------------------------------------------
+
+asldkas
+
 Kääntämisen jälkeen
 ===================
 
@@ -172,6 +208,44 @@ Valmiin tiedoston tiedostomuotoja
 
 Muistin säilöminen
 ------------------
+
+Termejä
+========
+
+## Match
+
+Osuma käännösmuistista. Käyttäjä voi määritellä asiakirjakohtaisesti, mikä lasketaan osumaksi, ts. kuinka 
+lähellä muistista löytyvän lähdekielisen yksikön on oltava käännettävästä asiakirjasta löytyvää.
+Yleensä tämä luku (joka ilmaistaan prosentteina) on erittäin korkea.
+
+### Fuzzy match (CM)
+
+Muu kuin 100% osuma. Tämäkin on määriteltävissä. Segmentti käännösmuistissa, jossa on paljon samaa kuin
+jossakin käännettävän asiakirjan segmentissä.
+
+### 100% match (CM)
+
+Osuma, joka on täysin sama muistissa ja käännettävässä asiakirjassa. Vrt. kuitenkin Context match
+
+### Context match (CM)
+
+Osuma joka on
+
+* sama käännösmuistissa ja käännettävässä asiakirjassa ja 
+* jossa myös edeltävät segmentit (konteksti) vastaavat
+
+
+
+## Repetition
+
+Huom. laskutus!
+
+Lähteitä ja lisää lukemista
+===========================
+
+
+[http://www.transinfopreneur.com/what-is-the-difference-between-repetitions-100-matches-and-context-matches-in-sdl-trados-studio-2014/](http://www.transinfopreneur.com/what-is-the-difference-between-repetitions-100-matches-and-context-matches-in-sdl-trados-studio-2014/)
+
 
 </article>
 </article>
@@ -199,3 +273,4 @@ function ChangeUpper(linkelement,fname){
 }
 
 </script>
+

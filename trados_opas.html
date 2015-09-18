@@ -69,8 +69,10 @@
   #TOC{
       position:fixed;
       width:14%;
-      font-size:79%;
+      font-size:69%;
       margin-right:1%;
+      height:75%;
+      overflow:auto;
   }
   
   
@@ -156,12 +158,9 @@
 <div id="TOC">
 <ul>
 <li><a href="#ennen-kääntämistä"><span class="toc-section-number">1</span> Ennen kääntämistä</a><ul>
-<li><a href="#yksittäiset-tiedostot"><span class="toc-section-number">1.1</span> Yksittäiset tiedostot</a><ul>
-<li><a href="#miten-alan-kääntää-yksittäistä-tiedostoa"><span class="toc-section-number">1.1.1</span> Miten alan kääntää yksittäistä tiedostoa?</a></li>
-</ul></li>
-<li><a href="#projektipaketit"><span class="toc-section-number">1.2</span> Projektipaketit</a><ul>
-<li><a href="#miten-alan-kääntää-tradospakettina-tullutta-käännöstehtävää"><span class="toc-section-number">1.2.1</span> Miten alan kääntää tradospakettina tullutta käännöstehtävää?</a></li>
-</ul></li>
+<li><a href="#yksittäiset-tiedostot"><span class="toc-section-number">1.1</span> Yksittäiset tiedostot</a></li>
+<li><a href="#valmiit-projektipaketit"><span class="toc-section-number">1.2</span> Valmiit projektipaketit</a></li>
+<li><a href="#projektin-luominen-itse"><span class="toc-section-number">1.3</span> Projektin luominen itse</a></li>
 </ul></li>
 <li><a href="#kääntäminen"><span class="toc-section-number">2</span> Kääntäminen</a><ul>
 <li><a href="#käyttöliittymä"><span class="toc-section-number">2.1</span> Käyttöliittymä</a><ul>
@@ -176,6 +175,7 @@
 <li><a href="#tagien-tägien-syöttäminen"><span class="toc-section-number">2.3.3</span> Tagien (/tägien) syöttäminen</a></li>
 <li><a href="#lähdesegmentin-kopioiminen"><span class="toc-section-number">2.3.4</span> Lähdesegmentin kopioiminen</a></li>
 </ul></li>
+<li><a href="#projektin-asetusten-muuttaminen-kääntämisen-aikana"><span class="toc-section-number">2.4</span> Projektin asetusten muuttaminen kääntämisen aikana</a></li>
 </ul></li>
 <li><a href="#kääntämisen-jälkeen"><span class="toc-section-number">3</span> Kääntämisen jälkeen</a><ul>
 <li><a href="#dokumentin-viimeistely-finalize"><span class="toc-section-number">3.1</span> Dokumentin viimeistely (Finalize)</a><ul>
@@ -184,6 +184,15 @@
 <li><a href="#valmiin-tiedoston-tiedostomuotoja"><span class="toc-section-number">3.2</span> Valmiin tiedoston tiedostomuotoja</a></li>
 <li><a href="#muistin-säilöminen"><span class="toc-section-number">3.3</span> Muistin säilöminen</a></li>
 </ul></li>
+<li><a href="#termejä"><span class="toc-section-number">4</span> Termejä</a><ul>
+<li><a href="#match"><span class="toc-section-number">4.1</span> Match</a><ul>
+<li><a href="#fuzzy-match-cm"><span class="toc-section-number">4.1.1</span> Fuzzy match (CM)</a></li>
+<li><a href="#match-cm"><span class="toc-section-number">4.1.2</span> 100% match (CM)</a></li>
+<li><a href="#context-match-cm"><span class="toc-section-number">4.1.3</span> Context match (CM)</a></li>
+</ul></li>
+<li><a href="#repetition"><span class="toc-section-number">4.2</span> Repetition</a></li>
+</ul></li>
+<li><a href="#lähteitä-ja-lisää-lukemista"><span class="toc-section-number">5</span> Lähteitä ja lisää lukemista</a></li>
 </ul>
 </div>
 <article class='container'>
@@ -193,7 +202,7 @@
 <p></em></p>
 <h1 id="ennen-kääntämistä"><span class="header-section-number">1</span> Ennen kääntämistä</h1>
 <h2 id="yksittäiset-tiedostot"><span class="header-section-number">1.1</span> Yksittäiset tiedostot</h2>
-<h3 id="miten-alan-kääntää-yksittäistä-tiedostoa"><span class="header-section-number">1.1.1</span> Miten alan kääntää yksittäistä tiedostoa?</h3>
+<p><em>Miten alan kääntää yksittäistä tiedostoa?</em></p>
 <ol>
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
@@ -212,8 +221,8 @@ Valitse käytettävä käännösmuisti (Mahdollista käyttää myös useita muis
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/oldmemory.gif")'>Käytä jotain olemassaolevaa muistia</a>
 </ol>
 </ol>
-<h2 id="projektipaketit"><span class="header-section-number">1.2</span> Projektipaketit</h2>
-<h3 id="miten-alan-kääntää-tradospakettina-tullutta-käännöstehtävää"><span class="header-section-number">1.2.1</span> Miten alan kääntää tradospakettina tullutta käännöstehtävää?</h3>
+<h2 id="valmiit-projektipaketit"><span class="header-section-number">1.2</span> Valmiit projektipaketit</h2>
+<p><em>Miten alan kääntää tradospakettina tullutta käännöstehtävää?</em></p>
 <ol>
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
@@ -223,6 +232,43 @@ Klikkaa Welcome-ruudulla 'Open package'
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/frompackage.gif")'>Valitse tiedosto, katso paketin kuvaus,ja paina ok. </a>
 </ol>
 <p><em>Varsinaiseen kääntämiseen pääsee kaksoisklikkaamalla ensin projektin kansiota, sitten tiedoston nimeä.</em></p>
+<h2 id="projektin-luominen-itse"><span class="header-section-number">1.3</span> Projektin luominen itse</h2>
+<ol>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/newproject.gif")'>Klikkaa Welcome-ruudulla 'New project'</a>
+<li>
+Valitse tiedosto
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/setprojectname.gif")'>Siirry eteenpäin ja kirjoita projektille nimi ja kuvaus, aseta deadline</a>
+<ul>
+<li>
+Deadline (kohdassa Due date) näkyy myöhemmin projektiruudussa. Erityisen hyvä käyttää, jos useita projekteja meneillään, tällöin priorisointi helpottuu.
+<li>
+Jos sinulla on asiakkaita, esim. tietty käännöstoimisto, jolle usein käännät, voit luoda niille valmiita profiileja <em>customers</em>-kohdassa
+</ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/chooseprojectlanguage.gif")'>Valitse lähde- ja kohdekielet</a>
+<ul>
+<li>
+Tämä kielinäyttö on vähän hämäävä ja eroaa siitä, mitä yksittäisissä tiedostoissa
+<li>
+Hämäävyys johtuu mahdollisuudesta lisätä useitä kohdekieliä, mikä on tietysti projekteissa mahdollista
+<li>
+Valitse kieli/kielet vasemmasta reunasta ja paina 'Add', jolloin kieli siirtyy oikeanpuoleiseen laatikkoon ja homma on valmis
+</ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/chooseprojectfiles.gif")'>Lisää tiedosto tai tiedostoja</a>
+<ul>
+<li>
+Voit lisätä niin monta tiedostoa kuin tarve vaatii, myös kansioita
+<li>
+Tässä kohtaa voi lisätä myös <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/referencemat.gif")'>referenssimateriaaleja</a>, eli vaikka aiheeseen liittyviä pdf-tiedostoja, asiakasyrityksen dokumentaatiota jne
+</ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projmemory.gif")'>Lisää tai luo uusi käännösmuisti (tai valitse jokin oletuksena olevista)</a>
+</ol>
 <h1 id="kääntäminen"><span class="header-section-number">2</span> Kääntäminen</h1>
 <h2 id="käyttöliittymä"><span class="header-section-number">2.1</span> Käyttöliittymä</h2>
 <h3 id="yleisnäkymä"><span class="header-section-number">2.1.1</span> Yleisnäkymä</h3>
@@ -337,11 +383,30 @@ Filtteröi välillä uuedstaan, niin että vahvistamattomien segmenttien määr�
 <p>tulossa...</p>
 <h3 id="lähdesegmentin-kopioiminen"><span class="header-section-number">2.3.4</span> Lähdesegmentin kopioiminen</h3>
 <p>tulossa..</p>
+<h2 id="projektin-asetusten-muuttaminen-kääntämisen-aikana"><span class="header-section-number">2.4</span> Projektin asetusten muuttaminen kääntämisen aikana</h2>
+<p>asldkas</p>
 <h1 id="kääntämisen-jälkeen"><span class="header-section-number">3</span> Kääntämisen jälkeen</h1>
 <h2 id="dokumentin-viimeistely-finalize"><span class="header-section-number">3.1</span> Dokumentin viimeistely (Finalize)</h2>
 <h3 id="mahdollisia-virheviestejä"><span class="header-section-number">3.1.1</span> Mahdollisia virheviestejä</h3>
 <h2 id="valmiin-tiedoston-tiedostomuotoja"><span class="header-section-number">3.2</span> Valmiin tiedoston tiedostomuotoja</h2>
 <h2 id="muistin-säilöminen"><span class="header-section-number">3.3</span> Muistin säilöminen</h2>
+<h1 id="termejä"><span class="header-section-number">4</span> Termejä</h1>
+<h2 id="match"><span class="header-section-number">4.1</span> Match</h2>
+<p>Osuma käännösmuistista. Käyttäjä voi määritellä asiakirjakohtaisesti, mikä lasketaan osumaksi, ts. kuinka lähellä muistista löytyvän lähdekielisen yksikön on oltava käännettävästä asiakirjasta löytyvää. Yleensä tämä luku (joka ilmaistaan prosentteina) on erittäin korkea.</p>
+<h3 id="fuzzy-match-cm"><span class="header-section-number">4.1.1</span> Fuzzy match (CM)</h3>
+<p>Muu kuin 100% osuma. Tämäkin on määriteltävissä. Segmentti käännösmuistissa, jossa on paljon samaa kuin jossakin käännettävän asiakirjan segmentissä.</p>
+<h3 id="match-cm"><span class="header-section-number">4.1.2</span> 100% match (CM)</h3>
+<p>Osuma, joka on täysin sama muistissa ja käännettävässä asiakirjassa. Vrt. kuitenkin Context match</p>
+<h3 id="context-match-cm"><span class="header-section-number">4.1.3</span> Context match (CM)</h3>
+<p>Osuma joka on</p>
+<ul>
+<li>sama käännösmuistissa ja käännettävässä asiakirjassa ja</li>
+<li>jossa myös edeltävät segmentit (konteksti) vastaavat</li>
+</ul>
+<h2 id="repetition"><span class="header-section-number">4.2</span> Repetition</h2>
+<p>Huom. laskutus!</p>
+<h1 id="lähteitä-ja-lisää-lukemista"><span class="header-section-number">5</span> Lähteitä ja lisää lukemista</h1>
+<p><a href="http://www.transinfopreneur.com/what-is-the-difference-between-repetitions-100-matches-and-context-matches-in-sdl-trados-studio-2014/" class="uri">http://www.transinfopreneur.com/what-is-the-difference-between-repetitions-100-matches-and-context-matches-in-sdl-trados-studio-2014/</a></p>
 </article>
 </article>
 <article class="rightcontent">
