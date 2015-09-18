@@ -301,7 +301,7 @@ Wordfast Anywhere -harjoitus
 <li> Paina OK (anna valinnan olla oletuksessa eli 'Download')
 </ol>
 <li> **Palauta muisti Moodlen korvaavien tehtävien kansioon ennen ensi kertaa** 
-<ul><li>[suora linkki tässä]()</ul>
+<ul><li>[suora linkki tässä](https://learning2.uta.fi/mod/assign/view.php?id=310955)</ul>
 </ol>
 
 
