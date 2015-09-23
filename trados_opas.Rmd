@@ -20,6 +20,7 @@ Yksittäiset tiedostot
 <li> Valitse käytettävä käännösmuisti (Mahdollista käyttää myös useita muisteja)
 <ol type='a'>
 <li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/newmemory.gif")'>Lisää uusi tyhjä käännösmuisti</a>
+<ul><li>*Huom! On hyvä tapa ilmaista muistin nimessä kielet ja käännössuunta, esim. lakimuisti_ru-fi*</ul>
 <li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/oldmemory.gif")'>Käytä jotain olemassaolevaa muistia</a>
 </ol>
 </ol>
@@ -63,10 +64,8 @@ Projektin luominen itse
 <li> Tässä kohtaa voi lisätä myös <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/referencemat.gif")'>referenssimateriaaleja</a>, eli vaikka aiheeseen liittyviä pdf-tiedostoja, asiakasyrityksen dokumentaatiota jne
 </ul>
 <li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projmemory.gif")'>Lisää tai luo uusi käännösmuisti (tai valitse jokin oletuksena olevista)</a>
+<ul><li>*Huom! On hyvä tapa ilmaista muistin nimessä kielet ja käännössuunta, esim. lakimuisti_ru-fi*</ul>
 </ol>
-
-
-
 
 
 Kääntäminen
@@ -121,11 +120,12 @@ Tradosilla voit kääntää ja siitä, millainen workflow voisi olla.
 <li> Tässä vaiheessa voi hioa ja muokata kaikkia niitä kohtia, jotka saa siedettävään kuntoon ilman erityisen suuria
 <li> Todelliset ongelmakohdat voi vieläkin jättää vahvistamatta
 </ul>
-<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/empty.png")'>Filtteröi näkyviin ainoastaan vahvistamattomat käännökset</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filtering.gif")'>Filtteröi näkyviin ainoastaan vahvistamattomat käännökset</a>
 <ul>
 <li> Käy näitä läpi ja hio, kunnes katsot voivasi vahvistaa
 <li> Filtteröi välillä uuedstaan, niin että vahvistamattomien segmenttien määrä koko ajan vähenee
 <li> **Huomaa**, *että Trados laskee sinulle tilastot siitä, kuinka monta on vahvistamatta, kuinka monta vahvistettu jne.*
+<li>Tarkemmin ks. <a href='#segmenttien-suodattaminen-ja-tilastot'>Segmenttien suodattaminen ja tilastot</a>
 </ul>
 </ol>
 
@@ -133,6 +133,18 @@ Tradosilla voit kääntää ja siitä, millainen workflow voisi olla.
 
 Tärkeitä toimintoja
 -------------------
+
+### Lähdesegmentin kopioiminen
+
+Jos haluat vain kopioida suoraan lähdesegmentin suoraan käännössegmentin pohjaksi (esimerkiksi päällekääntämistä varten tai muotoilujen vuoksi):
+
+<ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/copysource.gif")'>Klikkaa vihreää nuolta Confirm segment -kuvakkeen vieressä</a>
+<li> **TAI** Näppäile Ctrl+Insert
+<li> Tämän voi tehdä myös erillisenä toimintona kaikille segmenteille projektin luonnin yhteydessä
+</ul>
+
+
 
 ### Konkordanssihaku
 
@@ -171,6 +183,28 @@ varsinaista termipankkia, voit tutkia termin käännöksiä mustista konkordanss
 
 </ol>
 
+### Segmenttien suodattaminen ja tilastot
+
+*CAT-ohjelmien etu kääntäjän käyttöliittymänä on se, että työn etenemisen vaihe on helppo hahmottaa. Erityisesti erilaiset suodattimet
+auttavat erottelemaan, mitkä kohdat vielä kaipaavat huomiota, mikä on jo valmista ja mitä ei enää tarvitse ajatella*
+
+#### Miten mittaan käännöksen etenemistä tilastojen avulla?
+
+<ol>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filter_generalview.png")'>Ruudun oikeassa alareunassa näkyvät nykyisen dokumentin tilastot</a>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/change_stats.gif")'>Kaksoisnapauttamalla esimerkiksi vahvistettujen osuutta voit muuttaa tilastojen näyttötapaa</a>
+<ul><li>Sanojen sijasta eteneminen voidaan määrittää segmenttien perusteella
+<li>Tilastopalkissa voidaan näyttöö paitsi prosentit myös lukumäärät
+</ul>
+</ol>
+
+#### Miten suodatan segmenttejä?
+
+<ol>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filter_suppilo.png")'>Klikkaa suppiloikonia ruudun oikeassa alareunassa (tilastojen vieressä)</a>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filtering.gif")'>Valitse käytettävä suodatin</a>
+</ol>
+
 
 ### Käännösmuistin muokkaaminen
 
@@ -179,32 +213,116 @@ Projektiin liitetyn käännösmuistin muokkaaminen voi olla tarpeen esimerkiksi,
 * Haluat muuttaa aikaisemmin tekemääsi käännöstä, jonka olet jo vahvistanut
 * Et ole tyytyväinen muistissa olevaan käännökseen, ja haluat korvata sen paremmalla
 
-jatkoa tulossa...
+#### Muokkaaminen kääntämisen yhteydessä
+
+<ol>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/changetm1.gif")'>Klikkaa hiiren oikealla käännösmuisti-ikkunaa ja valitse 'edit translation unit'</a>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/insert_Trans.gif")'>Jotta muutettu käännös siirtyisi myös nykyiseen dokumenttiin,  paina segmentissä Control+T</a>
+<li> Jos haluat, että vanha käännös poistetaan kokonaan muistista (eikä uutta vain lisätä rinnalle), poista vanha käännös käännösmuistien muokkausikkunassa
+</ol>
+
+#### Muokkaaminen käännösmuistieditorissa
+
+<ol>
+<li> Jos et ole varma, missä nykyisen projektin käännösmuisti sijaitsee:
+<ul><li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset.gif")'>Klikkaa Project settings käännöseditorin vasemmasta yläkulmasta</a>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset2.gif")'>Valitse vasemmalta Language Pair---Translation memory</a>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/mempath.png")'>Vie hiiri oikealla näkyvän käännösmuistin päälle, ja tiedostopolku ilmestyy ruudulle</a>
+</ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/selectmemedit.png")'>Valitse vasemmasta alareunasta käännösmuistieditori</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/openmem.gif")'>Avaa muisti open-kuvakkeesta</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/emptysearch.gif")'>Jos mitään ei näy, tee tyhjä haku käyttämällä kursori source text -kentässä ja painamalla 'Perform search'</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/editdeltmu.gif")'>Muokkaa/poista käännösyksikkö</a>
+<li> **HUOM! Jotta muutokset tallentuisivat muistiin, paina lopuksi <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/commitchange.gif")'>Commit changes-kuvaketta</a>** 
+</ol>
+
 
 ### Tagien (/tägien) syöttäminen
 
 tulossa...
 
-### Lähdesegmentin kopioiminen
-
-tulossa..
-
-
 Projektin asetusten muuttaminen kääntämisen aikana
 --------------------------------------------------
 
-asldkas
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset.gif")'>Klikkaa Project settings käännöseditorin vasemmasta yläkulmasta</a>
 
 Kääntämisen jälkeen
 ===================
 
+Kun kaikki käännösyksiköt on vahvistettu, suoritetaan tavallisesti seuraavat toiminnot:
+
+Dokumentin tarkistus (Review)
+---------------------------------
+
+### Kieliasun tarkistus
+
+Tradosin voi määrittää käyttämään joko Hunspell-tarkistusta tai Wordin tarkistinta, mikäli sellainen on saatavilla.
+
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/spellengine.gif")'>Oikolukumoottorin vaihtaminen</a>
+
+### Verifiointi (Verify)
+
+Ennen viimeistelyä kannattaa aina ajaa myös verify-toiminto, joka tarkistaa potentiaaliset tekniset virheet tiedostoissa
+
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/verify.gif")'>Käännöksen verifiointi</a>
+
+
 Dokumentin viimeistely (Finalize)
 ---------------------------------
 
-### Mahdollisia virheviestejä
+Kun käännös on valmis, tarkistettu ja verifioitu, voidaan tuottaa lopulliset asiakkaalle palautettavat tiedostot.
+Helpoiten tämä yleensä käy *Finalize*-toiminnon avulla. 
 
-Valmiin tiedoston tiedostomuotoja
----------------------------------
+<ul>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/finalize1.gif")'>Finalize-painike löytyy home-välilehdeltä kohdasta 'Batch tasks'</a>
+<li> Avautuvassa dialogissa voi säätää muistin päivityksen asetuksia tai painaa vain suoraan Finnish
+</ul>
+
+### Finalize-toiminnon rakenne
+
+Kun klikkaat Finalize, Trados tekee oletuksena seuraavaa:
+
+<ol>
+<li> Päivittää käännösmuistin
+<li> Tuottaa kohdekieliset tiedostot esim. word-muotoisina dokumentteina/html-tiedostoina jne.
+<li> Tuottaa sdl xliff-tiedostot projektista
+</ol>
+
+
+
+
+Tradosin tuottamia tiedostoja
+-----------------------------
+
+* Käännös: sama tiedostomuoto kuin alkuperäinenkin
+* Tradosin oma tiedostomuoto: sdl xliff
+* Kaksikieliset tiedostot
+* päivitetty käännösmuisti (ei aina mahdollista päästä käsiksi)
+
+### Kaksikielisen tiedoston luominen
+
+Joskus (lähinnä käännöstoimistot) asiakas haluaa palautettavaksi kaksikielisen rtf/doc-tiedoston.
+Tällöin lähde- ja kohdekieli on esitetty rinnakkain tekstitaulukossa. Tässä muodosssa usein annetaan
+käännöksen tarkastajan kommentit ja ehdotukset.
+
+<ul>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/bilingfile.gif")'>Valitse batch tasks--Export for bilingual review</a>
+</ul>
+
+
+
+Missä tiedostot sijaitsevat?
+----------------------------
+
+Välillä on vaikea pysyä kärryillä siitä, minne Trados kaikki eri tiedostot tallentaa -- 
+varsinkin, jos ei ole projektia luotaessa varta vasten asettanut tiettyä kansiota.
+Projektitiedostojen sijainnin voi tarkistaa esimerkiksi näin
+
+<ol>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset.gif")'>Klikkaa Project settings käännöseditorin vasemmasta yläkulmasta</a>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projfolder.gif")'>Valitse vasemmalta ylin kohta ja katso location-kenttää</a>
+</ol>
+
 
 Muistin säilöminen
 ------------------

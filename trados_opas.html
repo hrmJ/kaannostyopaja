@@ -157,45 +157,53 @@
 <body>
 <div id="TOC">
 <ul>
-<li><a href="#ennen-kääntämistä"><span class="toc-section-number">1</span> Ennen kääntämistä</a><ul>
-<li><a href="#yksittäiset-tiedostot"><span class="toc-section-number">1.1</span> Yksittäiset tiedostot</a></li>
-<li><a href="#valmiit-projektipaketit"><span class="toc-section-number">1.2</span> Valmiit projektipaketit</a></li>
-<li><a href="#projektin-luominen-itse"><span class="toc-section-number">1.3</span> Projektin luominen itse</a></li>
+<li><a href="#ennen-kääntämistä">Ennen kääntämistä</a><ul>
+<li><a href="#yksittäiset-tiedostot">Yksittäiset tiedostot</a></li>
+<li><a href="#valmiit-projektipaketit">Valmiit projektipaketit</a></li>
+<li><a href="#projektin-luominen-itse">Projektin luominen itse</a></li>
 </ul></li>
-<li><a href="#kääntäminen"><span class="toc-section-number">2</span> Kääntäminen</a><ul>
-<li><a href="#käyttöliittymä"><span class="toc-section-number">2.1</span> Käyttöliittymä</a><ul>
-<li><a href="#yleisnäkymä"><span class="toc-section-number">2.1.1</span> Yleisnäkymä</a></li>
+<li><a href="#kääntäminen">Kääntäminen</a><ul>
+<li><a href="#käyttöliittymä">Käyttöliittymä</a><ul>
+<li><a href="#yleisnäkymä">Yleisnäkymä</a></li>
 </ul></li>
-<li><a href="#miten-käännän-tradosilla"><span class="toc-section-number">2.2</span> Miten käännän Tradosilla?</a><ul>
-<li><a href="#esimerkkimetodi"><span class="toc-section-number">2.2.1</span> Esimerkkimetodi</a></li>
+<li><a href="#miten-käännän-tradosilla">Miten käännän Tradosilla?</a><ul>
+<li><a href="#esimerkkimetodi">Esimerkkimetodi</a></li>
 </ul></li>
-<li><a href="#tärkeitä-toimintoja"><span class="toc-section-number">2.3</span> Tärkeitä toimintoja</a><ul>
-<li><a href="#konkordanssihaku"><span class="toc-section-number">2.3.1</span> Konkordanssihaku</a></li>
-<li><a href="#käännösmuistin-muokkaaminen"><span class="toc-section-number">2.3.2</span> Käännösmuistin muokkaaminen</a></li>
-<li><a href="#tagien-tägien-syöttäminen"><span class="toc-section-number">2.3.3</span> Tagien (/tägien) syöttäminen</a></li>
-<li><a href="#lähdesegmentin-kopioiminen"><span class="toc-section-number">2.3.4</span> Lähdesegmentin kopioiminen</a></li>
+<li><a href="#tärkeitä-toimintoja">Tärkeitä toimintoja</a><ul>
+<li><a href="#lähdesegmentin-kopioiminen">Lähdesegmentin kopioiminen</a></li>
+<li><a href="#konkordanssihaku">Konkordanssihaku</a></li>
+<li><a href="#segmenttien-suodattaminen-ja-tilastot">Segmenttien suodattaminen ja tilastot</a></li>
+<li><a href="#käännösmuistin-muokkaaminen">Käännösmuistin muokkaaminen</a></li>
+<li><a href="#tagien-tägien-syöttäminen">Tagien (/tägien) syöttäminen</a></li>
 </ul></li>
-<li><a href="#projektin-asetusten-muuttaminen-kääntämisen-aikana"><span class="toc-section-number">2.4</span> Projektin asetusten muuttaminen kääntämisen aikana</a></li>
+<li><a href="#projektin-asetusten-muuttaminen-kääntämisen-aikana">Projektin asetusten muuttaminen kääntämisen aikana</a></li>
 </ul></li>
-<li><a href="#kääntämisen-jälkeen"><span class="toc-section-number">3</span> Kääntämisen jälkeen</a><ul>
-<li><a href="#dokumentin-viimeistely-finalize"><span class="toc-section-number">3.1</span> Dokumentin viimeistely (Finalize)</a><ul>
-<li><a href="#mahdollisia-virheviestejä"><span class="toc-section-number">3.1.1</span> Mahdollisia virheviestejä</a></li>
+<li><a href="#kääntämisen-jälkeen">Kääntämisen jälkeen</a><ul>
+<li><a href="#dokumentin-tarkistus-review">Dokumentin tarkistus (Review)</a><ul>
+<li><a href="#kieliasun-tarkistus">Kieliasun tarkistus</a></li>
+<li><a href="#verifiointi-verify">Verifiointi (Verify)</a></li>
 </ul></li>
-<li><a href="#valmiin-tiedoston-tiedostomuotoja"><span class="toc-section-number">3.2</span> Valmiin tiedoston tiedostomuotoja</a></li>
-<li><a href="#muistin-säilöminen"><span class="toc-section-number">3.3</span> Muistin säilöminen</a></li>
+<li><a href="#dokumentin-viimeistely-finalize">Dokumentin viimeistely (Finalize)</a><ul>
+<li><a href="#finalize-toiminnon-rakenne">Finalize-toiminnon rakenne</a></li>
 </ul></li>
-<li><a href="#termejä"><span class="toc-section-number">4</span> Termejä</a><ul>
-<li><a href="#match"><span class="toc-section-number">4.1</span> Match</a><ul>
-<li><a href="#fuzzy-match-cm"><span class="toc-section-number">4.1.1</span> Fuzzy match (CM)</a></li>
-<li><a href="#match-cm"><span class="toc-section-number">4.1.2</span> 100% match (CM)</a></li>
-<li><a href="#context-match-cm"><span class="toc-section-number">4.1.3</span> Context match (CM)</a></li>
+<li><a href="#tradosin-tuottamia-tiedostoja">Tradosin tuottamia tiedostoja</a><ul>
+<li><a href="#kaksikielisen-tiedoston-luominen">Kaksikielisen tiedoston luominen</a></li>
 </ul></li>
-<li><a href="#repetition"><span class="toc-section-number">4.2</span> Repetition</a></li>
+<li><a href="#missä-tiedostot-sijaitsevat">Missä tiedostot sijaitsevat?</a></li>
+<li><a href="#muistin-säilöminen">Muistin säilöminen</a></li>
 </ul></li>
-<li><a href="#lähteitä-ja-lisää-lukemista"><span class="toc-section-number">5</span> Lähteitä ja lisää lukemista</a></li>
-<li><a href="#wordfast-anywhere--harjoitus"><span class="toc-section-number">6</span> Wordfast Anywhere -harjoitus</a><ul>
-<li><a href="#tehtävä-1-käännä-ilman-muistia-harjoitustiedosto-agency_contract_sh.docx"><span class="toc-section-number">6.1</span> Tehtävä 1: Käännä ilman muistia harjoitustiedosto Agency_COntract_sh.docx</a></li>
-<li><a href="#tehtävä-2-avaa-harjoitustiedosto-agencyagreement.doc-ja-tutki-miten-äsken-luotu-muisti-toimii"><span class="toc-section-number">6.2</span> Tehtävä 2: Avaa harjoitustiedosto agencyagreement.doc ja tutki, miten äsken luotu muisti toimii</a></li>
+<li><a href="#termejä">Termejä</a><ul>
+<li><a href="#match">Match</a><ul>
+<li><a href="#fuzzy-match-cm">Fuzzy match (CM)</a></li>
+<li><a href="#match-cm">100% match (CM)</a></li>
+<li><a href="#context-match-cm">Context match (CM)</a></li>
+</ul></li>
+<li><a href="#repetition">Repetition</a></li>
+</ul></li>
+<li><a href="#lähteitä-ja-lisää-lukemista">Lähteitä ja lisää lukemista</a></li>
+<li><a href="#wordfast-anywhere--harjoitus">Wordfast Anywhere -harjoitus</a><ul>
+<li><a href="#tehtävä-1-käännä-ilman-muistia-harjoitustiedosto-agency_contract_sh.docx">Tehtävä 1: Käännä ilman muistia harjoitustiedosto Agency_COntract_sh.docx</a></li>
+<li><a href="#tehtävä-2-avaa-harjoitustiedosto-agencyagreement.doc-ja-tutki-miten-äsken-luotu-muisti-toimii">Tehtävä 2: Avaa harjoitustiedosto agencyagreement.doc ja tutki, miten äsken luotu muisti toimii</a></li>
 </ul></li>
 </ul>
 </div>
@@ -204,8 +212,8 @@
 <em>Trados-opas. © Juho Härme. Päivitetty
 <script language='javascript'>document.write(document.lastModified)</script>
 <p></em></p>
-<h1 id="ennen-kääntämistä"><span class="header-section-number">1</span> Ennen kääntämistä</h1>
-<h2 id="yksittäiset-tiedostot"><span class="header-section-number">1.1</span> Yksittäiset tiedostot</h2>
+<h1 id="ennen-kääntämistä">Ennen kääntämistä</h1>
+<h2 id="yksittäiset-tiedostot">Yksittäiset tiedostot</h2>
 <p><em>Miten alan kääntää yksittäistä tiedostoa?</em></p>
 <ol>
 <li>
@@ -221,11 +229,15 @@ Valitse käytettävä käännösmuisti (Mahdollista käyttää myös useita muis
 <ol type='a'>
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/newmemory.gif")'>Lisää uusi tyhjä käännösmuisti</a>
+<ul>
+<li>
+<em>Huom! On hyvä tapa ilmaista muistin nimessä kielet ja käännössuunta, esim. lakimuisti_ru-fi</em>
+</ul>
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/oldmemory.gif")'>Käytä jotain olemassaolevaa muistia</a>
 </ol>
 </ol>
-<h2 id="valmiit-projektipaketit"><span class="header-section-number">1.2</span> Valmiit projektipaketit</h2>
+<h2 id="valmiit-projektipaketit">Valmiit projektipaketit</h2>
 <p><em>Miten alan kääntää tradospakettina tullutta käännöstehtävää?</em></p>
 <ol>
 <li>
@@ -236,7 +248,7 @@ Klikkaa Welcome-ruudulla 'Open package'
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/frompackage.gif")'>Valitse tiedosto, katso paketin kuvaus,ja paina ok. </a>
 </ol>
 <p><em>Varsinaiseen kääntämiseen pääsee kaksoisklikkaamalla ensin projektin kansiota, sitten tiedoston nimeä.</em></p>
-<h2 id="projektin-luominen-itse"><span class="header-section-number">1.3</span> Projektin luominen itse</h2>
+<h2 id="projektin-luominen-itse">Projektin luominen itse</h2>
 <ol>
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startscreen_welcome.png")'>Valitse Welcome-ruutu vasemmasta alareunasta</a>
@@ -272,10 +284,14 @@ Tässä kohtaa voi lisätä myös <a href='javascript:void(0);' onClick='javascr
 </ul>
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projmemory.gif")'>Lisää tai luo uusi käännösmuisti (tai valitse jokin oletuksena olevista)</a>
+<ul>
+<li>
+<em>Huom! On hyvä tapa ilmaista muistin nimessä kielet ja käännössuunta, esim. lakimuisti_ru-fi</em>
+</ul>
 </ol>
-<h1 id="kääntäminen"><span class="header-section-number">2</span> Kääntäminen</h1>
-<h2 id="käyttöliittymä"><span class="header-section-number">2.1</span> Käyttöliittymä</h2>
-<h3 id="yleisnäkymä"><span class="header-section-number">2.1.1</span> Yleisnäkymä</h3>
+<h1 id="kääntäminen">Kääntäminen</h1>
+<h2 id="käyttöliittymä">Käyttöliittymä</h2>
+<h3 id="yleisnäkymä">Yleisnäkymä</h3>
 <ul>
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/whole_interface_annot.png")'>Varsinainen kääntäminen tapahtuu editor-ikkunassa</a>
@@ -306,9 +322,9 @@ Help
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/preview.png")'>Esikatselun voi asettaa esimerkiksi oikealle</a>
 </ul>
-<h2 id="miten-käännän-tradosilla"><span class="header-section-number">2.2</span> Miten käännän Tradosilla?</h2>
+<h2 id="miten-käännän-tradosilla">Miten käännän Tradosilla?</h2>
 <p>Trados ja muut käännösohjelmat tarjoavat ison joukon työkaluja ja työskentelytapoja, joiden paljouteen voi välillä hukkua. Tässä yksi esimerkki tavasta, jolla Tradosilla voit kääntää ja siitä, millainen workflow voisi olla.</p>
-<h3 id="esimerkkimetodi"><span class="header-section-number">2.2.1</span> Esimerkkimetodi</h3>
+<h3 id="esimerkkimetodi">Esimerkkimetodi</h3>
 <ol>
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pretrans1.gif")'>Anna Tradosin esikääntää teksti (Pre-translate)</a>
@@ -335,7 +351,7 @@ Tässä vaiheessa voi hioa ja muokata kaikkia niitä kohtia, jotka saa siedettä
 Todelliset ongelmakohdat voi vieläkin jättää vahvistamatta
 </ul>
 <li>
-<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/empty.png")'>Filtteröi näkyviin ainoastaan vahvistamattomat käännökset</a>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filtering.gif")'>Filtteröi näkyviin ainoastaan vahvistamattomat käännökset</a>
 <ul>
 <li>
 Käy näitä läpi ja hio, kunnes katsot voivasi vahvistaa
@@ -343,11 +359,23 @@ Käy näitä läpi ja hio, kunnes katsot voivasi vahvistaa
 Filtteröi välillä uuedstaan, niin että vahvistamattomien segmenttien määrä koko ajan vähenee
 <li>
 <strong>Huomaa</strong>, <em>että Trados laskee sinulle tilastot siitä, kuinka monta on vahvistamatta, kuinka monta vahvistettu jne.</em>
+<li>
+Tarkemmin ks. <a href='#segmenttien-suodattaminen-ja-tilastot'>Segmenttien suodattaminen ja tilastot</a>
 </ul>
 </ol>
-<h2 id="tärkeitä-toimintoja"><span class="header-section-number">2.3</span> Tärkeitä toimintoja</h2>
-<h3 id="konkordanssihaku"><span class="header-section-number">2.3.1</span> Konkordanssihaku</h3>
-<h4 id="käyttötarkoitus"><span class="header-section-number">2.3.1.1</span> Käyttötarkoitus</h4>
+<h2 id="tärkeitä-toimintoja">Tärkeitä toimintoja</h2>
+<h3 id="lähdesegmentin-kopioiminen">Lähdesegmentin kopioiminen</h3>
+<p>Jos haluat vain kopioida suoraan lähdesegmentin suoraan käännössegmentin pohjaksi (esimerkiksi päällekääntämistä varten tai muotoilujen vuoksi):</p>
+<ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/copysource.gif")'>Klikkaa vihreää nuolta Confirm segment -kuvakkeen vieressä</a>
+<li>
+<strong>TAI</strong> Näppäile Ctrl+Insert
+<li>
+Tämän voi tehdä myös erillisenä toimintona kaikille segmenteille projektin luonnin yhteydessä
+</ul>
+<h3 id="konkordanssihaku">Konkordanssihaku</h3>
+<h4 id="käyttötarkoitus">Käyttötarkoitus</h4>
 <p>Konkordanssihaulla voit hakea yksittäistä tai useampaa sanaa</p>
 <ul>
 <li>Käännösmuisteista</li>
@@ -355,7 +383,7 @@ Filtteröi välillä uuedstaan, niin että vahvistamattomien segmenttien määr�
 </ul>
 <p><em>Konkordanssihaku on tärkeä esimerkiksi silloin, kun käännösmuistissa ei ole tarpeeksi hyvin vastaavaa lähdesegmenttiä, että Trados ehdottaisi sitä automaattisesti käännökseksi (voit itse asettaa rajan, kuinka tarkka täsmäys lähdesegmentin pitää olla). Voit kuitenkin avainsanojen avulla etsiä konteksteja, joista olisi apua. </em></p>
 <p>Konkordanssit toimivat usein myös termipankin korvikkeena: vaikket olisi luonut varsinaista termipankkia, voit tutkia termin käännöksiä mustista konkordanssihaulla</p>
-<h4 id="miten-teen-konkordanssihaun"><span class="header-section-number">2.3.1.2</span> Miten teen konkordanssihaun?</h4>
+<h4 id="miten-teen-konkordanssihaun">Miten teen konkordanssihaun?</h4>
 <ol type="a">
 <li>
 (Hitaampi tapa)
@@ -376,43 +404,138 @@ Filtteröi välillä uuedstaan, niin että vahvistamattomien segmenttien määr�
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pressf3.gif")'>Paina F3-näppäintä</a>
 </ol>
 </ol>
-<h3 id="käännösmuistin-muokkaaminen"><span class="header-section-number">2.3.2</span> Käännösmuistin muokkaaminen</h3>
+<h3 id="segmenttien-suodattaminen-ja-tilastot">Segmenttien suodattaminen ja tilastot</h3>
+<p><em>CAT-ohjelmien etu kääntäjän käyttöliittymänä on se, että työn etenemisen vaihe on helppo hahmottaa. Erityisesti erilaiset suodattimet auttavat erottelemaan, mitkä kohdat vielä kaipaavat huomiota, mikä on jo valmista ja mitä ei enää tarvitse ajatella</em></p>
+<h4 id="miten-mittaan-käännöksen-etenemistä-tilastojen-avulla">Miten mittaan käännöksen etenemistä tilastojen avulla?</h4>
+<ol>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filter_generalview.png")'>Ruudun oikeassa alareunassa näkyvät nykyisen dokumentin tilastot</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/change_stats.gif")'>Kaksoisnapauttamalla esimerkiksi vahvistettujen osuutta voit muuttaa tilastojen näyttötapaa</a>
+<ul>
+<li>
+Sanojen sijasta eteneminen voidaan määrittää segmenttien perusteella
+<li>
+Tilastopalkissa voidaan näyttöö paitsi prosentit myös lukumäärät
+</ul>
+</ol>
+<h4 id="miten-suodatan-segmenttejä">Miten suodatan segmenttejä?</h4>
+<ol>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filter_suppilo.png")'>Klikkaa suppiloikonia ruudun oikeassa alareunassa (tilastojen vieressä)</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filtering.gif")'>Valitse käytettävä suodatin</a>
+</ol>
+<h3 id="käännösmuistin-muokkaaminen">Käännösmuistin muokkaaminen</h3>
 <p>Projektiin liitetyn käännösmuistin muokkaaminen voi olla tarpeen esimerkiksi, kun</p>
 <ul>
 <li>Haluat muuttaa aikaisemmin tekemääsi käännöstä, jonka olet jo vahvistanut</li>
 <li>Et ole tyytyväinen muistissa olevaan käännökseen, ja haluat korvata sen paremmalla</li>
 </ul>
-<p>jatkoa tulossa...</p>
-<h3 id="tagien-tägien-syöttäminen"><span class="header-section-number">2.3.3</span> Tagien (/tägien) syöttäminen</h3>
+<h4 id="muokkaaminen-kääntämisen-yhteydessä">Muokkaaminen kääntämisen yhteydessä</h4>
+<ol>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/changetm1.gif")'>Klikkaa hiiren oikealla käännösmuisti-ikkunaa ja valitse 'edit translation unit'</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/insert_Trans.gif")'>Jotta muutettu käännös siirtyisi myös nykyiseen dokumenttiin, paina segmentissä Control+T</a>
+<li>
+Jos haluat, että vanha käännös poistetaan kokonaan muistista (eikä uutta vain lisätä rinnalle), poista vanha käännös käännösmuistien muokkausikkunassa
+</ol>
+<h4 id="muokkaaminen-käännösmuistieditorissa">Muokkaaminen käännösmuistieditorissa</h4>
+<ol>
+<li>
+Jos et ole varma, missä nykyisen projektin käännösmuisti sijaitsee:
+<ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset.gif")'>Klikkaa Project settings käännöseditorin vasemmasta yläkulmasta</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset2.gif")'>Valitse vasemmalta Language Pair---Translation memory</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/mempath.png")'>Vie hiiri oikealla näkyvän käännösmuistin päälle, ja tiedostopolku ilmestyy ruudulle</a>
+</ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/selectmemedit.png")'>Valitse vasemmasta alareunasta käännösmuistieditori</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/openmem.gif")'>Avaa muisti open-kuvakkeesta</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/emptysearch.gif")'>Jos mitään ei näy, tee tyhjä haku käyttämällä kursori source text -kentässä ja painamalla 'Perform search'</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/editdeltmu.gif")'>Muokkaa/poista käännösyksikkö</a>
+<li>
+<strong>HUOM! Jotta muutokset tallentuisivat muistiin, paina lopuksi <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/commitchange.gif")'>Commit changes-kuvaketta</a></strong>
+</ol>
+<h3 id="tagien-tägien-syöttäminen">Tagien (/tägien) syöttäminen</h3>
 <p>tulossa...</p>
-<h3 id="lähdesegmentin-kopioiminen"><span class="header-section-number">2.3.4</span> Lähdesegmentin kopioiminen</h3>
-<p>tulossa..</p>
-<h2 id="projektin-asetusten-muuttaminen-kääntämisen-aikana"><span class="header-section-number">2.4</span> Projektin asetusten muuttaminen kääntämisen aikana</h2>
-<p>asldkas</p>
-<h1 id="kääntämisen-jälkeen"><span class="header-section-number">3</span> Kääntämisen jälkeen</h1>
-<h2 id="dokumentin-viimeistely-finalize"><span class="header-section-number">3.1</span> Dokumentin viimeistely (Finalize)</h2>
-<h3 id="mahdollisia-virheviestejä"><span class="header-section-number">3.1.1</span> Mahdollisia virheviestejä</h3>
-<h2 id="valmiin-tiedoston-tiedostomuotoja"><span class="header-section-number">3.2</span> Valmiin tiedoston tiedostomuotoja</h2>
-<h2 id="muistin-säilöminen"><span class="header-section-number">3.3</span> Muistin säilöminen</h2>
-<h1 id="termejä"><span class="header-section-number">4</span> Termejä</h1>
-<h2 id="match"><span class="header-section-number">4.1</span> Match</h2>
+<h2 id="projektin-asetusten-muuttaminen-kääntämisen-aikana">Projektin asetusten muuttaminen kääntämisen aikana</h2>
+<p><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset.gif")'>Klikkaa Project settings käännöseditorin vasemmasta yläkulmasta</a></p>
+<h1 id="kääntämisen-jälkeen">Kääntämisen jälkeen</h1>
+<p>Kun kaikki käännösyksiköt on vahvistettu, suoritetaan tavallisesti seuraavat toiminnot:</p>
+<h2 id="dokumentin-tarkistus-review">Dokumentin tarkistus (Review)</h2>
+<h3 id="kieliasun-tarkistus">Kieliasun tarkistus</h3>
+<p>Tradosin voi määrittää käyttämään joko Hunspell-tarkistusta tai Wordin tarkistinta, mikäli sellainen on saatavilla.</p>
+<p><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/spellengine.gif")'>Oikolukumoottorin vaihtaminen</a></p>
+<h3 id="verifiointi-verify">Verifiointi (Verify)</h3>
+<p>Ennen viimeistelyä kannattaa aina ajaa myös verify-toiminto, joka tarkistaa potentiaaliset tekniset virheet tiedostoissa</p>
+<p><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/verify.gif")'>Käännöksen verifiointi</a></p>
+<h2 id="dokumentin-viimeistely-finalize">Dokumentin viimeistely (Finalize)</h2>
+<p>Kun käännös on valmis, tarkistettu ja verifioitu, voidaan tuottaa lopulliset asiakkaalle palautettavat tiedostot. Helpoiten tämä yleensä käy <em>Finalize</em>-toiminnon avulla.</p>
+<ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/finalize1.gif")'>Finalize-painike löytyy home-välilehdeltä kohdasta 'Batch tasks'</a>
+<li>
+Avautuvassa dialogissa voi säätää muistin päivityksen asetuksia tai painaa vain suoraan Finnish
+</ul>
+<h3 id="finalize-toiminnon-rakenne">Finalize-toiminnon rakenne</h3>
+<p>Kun klikkaat Finalize, Trados tekee oletuksena seuraavaa:</p>
+<ol>
+<li>
+Päivittää käännösmuistin
+<li>
+Tuottaa kohdekieliset tiedostot esim. word-muotoisina dokumentteina/html-tiedostoina jne.
+<li>
+Tuottaa sdl xliff-tiedostot projektista
+</ol>
+<h2 id="tradosin-tuottamia-tiedostoja">Tradosin tuottamia tiedostoja</h2>
+<ul>
+<li>Käännös: sama tiedostomuoto kuin alkuperäinenkin</li>
+<li>Tradosin oma tiedostomuoto: sdl xliff</li>
+<li>Kaksikieliset tiedostot</li>
+<li>päivitetty käännösmuisti (ei aina mahdollista päästä käsiksi)</li>
+</ul>
+<h3 id="kaksikielisen-tiedoston-luominen">Kaksikielisen tiedoston luominen</h3>
+<p>Joskus (lähinnä käännöstoimistot) asiakas haluaa palautettavaksi kaksikielisen rtf/doc-tiedoston. Tällöin lähde- ja kohdekieli on esitetty rinnakkain tekstitaulukossa. Tässä muodosssa usein annetaan käännöksen tarkastajan kommentit ja ehdotukset.</p>
+<ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/bilingfile.gif")'>Valitse batch tasks--Export for bilingual review</a>
+</ul>
+<h2 id="missä-tiedostot-sijaitsevat">Missä tiedostot sijaitsevat?</h2>
+<p>Välillä on vaikea pysyä kärryillä siitä, minne Trados kaikki eri tiedostot tallentaa -- varsinkin, jos ei ole projektia luotaessa varta vasten asettanut tiettyä kansiota. Projektitiedostojen sijainnin voi tarkistaa esimerkiksi näin</p>
+<ol>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset.gif")'>Klikkaa Project settings käännöseditorin vasemmasta yläkulmasta</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projfolder.gif")'>Valitse vasemmalta ylin kohta ja katso location-kenttää</a>
+</ol>
+<h2 id="muistin-säilöminen">Muistin säilöminen</h2>
+<h1 id="termejä">Termejä</h1>
+<h2 id="match">Match</h2>
 <p>Osuma käännösmuistista. Käyttäjä voi määritellä asiakirjakohtaisesti, mikä lasketaan osumaksi, ts. kuinka lähellä muistista löytyvän lähdekielisen yksikön on oltava käännettävästä asiakirjasta löytyvää. Yleensä tämä luku (joka ilmaistaan prosentteina) on erittäin korkea.</p>
-<h3 id="fuzzy-match-cm"><span class="header-section-number">4.1.1</span> Fuzzy match (CM)</h3>
+<h3 id="fuzzy-match-cm">Fuzzy match (CM)</h3>
 <p>Muu kuin 100% osuma. Tämäkin on määriteltävissä. Segmentti käännösmuistissa, jossa on paljon samaa kuin jossakin käännettävän asiakirjan segmentissä.</p>
-<h3 id="match-cm"><span class="header-section-number">4.1.2</span> 100% match (CM)</h3>
+<h3 id="match-cm">100% match (CM)</h3>
 <p>Osuma, joka on täysin sama muistissa ja käännettävässä asiakirjassa. Vrt. kuitenkin Context match</p>
-<h3 id="context-match-cm"><span class="header-section-number">4.1.3</span> Context match (CM)</h3>
+<h3 id="context-match-cm">Context match (CM)</h3>
 <p>Osuma joka on</p>
 <ul>
 <li>sama käännösmuistissa ja käännettävässä asiakirjassa ja</li>
 <li>jossa myös edeltävät segmentit (konteksti) vastaavat</li>
 </ul>
-<h2 id="repetition"><span class="header-section-number">4.2</span> Repetition</h2>
+<h2 id="repetition">Repetition</h2>
 <p>Huom. laskutus!</p>
-<h1 id="lähteitä-ja-lisää-lukemista"><span class="header-section-number">5</span> Lähteitä ja lisää lukemista</h1>
+<h1 id="lähteitä-ja-lisää-lukemista">Lähteitä ja lisää lukemista</h1>
 <p><a href="http://www.transinfopreneur.com/what-is-the-difference-between-repetitions-100-matches-and-context-matches-in-sdl-trados-studio-2014/" class="uri">http://www.transinfopreneur.com/what-is-the-difference-between-repetitions-100-matches-and-context-matches-in-sdl-trados-studio-2014/</a></p>
-<h1 id="wordfast-anywhere--harjoitus"><span class="header-section-number">6</span> Wordfast Anywhere -harjoitus</h1>
-<h2 id="tehtävä-1-käännä-ilman-muistia-harjoitustiedosto-agency_contract_sh.docx"><span class="header-section-number">6.1</span> Tehtävä 1: Käännä ilman muistia harjoitustiedosto Agency_COntract_sh.docx</h2>
+<h1 id="wordfast-anywhere--harjoitus">Wordfast Anywhere -harjoitus</h1>
+<h2 id="tehtävä-1-käännä-ilman-muistia-harjoitustiedosto-agency_contract_sh.docx">Tehtävä 1: Käännä ilman muistia harjoitustiedosto Agency_COntract_sh.docx</h2>
 <ol>
 <li>
 Lataa koneellesi Moodlesta ensimmäinen 18.9. -harjoituskerran tiedostoista
@@ -457,7 +580,7 @@ Voit esimerkiksi näpytellä pari sanaa segmentin alusta ja siirtyä eteenpäin
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/finnishwf.gif")'>Käännä loppuun ja paina auvautuvaan dialogiin 'close'</a>
 </ol>
-<h2 id="tehtävä-2-avaa-harjoitustiedosto-agencyagreement.doc-ja-tutki-miten-äsken-luotu-muisti-toimii"><span class="header-section-number">6.2</span> Tehtävä 2: Avaa harjoitustiedosto agencyagreement.doc ja tutki, miten äsken luotu muisti toimii</h2>
+<h2 id="tehtävä-2-avaa-harjoitustiedosto-agencyagreement.doc-ja-tutki-miten-äsken-luotu-muisti-toimii">Tehtävä 2: Avaa harjoitustiedosto agencyagreement.doc ja tutki, miten äsken luotu muisti toimii</h2>
 <ol>
 <li>
 Lataa koneellesi Moodlesta toinen (alempi) 18.9. -harjoituskerran tiedostoista
