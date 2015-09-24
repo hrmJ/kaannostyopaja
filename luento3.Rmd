@@ -96,6 +96,8 @@ background:aquamarine;
 
 .fragment Millaisia tiedostoja Trados tuottaa ja minne?
 
+***
+
 
 ### 4. Itsenäinen harjoitus
 
