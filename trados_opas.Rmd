@@ -224,7 +224,7 @@ Projektiin liitetyn käännösmuistin muokkaaminen voi olla tarpeen esimerkiksi,
 #### Muokkaaminen käännösmuistieditorissa
 
 <ol>
-<li> Jos et ole varma, missä nykyisen projektin käännösmuisti sijaitsee:
+<li id="missa-muisti-on"> Jos et ole varma, missä nykyisen projektin käännösmuisti sijaitsee:
 <ul><li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset.gif")'>Klikkaa Project settings käännöseditorin vasemmasta yläkulmasta</a>
 <li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset2.gif")'>Valitse vasemmalta Language Pair---Translation memory</a>
 <li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/mempath.png")'>Vie hiiri oikealla näkyvän käännösmuistin päälle, ja tiedostopolku ilmestyy ruudulle</a>
@@ -299,6 +299,33 @@ Tradosin tuottamia tiedostoja
 * Kaksikieliset tiedostot
 * päivitetty käännösmuisti (ei aina mahdollista päästä käsiksi)
 
+### Projektikansion rakenne
+
+(Ks. [tästä](#missä-tiedostot-sijaitsevat), miten pääset käsiksi projektin tiedostoihin)
+
+<ul>
+<li> Yksinkertaisen projektin kansio voi näyttää esimerkiksi <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/prfold1.png")'>tältä</a>
+<ul><li>Kansiossa on omat kansionsa </ul>
+<ul>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/prfold2.png")'>lähdekielisille tiedostoille</a> (kuvan en-GB)
+<ul>Tässä kansiossa sijaitsevat </ul>
+<ul><li>alkuperäiset käännettävät tiedostot<li>Tradosin tuottamat sdl xliff -tiedostot</ul>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/prfold3.png")'>kohdekielisille tiedostoille </a> (kuvan fi-FI)
+<ul>Tässä kansiossa sijaitsevat:</ul>
+<ul><li>Tradosin tuottamat sdl xliff -tiedostot</ul>
+<li>ohjelman tuottamille raporteille (reports)</ul>
+<li> Yksinkertaisen projektin kansio voi näyttää esimerkiksi <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pressf3.gif")'>tältä</a>
+</ul>
+
+
+### Sdl xliff-tiedostot
+
+Sdl xliff -tiedostot ovat todellisuudessa xml-tiedostoja, joihin on koodattu informaatio mm. segmenteistä, kielistä, segmentin statuksesta jne.
+Kun Trados lukee näitä tiedostoja, se muuttaa niiden sisältämän datan käyttäjälle helposti omaksuttavaan muotoon (käännöseditori).
+Sdl xliff-tiedostot löytyvät projektin kielikohtaisista alakansioista (katso yllä)
+
+
+
 ### Kaksikielisen tiedoston luominen
 
 Joskus (lähinnä käännöstoimistot) asiakas haluaa palautettavaksi kaksikielisen rtf/doc-tiedoston.
@@ -319,13 +346,32 @@ varsinkin, jos ei ole projektia luotaessa varta vasten asettanut tiettyä kansio
 Projektitiedostojen sijainnin voi tarkistaa esimerkiksi näin
 
 <ol>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/project_tab.gif")'>Siirry vasemmasta alakulmasta project -välilehdelle</a>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/project_folder_icon.gif")'>Klikkaa ylhäällä (Home-välilehdellä) Project folder -kuvaketta</a>
+</ol>
+
+tai näin: 
+
+<ol>
 <li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset.gif")'>Klikkaa Project settings käännöseditorin vasemmasta yläkulmasta</a>
 <li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projfolder.gif")'>Valitse vasemmalta ylin kohta ja katso location-kenttää</a>
 </ol>
 
 
-Muistin säilöminen
-------------------
+Muistin eksportointi
+--------------------
+
+Minkä tahansa muistin voi eksportoida jaettavaksi tmx-muodossa.
+
+
+<ol>
+<li> Selvitä, missä käännösmuisti sijaitsee (ohje [tässä](#missa-muisti-on))
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/openmem.gif")'>Avaa muisti open-kuvakkeesta</a>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/exportbutton.gif")'>Katso, että olet valinnut muistin vasemmasta listasta ja paina ylhäältä Export-kuvaketta</a>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/finnishexport.gif")'>Valitse, minne haluat tallentaa tiedoston ja paina Finnish</a>
+</ol>
+
+
 
 Termejä
 ========

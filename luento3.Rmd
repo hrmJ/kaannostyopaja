@@ -18,9 +18,9 @@ logo        : slidify_logo.png
     padding-bottom: 20px;
 }
 
-p { text-align: left;
-font-size: 12;
-
+.reveal p { text-align: left;
+font-size: 75%;
+font-family:
 }
 
 .reveal a:not(.image) {
@@ -63,7 +63,8 @@ background:aquamarine;
 
 ## Oppitunnin rakenne
 
-***
+
+--- .class &vertical
 
 ### 1. Kertaus
 
@@ -73,6 +74,17 @@ background:aquamarine;
 
 
 ***
+
+1. Hae moodlesta kolme tiedostoa *yhteinen harjoitus* -kansiosta
+
+2. Valitse yksi niistä (esim. "Tilat") ja käännä se "Translate single file pair" -toiminnon avulla
+
+   * Huom! Luo uusi käännösmuisti tätä varten
+
+3. Luo uusi *projekti* ja liitä siihen kaksi muuta tekstiä + äsken luomasi käännösmuisti
+
+
+--- .class &vertical
 
 ### 2.  Tradosin toimintoja
 
@@ -84,7 +96,7 @@ background:aquamarine;
 
 .fragment Käännösmuistin muokkaaminen
 
-***
+--- .class &vertical
 
 ### 3. Mitä tapahtuu, kun käännös on valmis?
 
@@ -96,8 +108,7 @@ background:aquamarine;
 
 .fragment Millaisia tiedostoja Trados tuottaa ja minne?
 
-***
-
+--- .class &vertical
 
 ### 4. Itsenäinen harjoitus
 
@@ -107,4 +118,17 @@ background:aquamarine;
 
 .fragment pdf lähdetiedostona
 
+***
 
+
+- Lataa kaikki oman työkielesi tiedostot koneellesi moodlen *itsenäinen harjoitus* -kansiosta
+- Luo uusi projekti Tradosissa
+
+Huom! Tallenna projekti omaan kansioosi x-levylle
+
+- Liitä projektiin muistit:
+    - verkkomuisti osoitteesta t:/trados/kaannostyopaja2015-2016/itsenainen_harjoitus
+    - erillinen tmx-muisti (esim. bb_En-Fi.tmx):
+            * Anna Tradosin konvertoida muisti (valitse quick import)
+
+Vaihtakaa parin kanssa ja anna parin tehdä sama
