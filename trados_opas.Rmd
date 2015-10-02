@@ -365,7 +365,7 @@ tai näin:
 <li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projfolder.gif")'>Valitse vasemmalta ylin kohta ja katso location-kenttää</a>
 </ol>
 
-Muistin sijainnin tarkitsamisesta ks. [tästä](#Muokkaaminen-käännösmuistieditorissa)
+Muistin sijainnin tarkitsamisesta ks. [tästä](#käännösmuistin-muokkaaminen)
 
 Muistin eksportointi
 --------------------
