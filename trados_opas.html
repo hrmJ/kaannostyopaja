@@ -162,6 +162,9 @@
   h4{color:#A58585;}
   h5{color:#A58585;}
   
+  #index{
+  display:none;
+  }
   
   </style>
 </head>
@@ -179,6 +182,7 @@
 </ul></li>
 <li><a href="#miten-käännän-tradosilla">Miten käännän Tradosilla?</a><ul>
 <li><a href="#esimerkkimetodi">Esimerkkimetodi</a></li>
+<li><a href="#miten-käännösmuisti-päivittyy">Miten käännösmuisti päivittyy?</a></li>
 </ul></li>
 <li><a href="#tärkeitä-toimintoja">Tärkeitä toimintoja</a><ul>
 <li><a href="#lähdesegmentin-kopioiminen">Lähdesegmentin kopioiminen</a></li>
@@ -272,6 +276,8 @@ Valitse tiedosto
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/setprojectname.gif")'>Siirry eteenpäin ja kirjoita projektille nimi ja kuvaus, aseta deadline</a>
 <ul>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/definelocation.png")'>Määritä Location-kentässä, <strong>minne haluat tallentaa projektin</strong></a>
 <li>
 Deadline (kohdassa Due date) näkyy myöhemmin projektiruudussa. Erityisen hyvä käyttää, jos useita projekteja meneillään, tällöin priorisointi helpottuu.
 <li>
@@ -376,6 +382,8 @@ Filtteröi välillä uuedstaan, niin että vahvistamattomien segmenttien määr�
 Tarkemmin ks. <a href='#segmenttien-suodattaminen-ja-tilastot'>Segmenttien suodattaminen ja tilastot</a>
 </ul>
 </ol>
+<h3 id="miten-käännösmuisti-päivittyy">Miten käännösmuisti päivittyy?</h3>
+<p>Trados toimii oletuksena niin, että aina kun vahvistat käännössegmentin, se tallentuu muistiin (eli muisti päivittyy). Lisäksi muisti voidaan päivittää manuaalisesti painamalla esimerkiksi käännöseditorissa <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/update.gif")'>batch tasks -- update main translation memories</a></p>
 <h2 id="tärkeitä-toimintoja">Tärkeitä toimintoja</h2>
 <h3 id="lähdesegmentin-kopioiminen">Lähdesegmentin kopioiminen</h3>
 <p>Jos haluat vain kopioida suoraan lähdesegmentin suoraan käännössegmentin pohjaksi (esimerkiksi päällekääntämistä varten tai muotoilujen vuoksi):</p>
@@ -465,6 +473,8 @@ Jos et ole varma, missä nykyisen projektin käännösmuisti sijaitsee:
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset2.gif")'>Valitse vasemmalta Language Pair---Translation memory</a>
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/mempath.png")'>Vie hiiri oikealla näkyvän käännösmuistin päälle, ja tiedostopolku ilmestyy ruudulle</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/memlocation2.gif")'>Voit myös klikata settings-kuvaketta ja tarkistaa, mitä lukee Location-kentässä</a>
 </ul>
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/selectmemedit.png")'>Valitse vasemmasta alareunasta käännösmuistieditori</a>
@@ -574,6 +584,7 @@ Yksinkertaisen projektin kansio voi näyttää esimerkiksi <a href='javascript:v
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projfolder.gif")'>Valitse vasemmalta ylin kohta ja katso location-kenttää</a>
 </ol>
+<p>Muistin sijainnin tarkitsamisesta ks. <a href="#Muokkaaminen-käännösmuistieditorissa">tästä</a></p>
 <h2 id="muistin-eksportointi">Muistin eksportointi</h2>
 <p>Minkä tahansa muistin voi eksportoida jaettavaksi tmx-muodossa.</p>
 <ol>
@@ -605,6 +616,9 @@ Selvitä, missä käännösmuisti sijaitsee (ohje <a href="#missa-muisti-on">tä
 <p>Huom. laskutus!</p>
 <h1 id="lähteitä-ja-lisää-lukemista">Lähteitä ja lisää lukemista</h1>
 <p><a href="http://www.transinfopreneur.com/what-is-the-difference-between-repetitions-100-matches-and-context-matches-in-sdl-trados-studio-2014/" class="uri">http://www.transinfopreneur.com/what-is-the-difference-between-repetitions-100-matches-and-context-matches-in-sdl-trados-studio-2014/</a></p>
+<p><a href="http://producthelp.sdl.com/SDL%20Trados%20Studio/client_en/About_Main_Translation_Memories.htm">Käännösmuistin päivittymisestä</a></p>
+<p><a href="http://producthelp.sdl.com/SDL_Trados_Studio_2014/client_en/Guides/Translating_and_Reviewing_Documents_QSG_en.pdf">Trados 2014 guide</a></p>
+<p><a href="http://producthelp.sdl.com/SDL_Trados_Studio_2015/client_en/Guides/SDL_Trados_Studio_Migration_Guide_en.pdf">Trados 2015 migration guide</a></p>
 <h1 id="wordfast-anywhere--harjoitus">Wordfast Anywhere -harjoitus</h1>
 <h2 id="tehtävä-1-käännä-ilman-muistia-harjoitustiedosto-agency_contract_sh.docx">Tehtävä 1: Käännä ilman muistia harjoitustiedosto Agency_COntract_sh.docx</h2>
 <ol>
@@ -713,8 +727,138 @@ Paina OK (anna valinnan olla oletuksessa eli 'Download')
 <p><img id='lowerimg' src='guide_images/empty.png'></p>
 </div>
 </article>
+<div id="index">
+<a href='javascript:void(0);' onClick='tocind()'>Näytä sisällysluettelo</a>
+<ul>
+<h2>
+1
+</h2>
+<li>
+<p><a href="#match-cm">100% match (CM)</a></p>
+<h2>
+C
+</h2>
+<li>
+<p><a href="#context-match-cm">Context match (CM)</a></p>
+<h2>
+D
+</h2>
+<li>
+<a href="#dokumentin-tarkistus-review">Dokumentin tarkistus (Review)</a>
+<li>
+<p><a href="#dokumentin-viimeistely-finalize">Dokumentin viimeistely (Finalize)</a></p>
+<h2>
+E
+</h2>
+<li>
+<a href="#ennen-kääntämistä">Ennen kääntämistä</a>
+<li>
+<p><a href="#esimerkkimetodi">Esimerkkimetodi</a></p>
+<h2>
+F
+</h2>
+<li>
+<a href="#finalize-toiminnon-rakenne">Finalize-toiminnon rakenne</a>
+<li>
+<p><a href="#fuzzy-match-cm">Fuzzy match (CM)</a></p>
+<h2>
+K
+</h2>
+<li>
+<a href="#kaksikielisen-tiedoston-luominen">Kaksikielisen tiedoston luominen</a>
+<li>
+<a href="#kieliasun-tarkistus">Kieliasun tarkistus</a>
+<li>
+<a href="#konkordanssihaku">Konkordanssihaku</a>
+<li>
+<a href="#käyttöliittymä">Käyttöliittymä</a>
+<li>
+<a href="#käännösmuistin-muokkaaminen">Käännösmuistin muokkaaminen</a>
+<li>
+<a href="#kääntäminen">Kääntäminen</a>
+<li>
+<p><a href="#kääntämisen-jälkeen">Kääntämisen jälkeen</a></p>
+<h2>
+L
+</h2>
+<li>
+<a href="#lähdesegmentin-kopioiminen">Lähdesegmentin kopioiminen</a>
+<li>
+<p><a href="#lähteitä-ja-lisää-lukemista">Lähteitä ja lisää lukemista</a></p>
+<h2>
+M
+</h2>
+<li>
+<a href="#match">Match</a>
+<li>
+<a href="#missä-tiedostot-sijaitsevat">Missä tiedostot sijaitsevat?</a>
+<li>
+<a href="#miten-käännän-tradosilla">Miten käännän Tradosilla?</a>
+<li>
+<a href="#miten-käännösmuisti-päivittyy">Miten käännösmuisti päivittyy?</a>
+<li>
+<p><a href="#muistin-eksportointi">Muistin eksportointi</a></p>
+<h2>
+P
+</h2>
+<li>
+<a href="#projektikansion-rakenne">Projektikansion rakenne</a>
+<li>
+<a href="#projektin-asetusten-muuttaminen-kääntämisen-aikana">Projektin asetusten muuttaminen kääntämisen aikana</a>
+<li>
+<p><a href="#projektin-luominen-itse">Projektin luominen itse</a></p>
+<h2>
+R
+</h2>
+<li>
+<p><a href="#repetition">Repetition</a></p>
+<h2>
+S
+</h2>
+<li>
+<a href="#sdl-xliff-tiedostot">Sdl xliff-tiedostot</a>
+<li>
+<p><a href="#segmenttien-suodattaminen-ja-tilastot">Segmenttien suodattaminen ja tilastot</a></p>
+<h2>
+T
+</h2>
+<li>
+<a href="#tagien-tägien-syöttäminen">Tagien (/tägien) syöttäminen</a>
+<li>
+<a href="#tehtävä-1-käännä-ilman-muistia-harjoitustiedosto-agency_contract_sh.docx">Tehtävä 1: Käännä ilman muistia harjoitustiedosto Agency_COntract_sh.docx</a>
+<li>
+<a href="#tehtävä-2-avaa-harjoitustiedosto-agencyagreement.doc-ja-tutki-miten-äsken-luotu-muisti-toimii">Tehtävä 2: Avaa harjoitustiedosto agencyagreement.doc ja tutki, miten äsken luotu muisti toimii</a>
+<li>
+<a href="#termejä">Termejä</a>
+<li>
+<a href="#tradosin-tuottamia-tiedostoja">Tradosin tuottamia tiedostoja</a>
+<li>
+<p><a href="#tärkeitä-toimintoja">Tärkeitä toimintoja</a></p>
+<h2>
+V
+</h2>
+<li>
+<a href="#valmiit-projektipaketit">Valmiit projektipaketit</a>
+<li>
+<p><a href="#verifiointi-verify">Verifiointi (Verify)</a></p>
+<h2>
+W
+</h2>
+<li>
+<p><a href="#wordfast-anywhere--harjoitus">Wordfast Anywhere -harjoitus</a></p>
+<h2>
+Y
+</h2>
+<li>
+<a href="#yksittäiset-tiedostot">Yksittäiset tiedostot</a>
+<li>
+<p><a href="#yleisnäkymä">Yleisnäkymä</a></p>
+</ul>
+</div>
 <script language='javascript'>
-
+var toctext = document.getElementById('TOC').innerHTML;
+document.getElementById('TOC').innerHTML = "<a href='javascript:void(0);' onClick='tocind()'>Näytä hakemisto</a>" + toctext
+toctext = document.getElementById('TOC').innerHTML;
 
 function ChangeUpper(linkelement,fname){
 
@@ -728,6 +872,19 @@ function ChangeUpper(linkelement,fname){
     document.getElementById('lowerimg').src=fname
 
 }
+
+function tocind(){
+
+var sis = document.getElementById('TOC').innerHTML;
+if(sis == toctext){
+    document.getElementById('TOC').innerHTML = document.getElementById('index').innerHTML;
+}
+else{
+    document.getElementById('TOC').innerHTML = toctext;
+}
+
+}
+
 
 </script>
 </body>
