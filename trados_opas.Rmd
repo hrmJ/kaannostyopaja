@@ -322,7 +322,6 @@ Tradosin tuottamia tiedostoja
 <ul>Tässä kansiossa sijaitsevat:</ul>
 <ul><li>Tradosin tuottamat sdl xliff -tiedostot</ul>
 <li>ohjelman tuottamille raporteille (reports)</ul>
-<li> Yksinkertaisen projektin kansio voi näyttää esimerkiksi <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pressf3.gif")'>tältä</a>
 </ul>
 
 
