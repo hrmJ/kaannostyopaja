@@ -23,6 +23,11 @@ font-size: 75%;
 font-family:
 }
 
+.reveal ul{
+font-size: 80%;
+width:70%;
+}
+
 p.fragment{
     margin-top: 3%;
     margin-bottom: 3%;
@@ -64,6 +69,9 @@ background:aquamarine;
 
 </style>
 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 ## Tradosin perusteet 3
 
 #### Juho Härme / 25.9.2015
@@ -73,7 +81,8 @@ background:aquamarine;
 
 ## Oppitunnin rakenne
 
-***
+
+--- .class &vertical
 
 #### 1. Itsenäinen tehtävä
 
@@ -82,6 +91,32 @@ background:aquamarine;
 .fragment Asioita, joita pyydettiin kerrattavaksi
 
 ***
+<!--
+Otetaan jokin nettisivu käännettäväksi tunnin alussa
+- Voidaan käsitellä tägejä + samalla katsoa kaikkea tätä
+-->
+
+***
+
+#### Projektin luominen ja muistit
+
+> - Miten tiedostokansio määritellään projektin alussa?
+> - Miten käännösmuisti luodaan?
+> - Pitikö muistia lisätessä valita jostain erikseen, päivitetäänkö sitä vai ei
+> - Miten muistin ja tiedoston sijainti tarkistetaan?
+> - Muisti verkkolevyllä
+
+***
+
+#### Muotoilut, segmentointi
+
+> - Jos lähtötekstin formatoinneissa näyttää olevan jotain vikaa (kuten oli
+   hyperlinkki isomman tekstipätkän kuin nettiosoitteen ympärillä), voiko sen
+   korjata käännökseen?
+> - Lähtötekstin palaset ovat parissa kohdassa Tradosin jaottelun jäljiltä ihan sekaisin
+
+
+--- .class &vertical
 
 #### 2. Muotoiludata
 
@@ -89,7 +124,8 @@ background:aquamarine;
 
 .fragment Muotoiludatan näkyminen käännöseditorissa
 
-***
+
+--- .class &vertical
 
 
 #### 3.  Lisää kysymyksiä / termipankit
@@ -98,3 +134,6 @@ background:aquamarine;
 
 .fragment Jos aikaa jää: mitä ovat termipankit
 
+<script>
+$('ul.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+</script>

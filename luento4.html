@@ -30,6 +30,11 @@ font-size: 75%;
 font-family:
 }
 
+.reveal ul{
+font-size: 80%;
+width:70%;
+}
+
 p.fragment{
     margin-top: 3%;
     margin-bottom: 3%;
@@ -71,6 +76,8 @@ background:aquamarine;
 
 </style>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 <h2>Tradosin perusteet 3</h2>
 
 <h4>Juho Härme / 25.9.2015</h4>
@@ -84,10 +91,11 @@ background:aquamarine;
       
     </aside>
    </section>
-   <section class='' data-state=''>
+</section>
+<section>
+   <section class='class' data-state=''>
     <h4>1. Itsenäinen tehtävä</h4>
-
-<p class='fragment'>Ajatuksia itsenäisestä tehtävästä</p>
+    <p class='fragment'>Ajatuksia itsenäisestä tehtävästä</p>
 
 <p class='fragment'>Asioita, joita pyydettiin kerrattavaksi</p>
 
@@ -96,9 +104,49 @@ background:aquamarine;
     </aside>
    </section>
    <section class='' data-state=''>
-    <h4>2. Muotoiludata</h4>
+    <!--
+Otetaan jokin nettisivu käännettäväksi tunnin alussa
+- Voidaan käsitellä tägejä + samalla katsoa kaikkea tätä
+-->
 
-<p class='fragment'>Tägit, kuvat</p>
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h4>Projektin luominen ja muistit</h4>
+
+<ul class = "build incremental">
+<li>Miten tiedostokansio määritellään projektin alussa?</li>
+<li>Miten käännösmuisti luodaan?</li>
+<li>Pitikö muistia lisätessä valita jostain erikseen, päivitetäänkö sitä vai ei</li>
+<li>Miten muistin ja tiedoston sijainti tarkistetaan?</li>
+<li>Muisti verkkolevyllä</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h4>Muotoilut, segmentointi</h4>
+
+<ul class = "build incremental">
+<li>Jos lähtötekstin formatoinneissa näyttää olevan jotain vikaa (kuten oli
+hyperlinkki isomman tekstipätkän kuin nettiosoitteen ympärillä), voiko sen
+korjata käännökseen?</li>
+<li>Lähtötekstin palaset ovat parissa kohdassa Tradosin jaottelun jäljiltä ihan sekaisin</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section>
+   <section class='class' data-state=''>
+    <h4>2. Muotoiludata</h4>
+    <p class='fragment'>Tägit, kuvat</p>
 
 <p class='fragment'>Muotoiludatan näkyminen käännöseditorissa</p>
 
@@ -106,12 +154,17 @@ background:aquamarine;
       
     </aside>
    </section>
-   <section class='' data-state=''>
+</section>
+<section>
+   <section class='class' data-state=''>
     <h4>3.  Lisää kysymyksiä / termipankit</h4>
-
-<p class='fragment'>Mitä haluat tietää ennen projektitehtäviä</p>
+    <p class='fragment'>Mitä haluat tietää ennen projektitehtäviä</p>
 
 <p class='fragment'>Jos aikaa jää: mitä ovat termipankit</p>
+
+<script>
+$('ul.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+</script>
 
     <aside class='notes'>
       
