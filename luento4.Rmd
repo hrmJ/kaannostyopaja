@@ -94,6 +94,8 @@ background:aquamarine;
 <!--
 Otetaan jokin nettisivu käännettäväksi tunnin alussa
 - Voidaan käsitellä tägejä + samalla katsoa kaikkea tätä
+
+Muista korostaa
 -->
 
 ***
@@ -128,9 +130,11 @@ Otetaan jokin nettisivu käännettäväksi tunnin alussa
 --- .class &vertical
 
 
-#### 3.  Lisää kysymyksiä / termipankit
+#### 3.  Kohti projektitehtävää
 
-.fragment Mitä haluat tietää ennen projektitehtäviä
+.fragment Verkkomuistit
+
+.fragment Mitä haluat tietää ennen projektitehtäviä?
 
 .fragment Jos aikaa jää: mitä ovat termipankit
 
