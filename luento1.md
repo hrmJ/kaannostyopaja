@@ -228,13 +228,23 @@ p.smaller {font-size:70%;}
 <li class='fragment'> Väliaikainen projektikohtainen lisenssi (0€)
 </ul>
 
----
+--- .class &vertical
 
-<div style='margin:20%'>
-    <span style='color:white;background-color:black';>
-        Tämäkin esitys moodlessa.
-    </span>
+### Tradosin käyttöliittymä
+
+***
+
+<!-- -->
+<div>
+<div class='fragment'><img src='guide_images/trados_vlehdet.png'> </div>
+<!-- -->
+<div> 
+<div class='fragment' style='float:left;width:25%;'><img src='guide_images/trados_vasen.png'>  </div>
+<div class='fragment' style='float:right;width:75%;'><img src='guide_images/trados_keski.png'>  </div>
+<!-- -->
 </div>
+</div>
+
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
