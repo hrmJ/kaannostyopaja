@@ -26,8 +26,6 @@
 }
 
 p { text-align: left;
-font-size: 12;
-
 }
 
 li.fragment.visible, li {
@@ -52,10 +50,12 @@ text-decoration:underline;
 .coldiv {width:47%;float:left;}
 .coldiv2 {float:left;width:30%;}
 
-
 .rowdiv {width:100%;clear:left;}
 
 .reveal section img { background:none; border:none; box-shadow:none; }
+
+p.smaller {font-size:70%;}
+
 </style>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -101,12 +101,12 @@ text-decoration:underline;
 
 </section>
 <section class='' data-state='' id='slide-4'>
-  <h2>Käännösmuisteista ja käännösohjelmistoista</h2>
+  <h3>Käännösmuisteista ja käännösohjelmistoista</h3>
   
 </section>
 <section>
    <section class='class' data-state=''>
-    <h2>Määritelmiä</h2>
+    <h3>Määritelmiä</h3>
     <p class='fragment'>1. <a href="https://en.wikipedia.org/wiki/Computer-assisted_translation">CAT</a> \(\ne\) <a href="https://en.wikipedia.org/wiki/Machine_translation">MT</a></p>
 
 <p class='fragment'>2. käännösohjelma \(\ne\) käännösmuisti</p>
@@ -116,31 +116,33 @@ text-decoration:underline;
     </aside>
    </section>
    <section class='' data-state=''>
-    <h3>Käännösohjelmat</h3>
+    <h4>Käännösohjelmat</h4>
 
-<p>Käyttöliittymiä, jotka </p>
-
-<ol class = "build incremental">
-<li><p>kommunikoivat käännösmuistien kanssa</p></li>
-<li><p>segmentoivat tekstejä käännettäviksi palasiksi </p></li>
-<li><p>tuottavat kohdekielisen dokumentin automaattisesti muotoiltuna </p></li>
-<li><p>pitävät huolta esim. tägien vastaavuudesta </p></li>
-</ol>
+<ul class = "build incremental">
+<li>Käyttöliittymiä, jotka </li>
+<li>kommunikoivat käännösmuistien kanssa</li>
+<li>segmentoivat tekstejä käännettäviksi palasiksi </li>
+<li>tuottavat kohdekielisen dokumentin automaattisesti muotoiltuna </li>
+<li>pitävät huolta esim. tägien vastaavuudesta </li>
+</ul>
 
 <p><br></p>
 
-<p class='fragment'>- <a href="http://www.sdl.com/cxc/language/translation-productivity/trados-studio/">Trados</a>, <a href="https://www.wordfast.net/">WordFast</a>, <a href="https://www.memoq.com/get-memoq">MemoQ</a>, <a href="http://www.omegat.org/fi/omegat.html">OmegaT</a>...</p>
+<ul class = "build incremental">
+<li><a href="http://www.sdl.com/cxc/language/translation-productivity/trados-studio/">Trados</a>, <a href="https://www.wordfast.net/">WordFast</a>, <a href="https://www.memoq.com/get-memoq">MemoQ</a>, <a href="http://www.omegat.org/fi/omegat.html">OmegaT</a>...</li>
+</ul>
 
     <aside class='notes'>
       
     </aside>
    </section>
    <section class='' data-state=''>
-    <h3>Käännösmuistit</h3>
+    <h4>Käännösmuistit</h4>
 
-<p class='fragment'>Tietokantamuodossa (ohjelman sisäinen käyttö)</p>
-
-<p class='fragment'>XML-tiedostoina (jako + ohjelmistoista riippumaton kommunikointi)</p>
+<ul class = "build incremental">
+<li> Tietokantamuodossa (ohjelman sisäinen käyttö)</li>
+<li> XML-tiedostoina (jako + ohjelmistoista riippumaton kommunikointi)</li>
+</ul>
 
     <aside class='notes'>
       
@@ -179,17 +181,18 @@ text-decoration:underline;
 </section>
 <section>
    <section class='class' data-state=''>
-    <h2>Käyttöliittymien perusperiaatteita</h2>
-    <p class='fragment'>- <span style='color:red;'>Aikaisemmin:</span> word-integroituja (ks. <a href="http://www.wordfast.com/products/products_wordfast">WordFast classic</a>)</p>
-
-<p class='fragment'>- Nykyisin useimmat <em>standalone</em> / <em>studio</em> -mutoisia</p>
+    <h3>Käyttöliittymien perusperiaatteita</h3>
+    <ul class = "build incremental">
+<li>Aikaisemmin: word-integroituja (ks. <a href="http://www.wordfast.com/products/products_wordfast">WordFast classic</a>)</li>
+<li>Nykyisin useimmat <em>standalone</em> / <em>studio</em> -mutoisia</li>
+</ul>
 
     <aside class='notes'>
       
     </aside>
    </section>
    <section class='' data-state=''>
-    <h3>Esimerkki: MemoQ</h3>
+    <h4>Esimerkki: MemoQ</h4>
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/f57iYsD4yzg?start=143" frameborder="0" allowfullscreen></iframe>
 
@@ -199,7 +202,7 @@ text-decoration:underline;
    </section>
 </section>
 <section class='' data-state='' id='slide-7'>
-  <h2>Palvelimella vai paikallisesti?</h2>
+  <h4>Palvelimella vai paikallisesti?</h4>
   <div>
     <div class='fragment coldiv'>
         <img src='assets/fig/tradospack.png'>
@@ -215,7 +218,7 @@ text-decoration:underline;
 </section>
 <section>
    <section class='class' data-state=''>
-    <h2>Sovellettavuus ja soveltumattomuus</h2>
+    <h3>Sovellettavuus ja soveltumattomuus</h3>
     
     <aside class='notes'>
       
@@ -253,7 +256,7 @@ text-decoration:underline;
    </section>
 </section>
 <section class='class' data-state='' id='slide-9'>
-  <h2>Mistä minulle?</h2>
+  <h3>Mistä minulle?</h3>
   <ul>
 <li class='fragment'> In-house-kääntäjäksi
 <li class='fragment'> Freelance-version hankkiminen (Trados: 695€)

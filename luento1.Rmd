@@ -19,8 +19,6 @@ logo        : slidify_logo.png
 }
 
 p { text-align: left;
-font-size: 12;
-
 }
 
 li.fragment.visible, li {
@@ -45,10 +43,12 @@ text-decoration:underline;
 .coldiv {width:47%;float:left;}
 .coldiv2 {float:left;width:30%;}
 
-
 .rowdiv {width:100%;clear:left;}
 
 .reveal section img { background:none; border:none; box-shadow:none; }
+
+p.smaller {font-size:70%;}
+
 </style>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -94,11 +94,11 @@ text-decoration:underline;
 
 ---
 
-## Käännösmuisteista ja käännösohjelmistoista
+### Käännösmuisteista ja käännösohjelmistoista
 
 --- .class &vertical
 
-## Määritelmiä
+### Määritelmiä
 
 .fragment 1. [CAT](https://en.wikipedia.org/wiki/Computer-assisted_translation) $\ne$ [MT](https://en.wikipedia.org/wiki/Machine_translation)
 
@@ -107,33 +107,30 @@ text-decoration:underline;
 
 ***
 
-### Käännösohjelmat
+#### Käännösohjelmat
 
 
-Käyttöliittymiä, jotka 
-
-> 1. kommunikoivat käännösmuistien kanssa
-                                                 
-> 2. segmentoivat tekstejä käännettäviksi palasiksi 
-
-> 3. tuottavat kohdekielisen dokumentin automaattisesti muotoiltuna 
-
-> 4. pitävät huolta esim. tägien vastaavuudesta 
+> - Käyttöliittymiä, jotka 
+> - kommunikoivat käännösmuistien kanssa
+> - segmentoivat tekstejä käännettäviksi palasiksi 
+> - tuottavat kohdekielisen dokumentin automaattisesti muotoiltuna 
+> - pitävät huolta esim. tägien vastaavuudesta 
 
 
 <br>
 
-.fragment - [Trados](http://www.sdl.com/cxc/language/translation-productivity/trados-studio/), [WordFast](https://www.wordfast.net/), [MemoQ](https://www.memoq.com/get-memoq), [OmegaT](http://www.omegat.org/fi/omegat.html)...
+> - [Trados](http://www.sdl.com/cxc/language/translation-productivity/trados-studio/), [WordFast](https://www.wordfast.net/), [MemoQ](https://www.memoq.com/get-memoq), [OmegaT](http://www.omegat.org/fi/omegat.html)...
 
 
 
 ***
 
-### Käännösmuistit
 
-.fragment Tietokantamuodossa (ohjelman sisäinen käyttö)
 
-.fragment XML-tiedostoina (jako + ohjelmistoista riippumaton kommunikointi)
+#### Käännösmuistit
+
+> -  Tietokantamuodossa (ohjelman sisäinen käyttö)
+> -  XML-tiedostoina (jako + ohjelmistoista riippumaton kommunikointi)
 
 ***
 
@@ -165,16 +162,15 @@ Käyttöliittymiä, jotka
 
 --- .class &vertical
 
-## Käyttöliittymien perusperiaatteita
+### Käyttöliittymien perusperiaatteita
 
 
-.fragment - <span style='color:red;'>Aikaisemmin:</span> word-integroituja (ks. [WordFast classic](http://www.wordfast.com/products/products_wordfast))
-
-.fragment - Nykyisin useimmat *standalone* / *studio* -mutoisia
+> - Aikaisemmin: word-integroituja (ks. [WordFast classic](http://www.wordfast.com/products/products_wordfast))
+> - Nykyisin useimmat *standalone* / *studio* -mutoisia
 
 ***
 
-### Esimerkki: MemoQ
+#### Esimerkki: MemoQ
 
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/f57iYsD4yzg?start=143" frameborder="0" allowfullscreen></iframe>
@@ -182,7 +178,7 @@ Käyttöliittymiä, jotka
 
 ---
 
-## Palvelimella vai paikallisesti?
+#### Palvelimella vai paikallisesti?
 
 
 <div>
@@ -199,7 +195,7 @@ Käyttöliittymiä, jotka
 
 --- .class &vertical
 
-## Sovellettavuus ja soveltumattomuus
+### Sovellettavuus ja soveltumattomuus
 
 ***
 
@@ -223,7 +219,7 @@ Käyttöliittymiä, jotka
 --- .class
 
 
-## Mistä minulle?
+### Mistä minulle?
 
 <ul>
 <li class='fragment'> In-house-kääntäjäksi
