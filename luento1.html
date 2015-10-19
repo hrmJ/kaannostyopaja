@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
-  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/serif.css" id="theme">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/solarized.css" id="theme">
   <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
   <!--[if lt IE 9]>
   <script src="lib/js/html5shiv.js"></script>
@@ -30,6 +30,21 @@ font-size: 12;
 
 }
 
+li.fragment.visible, li {
+    font-size: 78%;
+}
+
+li.minlist{
+font-size:69%; 
+color:darkgrey;}
+
+li.minlisthlr{font-size:69%;
+color:rgb(247, 131, 131);
+}
+
+li.minlisthl{font-size:69%;}
+
+
 .reveal a:not(.image) {
 text-decoration:underline;
 }
@@ -43,10 +58,51 @@ text-decoration:underline;
 .reveal section img { background:none; border:none; box-shadow:none; }
 </style>
 
-<h2>Käännösmuisteista ja käännösohjelmistoista</h2>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<h4>Juho Härme / 30.10.2015</h4>
+<h2>MVKS47 Käännösteknologian harjoituskurssi 2015 - 2016</h2>
 
+<h5>30.10.2015</h5>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h3>Kurssin tärkeimmät teemat</h3>
+  <ul class = "build incremental">
+<li>Trados käännösohjelmistona muiden joukossa</li>
+<li>Miten käännösmuisti toimii?</li>
+<li>Termipankit kääntäjän apuna</li>
+<li>Mitä muita resursseja on?</li>
+<li>Miten niitä tehdään?</li>
+<li>Projektit Tradosissa</li>
+<li>Doc, ppt, html, pdf...</li>
+<li>Muuta?</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-3'>
+  <h3>Kurssin aikataulu</h3>
+  <ul>
+<li class='minlisthl'>pe 30.10. Trados käännöstyökaluna</li>
+<li class='minlist'>ma 2.11.  Asennus + teoriaa muisteista</li>
+<li class='minlist'>pe 6.11</li>
+<li class='minlist'>ma 9.11.</li>
+<li class='minlist'>pe 13.11</li>
+<li class='minlist'>ma 16.11.</li>
+<li class='minlist'>pe 20.11</li>
+<li class='minlist'>ma 23.11.</li>
+<li class='minlisthlr'>pe 27.11 Ei tuntia</li>
+<li class='minlist'>ma 30.11.</li>
+<li class='minlist'>pe 4.12</li>
+<li class='minlist'>ma 7.12.</li>
+<li class='minlist'>pe 11.12.</li>
+<li class='minlist'>ma 14.12.</li>
+<li class='minlist'>pe 18.12.</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h2>Käännösmuisteista ja käännösohjelmistoista</h2>
+  
 </section>
 <section>
    <section class='class' data-state=''>
@@ -62,15 +118,14 @@ text-decoration:underline;
    <section class='' data-state=''>
     <h3>Käännösohjelmat</h3>
 
-<p class='fragment'>Käyttöliittymiä, jotka </p>
+<p>Käyttöliittymiä, jotka </p>
 
-<p class='fragment'><span style="color:#A00000 ;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;&nbsp;kommunikoivat käännösmuistien kanssa</span></p>
-
-<p class='fragment'><span style="color:#A00000 ;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;&nbsp;segmentoivat tekstejä käännettäviksi palasiksi </span></p>
-
-<p class='fragment'><span style="color:#A00000 ;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;&nbsp;tuottavat kohdekielisen dokumentin automaattisesti muotoiltuna </span></p>
-
-<p class='fragment'><span style="color:#A00000 ;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;&nbsp;pitävät huolta esim. tägien vastaavuudesta </span></p>
+<ol class = "build incremental">
+<li><p>kommunikoivat käännösmuistien kanssa</p></li>
+<li><p>segmentoivat tekstejä käännettäviksi palasiksi </p></li>
+<li><p>tuottavat kohdekielisen dokumentin automaattisesti muotoiltuna </p></li>
+<li><p>pitävät huolta esim. tägien vastaavuudesta </p></li>
+</ol>
 
 <p><br></p>
 
@@ -143,7 +198,7 @@ text-decoration:underline;
     </aside>
    </section>
 </section>
-<section class='' data-state='' id='slide-4'>
+<section class='' data-state='' id='slide-7'>
   <h2>Palvelimella vai paikallisesti?</h2>
   <div>
     <div class='fragment coldiv'>
@@ -197,7 +252,7 @@ text-decoration:underline;
     </aside>
    </section>
 </section>
-<section class='class' data-state='' id='slide-6'>
+<section class='class' data-state='' id='slide-9'>
   <h2>Mistä minulle?</h2>
   <ul>
 <li class='fragment'> In-house-kääntäjäksi
@@ -207,13 +262,18 @@ text-decoration:underline;
 </ul>
 
 </section>
-<section class='' data-state='' id='slide-7'>
+<section class='' data-state='' id='slide-10'>
   
   <div style='margin:20%'>
     <span style='color:white;background-color:black';>
         Tämäkin esitys moodlessa.
     </span>
 </div>
+
+<script>
+$('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+$('ul.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+</script>
 
 </section>
     </div>
@@ -229,7 +289,7 @@ text-decoration:underline;
     progress: true,
     history: true,
     center: false,
-    theme: Reveal.getQueryHash().theme || 'serif', 
+    theme: Reveal.getQueryHash().theme || 'solarized', 
     transition: Reveal.getQueryHash().transition || 'linear', 
     dependencies: [
     // Cross-browser shim that fully implements classList -

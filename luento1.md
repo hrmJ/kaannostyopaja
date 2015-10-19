@@ -3,7 +3,7 @@ title       : Käännösmuisteista ja käännösohjelmistoista
 author      : Juho Härme
 job         : tohtorikoulutettava / käännöstiede venäjä
 framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
-revealjs    : {theme: serif, transition: linear, center: "false"}
+revealjs    : {theme: solarized, transition: linear, center: "false"}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : mathjax            # {mathjax, quiz, bootstrap}
@@ -23,6 +23,21 @@ font-size: 12;
 
 }
 
+li.fragment.visible, li {
+    font-size: 78%;
+}
+
+li.minlist{
+font-size:69%; 
+color:darkgrey;}
+
+li.minlisthlr{font-size:69%;
+color:rgb(247, 131, 131);
+}
+
+li.minlisthl{font-size:69%;}
+
+
 .reveal a:not(.image) {
 text-decoration:underline;
 }
@@ -36,10 +51,50 @@ text-decoration:underline;
 .reveal section img { background:none; border:none; box-shadow:none; }
 </style>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+## MVKS47 Käännösteknologian harjoituskurssi 2015 - 2016
+
+##### 30.10.2015
+
+--- 
+
+### Kurssin tärkeimmät teemat
+
+> - Trados käännösohjelmistona muiden joukossa
+> - Miten käännösmuisti toimii?
+> - Termipankit kääntäjän apuna
+> - Mitä muita resursseja on?
+> - Miten niitä tehdään?
+> - Projektit Tradosissa
+> - Doc, ppt, html, pdf...
+> - Muuta?
+
+---
+
+### Kurssin aikataulu
+
+
+- .minlisthl pe 30.10. Trados käännöstyökaluna
+- .minlist ma 2.11.  Asennus + teoriaa muisteista
+- .minlist pe 6.11
+- .minlist ma 9.11.
+- .minlist pe 13.11
+- .minlist ma 16.11.
+- .minlist pe 20.11
+- .minlist ma 23.11.
+- .minlisthlr pe 27.11 Ei tuntia
+- .minlist ma 30.11.
+- .minlist pe 4.12
+- .minlist ma 7.12.
+- .minlist pe 11.12.
+- .minlist ma 14.12.
+- .minlist pe 18.12.
+
+
+---
+
 ## Käännösmuisteista ja käännösohjelmistoista
-
-#### Juho Härme / 30.10.2015
-
 
 --- .class &vertical
 
@@ -55,16 +110,16 @@ text-decoration:underline;
 ### Käännösohjelmat
 
 
+Käyttöliittymiä, jotka 
 
-.fragment Käyttöliittymiä, jotka 
+> 1. kommunikoivat käännösmuistien kanssa
+                                                 
+> 2. segmentoivat tekstejä käännettäviksi palasiksi 
 
-.fragment <span style="color:#A00000 ;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;&nbsp;kommunikoivat käännösmuistien kanssa</span>
-                                                            
-.fragment <span style="color:#A00000 ;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;&nbsp;segmentoivat tekstejä käännettäviksi palasiksi </span>
+> 3. tuottavat kohdekielisen dokumentin automaattisesti muotoiltuna 
 
-.fragment <span style="color:#A00000 ;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;&nbsp;tuottavat kohdekielisen dokumentin automaattisesti muotoiltuna </span>
+> 4. pitävät huolta esim. tägien vastaavuudesta 
 
-.fragment <span style="color:#A00000 ;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;&nbsp;pitävät huolta esim. tägien vastaavuudesta </span>
 
 <br>
 
@@ -184,4 +239,9 @@ text-decoration:underline;
         Tämäkin esitys moodlessa.
     </span>
 </div>
+
+<script>
+$('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+$('ul.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+</script>
 
