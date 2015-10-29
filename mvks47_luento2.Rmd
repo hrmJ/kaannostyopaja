@@ -127,6 +127,21 @@ asdasd                   | asdkjasdlk                                           
 
 [Kaavio](trados_muisti_kaavio.html)
 
+>- Osumien hyväksyntään vaikuttaa:
+>- Minimum match rate
+>- Formatting penalty
+
+---
+
+### 3. Mihin käännösmuisteja käytetään?
+
+>1. Aikaisempien segmenttikäännösten hyödyntäminen uudessa käännösasiakirjassa
+>2. Konkordanssihaku
+
+
+---
+
+
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
