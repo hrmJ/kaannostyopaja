@@ -77,20 +77,25 @@ p.smaller {font-size:70%;}
 
 - .minlisthl pe 30.10. Trados käännöstyökaluna
 - .minlist ma 2.11.  Asennus + teoriaa muisteista
-- .minlist pe 6.11
-- .minlist ma 9.11.
-- .minlist pe 13.11
-- .minlist ma 16.11.
-- .minlist pe 20.11
-- .minlist ma 23.11.
+- .minlist pe 6.11 Käytännön harjoituksia muisteista
+- .minlist ma 9.11. Word-tiedostot + johdatus projektiajatteluun
+- .minlist pe 13.11 Projektien luominen ja käännöseditori
+- .minlist ma 16.11. Muut tiedostomuodot / teoriaa
+- .minlist pe 20.11 Muut tiedostomuodot / harjoituksia
+- .minlist ma 23.11. Edistyneemmät editoritoiminnot
 - .minlisthlr pe 27.11 Ei tuntia
-- .minlist ma 30.11.
-- .minlist pe 4.12
-- .minlist ma 7.12.
-- .minlist pe 11.12.
-- .minlist ma 14.12.
-- .minlist pe 18.12.
+- .minlist ma 30.11. Tekstien kohdistus: teoriaa
+- .minlist pe 4.12 Tekstien kohdistus: käytäntöä
+- .minlist ma 7.12. Termipankit: teoriaa
+- .minlist pe 11.12. Termipankit: käytäntöä
+- .minlist ma 14.12. Harjoituksia
+- .minlist pe 18.12. Q&A
 
+---
+
+### Moodle
+
+(kurssin Moodle-alusta)[]
 
 ---
 
@@ -224,6 +229,11 @@ p.smaller {font-size:70%;}
 <ul>
 <li class='fragment'> In-house-kääntäjäksi
 <li class='fragment'> Freelance-version hankkiminen (Trados: 695€)
+<li class='fragment'> Tampereen yo:n sopimus SDL:n kanssa
+<ul>
+<li> Opiskelijalisenssi n. 100 €/vuosi
+<li> Valmistumisen jälkeen lopullinen käyttöoikeus alennuksella
+</ul>
 <li class='fragment'> Omat viritelmät (OmegaT, WF anywhere?) (0€)
 <li class='fragment'> Väliaikainen projektikohtainen lisenssi (0€)
 </ul>
