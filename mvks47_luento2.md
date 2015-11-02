@@ -52,11 +52,16 @@ p.smaller {font-size:70%;}
 
 table { 
 width: 100%;
-font-weight: bolder;
 }
+
 
 table tr:nth-child(2n+1) { /* background: #E8F2FF; */ background: #D5E5FD; }
 
+.reveal table th, .reveal table td {
+
+font-size:55%;
+
+}
 
 </style>
 
@@ -89,35 +94,107 @@ table tr:nth-child(2n+1) { /* background: #E8F2FF; */ background: #D5E5FD; }
 
 ---
 
+### Kurssin arviointi
+
+>- Kertaustehtävät 
+>- Essee: oma CAT-ohjelmien hyödyt, haitat ja oma käyttö
+>- Itsenäinen käännöstehtävä
+
 #### Tänään
 
->- Tradosin kokeiluversion hankkiminen ja asennus
->- WordFast Anywhere -käyttäjätilin luominen
+>- UTA + SDL: opiskelijaedut
+>- Tradosin hankkimisesta ja asennuksesta
 >- Mitä käännösmuistit ovat?
 >- Miten käännösmuistit toimivat?
 >- Mihin käännösmuisteja käytetään?
 
 --- .class &vertical
 
+#### SDL-kumppanuusyliopiston opiskelijaedut
+
+<div class="fragment">
+
+- lisenssi vuodeksi: 149 €
+- päivitys kokoversioon 300 €
+
+
+- lisenssi kahdeksi vuodeksi 295 €
+- jolloin päivitys kokoversioon 150 €
+
+</div>
+
+<div class="fragment">
+
+- Suora kokoversion hankinta – 450 €
+- Ryhmäalennukset: 5 hlö >> 400 €, 10 hlö >> 340 €
+
+</div>
+
+***
+
+[translationzone.com/freelance-translator](http://www.translationzone.com/freelance-translator.html)
+
+--- .class &vertical
+
+
 ### 1. Mitä käännösmuistit ovat?
 
 ***
 
-### Tietokantoja
+### a) Tietokantoja
 
 
-Lähdekielinen segmentti  | Kohdekielinen segmentti                                 | Created by | Creationdate
--------------------------|---------------------------------------------------------|------------|--------------
-asdasd                   | asdkjasdlk                                              | userx      | 2015-20-10
-asdasd                   | asdkjasdlk                                              | userx      | 2015-20-10
-asdasd                   | asdkjasdlk                                              | userx      | 2015-20-10
-asdasd                   | asdkjasdlk                                              | userx      | 2015-20-10
-asdasd                   | asdkjasdlk                                              | userx      | 2015-20-10
+<b>Lähdekielinen segmentti</b>                                                                                                                                                                    | <b>Kohdekielinen segmentti</b>                            | <b>Created by</b> | <b>Creationdate</b>
+-------------------------                                                                                                                                                                         | --------------------------------------------------------- | ------------      | --------------
+\<bpt i="1" type="4" /\>В стоимость номера в гостинице «\<ept i="1" /\><bpt i="2" type="5" />Амакс<ept i="2" /><bpt i="3" type="6" /> Премьер Отель» входит завтрак "шведский стол".<ept i="3" /> | Huoneen hintaan sisältyy aamiainen seisovasta pöydästä.   | virtanenville     | 2015-20-10
+ Hör gärna av dig till oss med frågor eller synpunkte                                                                                                                                             | Ota yhteyttä, jos sinulla on kysyttävää tai kommentteja.  | userx             | 2013-20-10
+ Kinder bis 14 Jahre bezahlen den Festpreis von 5,00 €                                                                                                                                            | alle 14-vuotiaat 5,00 €                                   | virtanenville     | 2015-20-10
+ Une taxe est prélevée par la ville :                                                                                                                                                             | Kaupunki pidättää seuraavan veron                         | virtanenville     | 2015-20-10
 
 ***
 
 >- Yksikkönä segmentti
 >- Usein tallentaa myös muotoilutiedot
+
+***
+
+##### Miten segmentti määritellään?
+
+>1. Lausetasolla
+>2. Kappaletasolla
+
+.fragment Ongelmallisia?
+
+***
+
+### b) Xml-tiedostoja (siirrettäessä)
+
+
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header
+    creationtool="LF Aligner"
+    creationtoolversion="3.11"
+    datatype="unknown"
+    segtype="sentence"
+    adminlang="FI"
+    srclang="RU"
+    o-tmf="TW4Win 2.0 Format"
+  >
+  </header>
+  <body>
+<tu creationdate="20150212T140830Z" creationid="jh">
+<tuv xml:lang="RU"><seg>Уважаемый господин мэр,</seg></tuv>
+<tuv xml:lang="FI"><seg>Arvoisa kaupunginjohtaja,</seg></tuv>
+</tu>
+<tu creationdate="20150212T140830Z" creationid="jh">
+<tuv xml:lang="RU"><seg>Ой, как мы все любим памяти переводов!</seg></tuv>
+<tuv xml:lang="FI"><seg>Voi kuinka me kaikki tykätään käännösmuisteista!</seg></tuv>
+</tu>
+
+```
 
 --- .class &vertical
 
@@ -126,6 +203,33 @@ asdasd                   | asdkjasdlk                                           
 ***
 
 [Kaavio](trados_muisti_kaavio.html)
+
+>- Osumien hyväksyntään vaikuttaa:
+>- Minimum match rate
+>- Formatting penalty
+
+---
+
+### 3. Mihin käännösmuisteja käytetään?
+
+>1. Aikaisempien käännössegmenttien hyödyntäminen uudessa käännösasiakirjassa
+>2. Konkordanssihaku
+
+
+--- .class &vertical
+
+### Harjoituksia
+
+***
+
+##### 1. Selvittäkää / pohtikaa ryhmässä:
+
+>- Mitä eroa on termeillä CM (content Match) / 100% match
+>- Mitä tarkoittaa repetition?
+
+***
+
+##### 2. Linkki Moodlessa
 
 
 <script>

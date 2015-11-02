@@ -59,11 +59,16 @@ p.smaller {font-size:70%;}
 
 table { 
 width: 100%;
-font-weight: bolder;
 }
+
 
 table tr:nth-child(2n+1) { /* background: #E8F2FF; */ background: #D5E5FD; }
 
+.reveal table th, .reveal table td {
+
+font-size:55%;
+
+}
 
 </style>
 
@@ -96,15 +101,56 @@ table tr:nth-child(2n+1) { /* background: #E8F2FF; */ background: #D5E5FD; }
 
 </section>
 <section class='' data-state='' id='slide-3'>
-  <h4>Tänään</h4>
+  <h3>Kurssin arviointi</h3>
   <ul class = "build incremental">
-<li>Tradosin kokeiluversion hankkiminen ja asennus</li>
-<li>WordFast Anywhere -käyttäjätilin luominen</li>
+<li>Kertaustehtävät </li>
+<li>Essee: oma CAT-ohjelmien hyödyt, haitat ja oma käyttö</li>
+<li>Itsenäinen käännöstehtävä</li>
+</ul>
+
+<h4>Tänään</h4>
+
+<ul class = "build incremental">
+<li>UTA + SDL: opiskelijaedut</li>
+<li>Tradosin hankkimisesta ja asennuksesta</li>
 <li>Mitä käännösmuistit ovat?</li>
 <li>Miten käännösmuistit toimivat?</li>
 <li>Mihin käännösmuisteja käytetään?</li>
 </ul>
 
+</section>
+<section>
+   <section class='class' data-state=''>
+    <h4>SDL-kumppanuusyliopiston opiskelijaedut</h4>
+    <div class="fragment">
+
+- lisenssi vuodeksi: 149 €
+- päivitys kokoversioon 300 €
+
+
+- lisenssi kahdeksi vuodeksi 295 €
+- jolloin päivitys kokoversioon 150 €
+
+</div>
+
+<div class="fragment">
+
+- Suora kokoversion hankinta – 450 €
+- Ryhmäalennukset: 5 hlö >> 400 €, 10 hlö >> 340 €
+
+</div>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <p><a href="http://www.translationzone.com/freelance-translator.html">translationzone.com/freelance-translator</a></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
 </section>
 <section>
    <section class='class' data-state=''>
@@ -115,44 +161,38 @@ table tr:nth-child(2n+1) { /* background: #E8F2FF; */ background: #D5E5FD; }
     </aside>
    </section>
    <section class='' data-state=''>
-    <h3>Tietokantoja</h3>
+    <h3>a) Tietokantoja</h3>
 
 <table><thead>
 <tr>
-<th>Lähdekielinen segmentti</th>
-<th>Kohdekielinen segmentti</th>
-<th>Created by</th>
-<th>Creationdate</th>
+<th><b>Lähdekielinen segmentti</b></th>
+<th><b>Kohdekielinen segmentti</b></th>
+<th><b>Created by</b></th>
+<th><b>Creationdate</b></th>
 </tr>
 </thead><tbody>
 <tr>
-<td>asdasd</td>
-<td>asdkjasdlk</td>
-<td>userx</td>
+<td>&lt;bpt i=&quot;1&quot; type=&quot;4&quot; /&gt;В стоимость номера в гостинице «&lt;ept i=&quot;1&quot; /&gt;<bpt i="2" type="5" />Амакс<ept i="2" /><bpt i="3" type="6" /> Премьер Отель» входит завтрак &quot;шведский стол&quot;.<ept i="3" /></td>
+<td>Huoneen hintaan sisältyy aamiainen seisovasta pöydästä.</td>
+<td>virtanenville</td>
 <td>2015-20-10</td>
 </tr>
 <tr>
-<td>asdasd</td>
-<td>asdkjasdlk</td>
+<td>Hör gärna av dig till oss med frågor eller synpunkte</td>
+<td>Ota yhteyttä, jos sinulla on kysyttävää tai kommentteja.</td>
 <td>userx</td>
+<td>2013-20-10</td>
+</tr>
+<tr>
+<td>Kinder bis 14 Jahre bezahlen den Festpreis von 5,00 €</td>
+<td>alle 14-vuotiaat 5,00 €</td>
+<td>virtanenville</td>
 <td>2015-20-10</td>
 </tr>
 <tr>
-<td>asdasd</td>
-<td>asdkjasdlk</td>
-<td>userx</td>
-<td>2015-20-10</td>
-</tr>
-<tr>
-<td>asdasd</td>
-<td>asdkjasdlk</td>
-<td>userx</td>
-<td>2015-20-10</td>
-</tr>
-<tr>
-<td>asdasd</td>
-<td>asdkjasdlk</td>
-<td>userx</td>
+<td>Une taxe est prélevée par la ville :</td>
+<td>Kaupunki pidättää seuraavan veron</td>
+<td>virtanenville</td>
 <td>2015-20-10</td>
 </tr>
 </tbody></table>
@@ -171,6 +211,52 @@ table tr:nth-child(2n+1) { /* background: #E8F2FF; */ background: #D5E5FD; }
       
     </aside>
    </section>
+   <section class='' data-state=''>
+    <h5>Miten segmentti määritellään?</h5>
+
+<ol class = "build incremental">
+<li>Lausetasolla</li>
+<li>Kappaletasolla</li>
+</ol>
+
+<p class='fragment'>Ongelmallisia?</p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h3>b) Xml-tiedostoja (siirrettäessä)</h3>
+
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;!DOCTYPE tmx SYSTEM &quot;tmx14.dtd&quot;&gt;
+&lt;tmx version=&quot;1.4&quot;&gt;
+  &lt;header
+    creationtool=&quot;LF Aligner&quot;
+    creationtoolversion=&quot;3.11&quot;
+    datatype=&quot;unknown&quot;
+    segtype=&quot;sentence&quot;
+    adminlang=&quot;FI&quot;
+    srclang=&quot;RU&quot;
+    o-tmf=&quot;TW4Win 2.0 Format&quot;
+  &gt;
+  &lt;/header&gt;
+  &lt;body&gt;
+&lt;tu creationdate=&quot;20150212T140830Z&quot; creationid=&quot;jh&quot;&gt;
+&lt;tuv xml:lang=&quot;RU&quot;&gt;&lt;seg&gt;Уважаемый господин мэр,&lt;/seg&gt;&lt;/tuv&gt;
+&lt;tuv xml:lang=&quot;FI&quot;&gt;&lt;seg&gt;Arvoisa kaupunginjohtaja,&lt;/seg&gt;&lt;/tuv&gt;
+&lt;/tu&gt;
+&lt;tu creationdate=&quot;20150212T140830Z&quot; creationid=&quot;jh&quot;&gt;
+&lt;tuv xml:lang=&quot;RU&quot;&gt;&lt;seg&gt;Ой, как мы все любим памяти переводов!&lt;/seg&gt;&lt;/tuv&gt;
+&lt;tuv xml:lang=&quot;FI&quot;&gt;&lt;seg&gt;Voi kuinka me kaikki tykätään käännösmuisteista!&lt;/seg&gt;&lt;/tuv&gt;
+&lt;/tu&gt;
+
+</code></pre>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
 </section>
 <section>
    <section class='class' data-state=''>
@@ -182,6 +268,48 @@ table tr:nth-child(2n+1) { /* background: #E8F2FF; */ background: #D5E5FD; }
    </section>
    <section class='' data-state=''>
     <p><a href="trados_muisti_kaavio.html">Kaavio</a></p>
+
+<ul class = "build incremental">
+<li>Osumien hyväksyntään vaikuttaa:</li>
+<li>Minimum match rate</li>
+<li>Formatting penalty</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section class='' data-state='' id='slide-7'>
+  <h3>3. Mihin käännösmuisteja käytetään?</h3>
+  <ol class = "build incremental">
+<li>Aikaisempien käännössegmenttien hyödyntäminen uudessa käännösasiakirjassa</li>
+<li>Konkordanssihaku</li>
+</ol>
+
+</section>
+<section>
+   <section class='class' data-state=''>
+    <h3>Harjoituksia</h3>
+    
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h5>1. Selvittäkää / pohtikaa ryhmässä:</h5>
+
+<ul class = "build incremental">
+<li>Mitä eroa on termeillä CM (content Match) / 100% match</li>
+<li>Mitä tarkoittaa repetition?</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h5>2. Linkki Moodlessa</h5>
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
