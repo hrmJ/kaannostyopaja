@@ -100,6 +100,8 @@ font-size:55%;
 >- Essee: oma CAT-ohjelmien hyödyt, haitat ja oma käyttö
 >- Itsenäinen käännöstehtävä
 
+---
+
 #### Tänään
 
 >- UTA + SDL: opiskelijaedut
