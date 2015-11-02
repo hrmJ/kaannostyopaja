@@ -114,23 +114,16 @@ font-size:55%;
 
 #### SDL-kumppanuusyliopiston opiskelijaedut
 
-<div class="fragment">
 
-- lisenssi vuodeksi: 149 €
-- päivitys kokoversioon 300 €
+>- lisenssi vuodeksi: 149 €
+>- päivitys kokoversioon 300 €
 
+>- lisenssi kahdeksi vuodeksi 295 €
+>- jolloin päivitys kokoversioon 150 €
 
-- lisenssi kahdeksi vuodeksi 295 €
-- jolloin päivitys kokoversioon 150 €
+>- Suora kokoversion hankinta – 450 €
+>- Ryhmäalennukset: 5 hlö >> 400 €, 10 hlö >> 340 €
 
-</div>
-
-<div class="fragment">
-
-- Suora kokoversion hankinta – 450 €
-- Ryhmäalennukset: 5 hlö >> 400 €, 10 hlö >> 340 €
-
-</div>
 
 ***
 
