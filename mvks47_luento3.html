@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KÃ¤Ã¤nnÃ¶smuisteista ja kÃ¤Ã¤nnÃ¶sohjelmistoista</title>
+  <meta name="description" content="">
+  <meta name="author" content="Juho HÃ¤rme">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/solarized.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  
+  <style>
+.reveal h2{
+    padding-bottom: 20px;
+}
+
+p { text-align: left;
+}
+
+li.fragment.visible, li {
+    font-size: 78%;
+}
+
+li.minlist{
+font-size:69%; 
+color:darkgrey;}
+
+li.minlisthlr{font-size:69%;
+color:rgb(247, 131, 131);
+}
+
+li.minlisthl{font-size:69%;}
+
+
+.reveal a:not(.image) {
+text-decoration:underline;
+}
+
+.coldiv {width:47%;float:left;}
+.coldiv2 {float:left;width:30%;}
+
+.rowdiv {width:100%;clear:left;}
+
+.reveal section img { background:none; border:none; box-shadow:none; }
+
+p.smaller {font-size:70%;}
+
+
+table { 
+width: 100%;
+}
+
+
+table tr:nth-child(2n+1) { /* background: #E8F2FF; */ background: #D5E5FD; }
+
+.reveal table th, .reveal table td {
+
+font-size:55%;
+
+}
+
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<h2>MVKS47 Käännösteknologian harjoituskurssi 2015 - 2016</h2>
+
+<h5>06.11.2015: Käytännön harjoituksia muisteista</h5>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h3>Kurssin aikataulu</h3>
+  <ul>
+<li class='minlist'>pe 30.10. Trados käännöstyökaluna</li>
+<li class='minlist'>ma 2.11.  Asennus + teoriaa muisteista</li>
+<li class='minlisthl'>pe 6.11 Käytännön harjoituksia muisteista</li>
+<li class='minlist'>ma 9.11. Word-tiedostot + johdatus projektiajatteluun</li>
+<li class='minlist'>pe 13.11 Projektien luominen ja käännöseditori</li>
+<li class='minlist'>ma 16.11. Muut tiedostomuodot / teoriaa</li>
+<li class='minlist'>pe 20.11 Muut tiedostomuodot / harjoituksia</li>
+<li class='minlist'>ma 23.11. Edistyneemmät editoritoiminnot</li>
+<li class='minlisthlr'>pe 27.11 Ei tuntia</li>
+<li class='minlist'>ma 30.11. Tekstien kohdistus: teoriaa</li>
+<li class='minlist'>pe 4.12 Tekstien kohdistus: käytäntöä</li>
+<li class='minlist'>ma 7.12. Termipankit: teoriaa</li>
+<li class='minlist'>pe 11.12. Termipankit: käytäntöä</li>
+<li class='minlist'>ma 14.12. Harjoituksia</li>
+<li class='minlist'>pe 18.12. Q&amp;A</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-3'>
+  <h4>Tänään</h4>
+  <ul class = "build incremental">
+<li>Ohjeet Tradosin hankkimiseksi yliopiston kautta</li>
+<li>Muistien tutkiminen/muokkaaminen Tradosissa</li>
+<li>Muistien eksportointi ja importointi tmx-muotoon</li>
+<li>Muistien yhdistäminen</li>
+<li>Muisteihin liittyvien asetusten säätäminen</li>
+<li>Uuden muistin luominen</li>
+<li>Muistit käytännössä</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h4>Tradosin hankkiminen yliopiston kautta</h4>
+  <ul class = "build incremental">
+<li>Ilmoita halukkuutesi Mikhail Mikhailoville <em>mikhail.mikhailov [at] staff.uta.fi</em></li>
+<li>Vuoden lisenssi / suoraan kokoversio?</li>
+<li>ks. <a href="http://www.translationzone.com/learning/education/students.html?c=23528">http://www.translationzone.com/learning/education/students.html?c=23528</a></li>
+</ul>
+
+</section>
+<section>
+   <section class='class' data-state=''>
+    <h2>Harjoituksia</h2>
+    
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h4>Harjoitus 1: muistien avaaminen ja muokkaaminen</h4>
+
+<ol>
+<li>Lataa oman B-työkielen muisti Moodlesta ja avaa se Tradosissa</li>
+<li>Poista kaksi valitsemaasi muistiyksikköä</li>
+<li>Muuta kahta tai usempaa riviä esimerkiksi vaihtamalla alkukirjain isoksi</li>
+<li>Muuta kaikki luokka-sanat sanaksi &quot;kategoria&quot; + pohdi, mitä ongelmia</li>
+<li>Tutki, mitkä ovat käytetyimmät yksiköt ja merkitse muistiin</li>
+<li>Poista tägit muistista</li>
+</ol>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h4>Harjoitus 2: muistien jakaminen</h4>
+
+<ol>
+<li>Eksportoi äsken muokkaamasi muisti tmx-muotoon</li>
+<li>Jaa muisti muiden saman työkielen opiskelijoiden kanssa</li>
+<li>Liitä muiden oman työkielen opiskelijoiden muistit omaan äsken muokkaamaasi käännösmuistiin</li>
+</ol>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h4>Harjoitus 3: Muistien yhdistäminen, osa 2</h4>
+
+<ol>
+<li>Lataa Moodlesta kolme sv-fi-muistia</li>
+<li>Tee muisteista yksi ainoa iso muisti</li>
+</ol>
+
+<script>
+$('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+$('ul.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+</script>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: false,
+    theme: Reveal.getQueryHash().theme || 'solarized', 
+    transition: Reveal.getQueryHash().transition || 'linear', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
