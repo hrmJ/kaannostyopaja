@@ -140,6 +140,7 @@ div.bgcyan{background: gold;}
 
 #### Tänään
 
+>- Vielä nopeasti muisteista: [luominen](http://hrmj.github.io/kaannostyopaja/mvks47_luento3.html#/5)
 >- Word-tiedosto (doc/docx) Tradosin oletusmuotona
 >- Mistä word-tiedostot koostuvat
 >- Segmentit Tradosissa
@@ -251,21 +252,104 @@ Projektin asetukset
 
 ##### 3.1. Project Type
 
+.fragment ![](images/pr1.png)
+
 >- Valitse, käytätkö mallipohjaa
->- Valitse teetkö vanhan projektin pohjalta
+>- Valitse, teetkö vanhan projektin pohjalta
 >- Oletus/aluksi: **next**
 
-.fragment ![](images/pr1.png)
 
 ***
 
 ##### 3.2. Project Details
 
->- Valitse, käytätkö mallipohjaa
->- Valitse teetkö vanhan projektin pohjalta
->- Oletus/aluksi: **next**
-
 .fragment ![](images/pr2.png)
+
+>- Projektin nimi
+>- Tallennuskansio
+>- Deadline
+>- Oletusasiakkaat
+>- Tärkeitä ainakin **nimi ja kansio**
+
+***
+
+##### 3.3. Project Languages
+
+.fragment ![](images/pr3.png)
+
+>- Mahdollisuus monelle kohdekielelle
+>- Oikea variantti
+
+***
+
+##### 3.4. Project Files
+
+.fragment ![](images/pr4.png)
+
+>- Yksi tai useampia tiedostoja kerralla
+>- Tiedostotyypin asetukset
+
+
+
+***
+
+##### 3.5. Translation memory and automated translation
+
+.fragment ![](images/pr5.png)
+
+>- Muistin luominen tai lisääminen
+>- Minimum match value
+>- Penalties
+
+***
+
+##### 3.6. Termbases
+
+.fragment ![](images/pr6.png)
+
+>- Lisättävät termitietokannat
+>- Palataan myöhemmin
+
+
+***
+
+##### 3.7. SDL Perfect match
+
+.fragment ![](images/pr7.png)
+
+>- Kaksikielisten referenssidokumenttien käyttäminen
+>- Harvoin käytetty toiminto
+>- Oletus: **next**
+
+
+***
+
+##### 3.8. Project preparation
+
+.fragment ![](images/pr8.png)
+
+>- Mitä Trados tekee, ennen kuin kääntäminen alkaa?
+>- Perfect Match voidaan usein poistaa
+>- Pre-Translate usein hyvä olla
+
+
+***
+
+##### 3.9. Batch processing settings
+
+.fragment ![](images/pr9.png)
+
+>- Säädä esim. Pre-translate-toiminnon asetukset
+
+
+***
+
+##### 3.10. Project summary
+
+.fragment ![](images/pr10.png)
+
+>- Ei valintoja, pelkkä tiivistelmä
+
 
 
 <script>
