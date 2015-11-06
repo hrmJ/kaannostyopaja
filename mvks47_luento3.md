@@ -139,8 +139,8 @@ font-size:55%;
 
 #### Harjoitus 3: Muistien yhdistäminen, osa 2
 
-1. Lataa Moodlesta kolme sv-fi-muistia
-2. Tee muisteista yksi ainoa iso muisti
+1. Lataa Moodlesta jonkin muun työkielen kolme muistia
+2. Tee itse suoraan muisteista yksi ainoa iso muisti *parhaaksi katsomallasi tavalla*
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
