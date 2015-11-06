@@ -123,7 +123,8 @@ font-size:55%;
 1. Lataa oman B-työkielen muisti Moodlesta ja avaa se Tradosissa
 2. Poista kaksi valitsemaasi muistiyksikköä
 3. Muuta kahta tai usempaa riviä esimerkiksi vaihtamalla alkukirjain isoksi
-4. Muuta kaikki luokka-sanat sanaksi "kategoria" + pohdi, mitä ongelmia
+4. Muuta kaikki vuode-sanat sanaksi "sänky" + pohdi, mitä ongelmia
+   Vaihtoehtoisesti esim. "loma" > elämys
 5. Tutki, mitkä ovat käytetyimmät yksiköt ja merkitse muistiin
 6. Poista tägit muistista
 
