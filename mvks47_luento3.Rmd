@@ -23,6 +23,12 @@ p { text-align: left;
 
 li.fragment.visible, li {
     font-size: 78%;
+    line-height: 150%;
+}
+
+li.smaller{
+    font-size: 76%;
+    line-height: 180%;
 }
 
 li.minlist{
@@ -120,28 +126,53 @@ font-size:55%;
 
 #### Harjoitus 1: muistien avaaminen ja muokkaaminen
 
-1. Lataa oman B-työkielen muisti Moodlesta ja avaa se Tradosissa
-2. Poista kaksi valitsemaasi muistiyksikköä
-3. Muuta kahta tai usempaa riviä esimerkiksi vaihtamalla alkukirjain isoksi
-4. Muuta kaikki vuode-sanat sanaksi "sänky" + pohdi, mitä ongelmia
-   Vaihtoehtoisesti esim. "loma" > elämys
-5. Tutki, mitkä ovat käytetyimmät yksiköt ja merkitse muistiin
-6. Poista tägit muistista
+1. .smaller Lataa oman B-työkielen muisti Moodlesta ja avaa se Tradosissa
+2. .smaller Poista kaksi valitsemaasi muistiyksikköä
+3. .smaller Muuta kahta tai usempaa riviä esimerkiksi vaihtamalla alkukirjain isoksi
+4. .smaller Muuta kaikki vuode-sanat sanaksi "sänky" + pohdi, mitä ongelmia
+5. .smaller Tutki, mitkä ovat käytetyimmät yksiköt ja merkitse muistiin
+6. .smaller Poista tägit muistista
 
 ***
 
 #### Harjoitus 2: muistien jakaminen
 
-1. Eksportoi äsken muokkaamasi muisti tmx-muotoon
-2. Jaa muisti muiden saman työkielen opiskelijoiden kanssa
-3. Liitä muiden oman työkielen opiskelijoiden muistit omaan äsken muokkaamaasi käännösmuistiin
+1. .smaller Eksportoi äsken muokkaamasi muisti tmx-muotoon
+2. .smaller Jaa muisti muiden saman työkielen opiskelijoiden kanssa
+3. .smaller Liitä muiden oman työkielen opiskelijoiden muistit omaan äsken muokkaamaasi käännösmuistiin
 
 ***
 
 #### Harjoitus 3: Muistien yhdistäminen, osa 2
 
-1. Lataa Moodlesta jonkin muun työkielen kolme muistia
-2. Tee itse suoraan muisteista yksi ainoa iso muisti *parhaaksi katsomallasi tavalla*
+1. .smaller Lataa Moodlesta jonkin muun työkielen kolme muistia
+2. .smaller Tee itse suoraan muisteista yksi ainoa iso muisti *parhaaksi katsomallasi tavalla*
+
+--- .class &vertical
+
+### Muistien luominen
+
+>1. Erikseen Translation memories -välilehdellä
+>2. Uuden projektin luomisen yhteydessä
+>3. Uuden yksittäisen tiedoston yhteydessä
+
+***
+
+##### Muistettavaa:
+
+>- Segmentaatiosäännöt
+>- Nimeämisen konventiot: kieliparit + teema
+>- Oikea kielivariantti
+
+---
+
+
+#### Harjoitus 4: Muistit käännöksessä
+
+1. .smaller Lataa Moodlesta oman työkielen hotelliharjoitusteksti
+2. .smaller Liitä muisti ja ala kääntää
+3. .smaller Muokkaa muistia
+
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
