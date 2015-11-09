@@ -148,6 +148,8 @@ div.bgcyan{background: gold;}
 >- Mitä ovat projektit?
 >- Projektien luomisen vaiheet
 >- Projektien asetukset
+>- Trados-kääntäjän workflow
+>- Projektimallit
 
 ---
 
@@ -351,6 +353,51 @@ Projektin asetukset
 >- Ei valintoja, pelkkä tiivistelmä
 
 
+---
+
+
+#### 4. Projektipaketit
+
+>- Sisältävät yhden projektin sisällön valmiiksi kerättynä ja luotuna
+>- Trados Freelance: vain vastaanottaminen
+
+---
+
+
+#### 5. Trados-käännöksen workflow
+
+<div class='mmbubble bgred fragment'>
+1. Luodaan projekti
+</div>
+
+<div class='mmbubble bgblue fragment'>
+2. Käännetään
+</div>
+
+<div class='mmbubble bgcyan fragment'>
+3. Verifioidaan ja tarkistetaan
+</div>
+
+<div class='mmbubble bggreen fragment'>
+4. Viimeistellään
+</div>
+
+<div class='mmbubble bgred fragment'>
+5. Toimitetaan
+</div>
+
+---
+
+#### 6. Projektimallit
+
+>- Valmiiksi määritelty:
+>- kielet
+>- Muistikohtaiset asetukset
+>- minimum match value, pre-translation fuzzy border
+>- verifiointi
+>- Mitkä tehtävät Trados suorittaa ennen projektin valmistumista
+
+---
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
