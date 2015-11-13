@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KÃ¤Ã¤nnÃ¶smuisteista ja kÃ¤Ã¤nnÃ¶sohjelmistoista</title>
+  <meta name="description" content="">
+  <meta name="author" content="Juho HÃ¤rme">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/solarized.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  
+  <style>
+.reveal h2{
+    padding-bottom: 20px;
+}
+
+p { text-align: left;
+}
+
+li.fragment.visible, li {
+    font-size: 78%;
+    line-height: 150%;
+}
+
+li.smaller{
+    font-size: 76%;
+    line-height: 180%;
+}
+
+li.smaller2{
+    font-size: 76%;
+}
+
+li.minlist{
+font-size:69%; 
+color:darkgrey;}
+
+li.minlisthlr{font-size:69%;
+color:rgb(247, 131, 131);
+}
+
+li.minlisthl{font-size:69%;}
+
+
+.reveal a:not(.image) {
+text-decoration:underline;
+}
+
+.coldiv {width:47%;float:left;}
+.coldiv2 {float:left;width:30%;}
+
+.rowdiv {width:100%;clear:left;}
+
+.reveal section img { background:none; border:none; box-shadow:none; }
+
+p.smaller {font-size:70%;}
+
+
+table { 
+width: 100%;
+}
+
+
+table tr:nth-child(2n+1) { /* background: #E8F2FF; */ background: #D5E5FD; }
+
+.reveal table th, .reveal table td {
+
+font-size:55%;
+
+}
+
+div.bubble{
+float: left;
+text-align: left;
+border: 2px dotted black;
+padding: 2em;
+border-radius: 7px;
+margin-left: 14px;
+color:black;
+}
+
+
+div.bubblenob{
+float: left;
+width:30%;
+}
+
+
+div.mmbubble{
+font-size:60%;
+float: left;
+text-align: left;
+border: 2px dotted black;
+padding: 1.5em;
+border-radius: 7px;
+margin:4%;
+box-shadow: 10px 10px 5px #888888;
+color:black;
+}
+
+div.bgred{background: burlywood;}
+div.bgblue{background: cornflowerblue;}
+div.bggreen{background: darkseagreen;}
+div.bgcyan{background: gold;}
+
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<h2>MVKS47 Käännösteknologian harjoituskurssi 2015 - 2016</h2>
+
+<h5>13.11.2015: Projektien luominen: harjoituksia</h5>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h3>Kurssin aikataulu</h3>
+  <ul>
+<li class='minlist'>pe 30.10. Trados käännöstyökaluna</li>
+<li class='minlist'>ma 2.11.  Asennus + teoriaa muisteista</li>
+<li class='minlist'>pe 6.11 Käytännön harjoituksia muisteista</li>
+<li class='minlist'>ma 9.11. Word-tiedostot + johdatus projektiajatteluun</li>
+<li class='minlisthl'>pe 13.11 Projektien luominen ja käännöseditori</li>
+<li class='minlist'>ma 16.11. Muut tiedostomuodot / teoriaa</li>
+<li class='minlist'>pe 20.11 Muut tiedostomuodot / harjoituksia</li>
+<li class='minlist'>ma 23.11. Edistyneemmät editoritoiminnot</li>
+<li class='minlisthlr'>pe 27.11 Ei tuntia</li>
+<li class='minlist'>ma 30.11. Tekstien kohdistus: teoriaa</li>
+<li class='minlist'>pe 4.12 Tekstien kohdistus: käytäntöä</li>
+<li class='minlist'>ma 7.12. Termipankit: teoriaa</li>
+<li class='minlist'>pe 11.12. Termipankit: käytäntöä</li>
+<li class='minlist'>ma 14.12. Harjoituksia</li>
+<li class='minlist'>pe 18.12. Q&amp;A</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-3'>
+  <h4>Tänään</h4>
+  <ul class = "build incremental">
+<li>Projektipaketit</li>
+<li>Trados-käännöksen vaiheet</li>
+<li>Projektipohjat</li>
+<li>Harjoituksia projekteista</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h4>Projektipaketit</h4>
+  <ul class = "build incremental">
+<li>Sisältävät yhden projektin sisällön valmiiksi kerättynä ja luotuna</li>
+<li>Trados Freelance: vain vastaanottaminen</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-5'>
+  <h4>Trados-käännöksen workflow</h4>
+  <div class='mmbubble bgred fragment'>
+1. Luodaan projekti
+</div>
+
+<div class='mmbubble bgblue fragment'>
+2. Käännetään
+</div>
+
+<div class='mmbubble bgcyan fragment'>
+3. Verifioidaan ja tarkistetaan
+</div>
+
+<div class='mmbubble bggreen fragment'>
+4. Viimeistellään
+</div>
+
+<div class='mmbubble bgred fragment'>
+5. Toimitetaan
+</div>
+
+</section>
+<section class='' data-state='' id='slide-6'>
+  <h4>6. Projektipohjat (templates)</h4>
+  <ul class = "build incremental">
+<li>Valmiiksi määritelty:</li>
+<li>kielet</li>
+<li>Muistikohtaiset asetukset</li>
+<li>minimum match value, pre-translation fuzzy border</li>
+<li>verifiointi</li>
+<li>Mitkä tehtävät Trados suorittaa ennen projektin valmistumista</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-7'>
+  <h2>Harjoituksia</h2>
+  
+</section>
+<section class='' data-state='' id='slide-8'>
+  
+  <p>Luo projektipohja suomesta B-työkieleen</p>
+
+</section>
+<section class='' data-state='' id='slide-9'>
+  
+  <p>Luo projekteja Moodlessa olevien harjoitustiedostojen perusteella:</p>
+
+<ol>
+<li class='minlisthl'>Luo projekti, joka sisältää
+
+<ul>
+<li class='minlisthl'>viime viikolla luodun muistin</li>
+<li class='minlisthl'>Moodlesta oman kielen hotelliharjoituksen</li>
+<li class='minlisthl'>Aseta deadliniksi 17.11. </li>
+</ul></li>
+<li class='minlisthl'>Luo projekti, 
+
+<ul>
+<li class='minlisthl'>joka sisältää kaikki Tampere-talo-kansion tekstit Moodlesta</li>
+<li class='minlisthl'>joka on kielipariltaan fi-&gt;B-työkieli</li>
+<li class='minlisthl'>jota varten tehdään kokonaan uusi muisti </li>
+<li class='minlisthl'>Aseta deadliniksi 20.11.</li>
+</ul></li>
+<li class='minlisthl'>Luo projekti oman B-työkielen käyttöturvallisuusohjeista
+
+<ul>
+<li class='minlisthl'>B-työkieli-&gt;fi</li>
+<li class='minlisthl'>käännettävä ohje</li>
+<li class='minlisthl'>muisti</li>
+<li class='minlisthl'>Aseta deadliniksi 30.11.</li>
+</ul></li>
+</ol>
+
+<script>
+$('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+$('ul.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list 
+</script>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: false,
+    theme: Reveal.getQueryHash().theme || 'solarized', 
+    transition: Reveal.getQueryHash().transition || 'linear', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
