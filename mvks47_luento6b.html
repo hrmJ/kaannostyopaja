@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Käännösmuisteista ja käännösohjelmistoista</title>
+  <meta name="description" content="">
+  <meta name="author" content="Juho Härme">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/solarized.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  
+  <style>
+.reveal h2{
+    padding-bottom: 20px;
+}
+
+p { text-align: left;
+}
+
+li.fragment.visible, li {
+    font-size: 78%;
+    line-height: 150%;
+}
+
+li.smaller{
+    font-size: 76%;
+    line-height: 180%;
+}
+
+li.smaller2{
+    font-size: 76%;
+}
+
+li.minlist{
+font-size:69%; 
+color:darkgrey;}
+
+li.minlisthlr{font-size:69%;
+color:rgb(247, 131, 131);
+}
+
+li.minlisthl{font-size:69%;}
+
+
+.reveal a:not(.image) {
+text-decoration:underline;
+}
+
+.coldiv {width:47%;float:left;}
+.coldiv2 {float:left;width:30%;}
+
+.rowdiv {width:100%;clear:left;}
+
+.reveal section img { background:none; border:none; box-shadow:none; }
+
+p.smaller {font-size:70%;}
+
+
+table { 
+width: 100%;
+}
+
+
+table tr:nth-child(2n+1) { /* background: #E8F2FF; */ background: #D5E5FD; }
+
+.reveal table th, .reveal table td {
+
+font-size:55%;
+
+}
+
+div.bubble{
+float: left;
+text-align: left;
+border: 2px dotted black;
+padding: 2em;
+border-radius: 7px;
+margin-left: 14px;
+color:black;
+}
+
+
+div.bubblenob{
+float: left;
+width:30%;
+}
+
+
+div.mmbubble{
+font-size:60%;
+float: left;
+text-align: left;
+border: 2px dotted black;
+padding: 1.5em;
+border-radius: 7px;
+margin:4%;
+box-shadow: 10px 10px 5px #888888;
+color:black;
+}
+
+div.bgred{background: burlywood;}
+div.bgblue{background: cornflowerblue;}
+div.bggreen{background: darkseagreen;}
+div.bgcyan{background: gold;}
+
+p.quotestyle{
+font-size:80%;
+font-style:italic;
+text-align:both;
+}
+
+
+.firstcharacter { float: left; color: #903; font-size: 300%; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: Georgia; }
+
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<h2>MVKS47 Käännösteknologian harjoituskurssi 2015 - 2016</h2>
+
+<h5>16.11.2015: Muut tiedostomuodot: teoriaa</h5>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h3>Kurssin aikataulu</h3>
+  <ul>
+<li class='minlist'>pe 30.10. Trados käännöstyökaluna</li>
+<li class='minlist'>ma 2.11.  Asennus + teoriaa muisteista</li>
+<li class='minlist'>pe 6.11 Käytännön harjoituksia muisteista</li>
+<li class='minlist'>ma 9.11. Word-tiedostot + johdatus projektiajatteluun</li>
+<li class='minlist'>pe 13.11 Projektien luominen ja käännöseditori</li>
+<li class='minlisthl'>ma 16.11. Muut tiedostomuodot / teoriaa</li>
+<li class='minlist'>pe 20.11 Muut tiedostomuodot / harjoituksia</li>
+<li class='minlist'>ma 23.11. Edistyneemmät editoritoiminnot</li>
+<li class='minlisthlr'>pe 27.11 Ei tuntia</li>
+<li class='minlist'>ma 30.11. Tekstien kohdistus: teoriaa</li>
+<li class='minlist'>pe 4.12 Tekstien kohdistus: käytäntöä</li>
+<li class='minlist'>ma 7.12. Termipankit: teoriaa</li>
+<li class='minlist'>pe 11.12. Termipankit: käytäntöä</li>
+<li class='minlist'>ma 14.12. Harjoituksia</li>
+<li class='minlist'>pe 18.12. Q&amp;A</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-3'>
+  <h4>Tänään</h4>
+  <ul class = "build incremental">
+<li>Projektipaketin avaaminen</li>
+<li>Projektin viimeistelystä</li>
+<li>pdf-pikakurssi</li>
+<li>html-pikakurssi</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h4>Trados-käännöksen workflow</h4>
+  <div class='mmbubble bgred fragment'>
+1. Luodaan projekti
+</div>
+
+<div class='mmbubble bgblue fragment'>
+2. Käännetään
+</div>
+
+<div class='mmbubble bgcyan fragment'>
+3. Verifioidaan ja tarkistetaan
+</div>
+
+<div class='mmbubble bggreen fragment'>
+4. Viimeistellään
+</div>
+
+<div class='mmbubble bgred fragment'>
+5. Toimitetaan
+</div>
+
+</section>
+<section>
+   <section class='class' data-state=''>
+    <h3>PDF (portable document format)</h3>
+    <p class='quotestyle'><span class='firstcharacter' style='font-size:400%;'>&quot;</span>These documents could be viewed on any machine and any selected document could be printed locally. This capability would truly change the way information is managed<br><span style='float:right'>-John Warnock, Adobe</span></p>
+
+<p><br>
+<br></p>
+
+<ul class = "build incremental">
+<li class='minlist'><a href="textual_pdf.pdf">Tekstidatan sisältävät pdf-tiedostot</a></li>
+<li class='minlist'><a href="nontextual.pdf">Salatut pdf-tiedostot</a></li>
+<li class='minlist'><a href="novajagaz.pdf">Tiedostot ilman tekstidataa</a></li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h3>Vektorigrafiikka vs. rasterigrafiikka:</h3>
+
+<p><img src="images/vector_bitmap.svg.png" alt=""></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h3>OCR (optical character recognition)</h3>
+
+<ul class = "build incremental">
+<li class='minlist'><a href="novajagaz.pdf">Tiedostot ilman tekstidataa</a></li>
+<li>Kirjain kerrallaan ympäristö huomioiden: <img src="images/Cyrillic_JA.png" alt=""></li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h4>OCR-ohjelmistoja</h4>
+
+<ul class = "build incremental">
+<li><a href="http://www.abbyy.com/finereader/">Abbyy FineReader</a></li>
+<li><a href="http://www.paperfile.net/index.html">Tesseract</a> (FreeOCR)</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section>
+   <section class='class' data-state=''>
+    <h3>HTML (Hypertext markup language)</h3>
+    <ul class = "build incremental">
+<li>Internet-sivujen koodaus, jota selaimet tulkitsemat</li>
+<li>vrt XML = Extensible markup language
+&gt;- ei ennalta määrättyjä tageja</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h3>Tägit (tags)</h3>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;/html&gt;
+</code></pre>
+
+<script>
+$('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+$('ul.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+</script>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: false,
+    theme: Reveal.getQueryHash().theme || 'solarized', 
+    transition: Reveal.getQueryHash().transition || 'linear', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
