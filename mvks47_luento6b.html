@@ -160,6 +160,7 @@ text-align:both;
 <li>Projektin viimeistelystä</li>
 <li>pdf-pikakurssi</li>
 <li>html-pikakurssi</li>
+<li>muita tiedostomuotoja</li>
 </ul>
 
 </section>
@@ -213,38 +214,33 @@ text-align:both;
       
     </aside>
    </section>
-   <section class='' data-state=''>
-    <h3>OCR (optical character recognition)</h3>
+</section>
+<section class='' data-state='' id='slide-6'>
+  <h3>Pdf-tiedostojen käsittelyyn liittyviä kysymyksiä</h3>
+  <p class='fragment'>1. Tekstidatan sisältävät tiedostot</p>
 
 <ul class = "build incremental">
-<li class='minlist'><a href="novajagaz.pdf">Tiedostot ilman tekstidataa</a></li>
-<li>Kirjain kerrallaan ympäristö huomioiden: <img src="images/Cyrillic_JA.png" alt=""></li>
+<li>Trados: word-muoto ennen käännöstä</li>
+<li>Tradosin konvertoija vs. ulkoinen konvertoija?</li>
+<li>Konvertoidun tiedoston valmistelu?</li>
 </ul>
 
-    <aside class='notes'>
-      
-    </aside>
-   </section>
-   <section class='' data-state=''>
-    <h4>OCR-ohjelmistoja</h4>
+<p class='fragment'>2.  Tiedostot ilman tekstidataa</p>
 
 <ul class = "build incremental">
-<li><a href="http://www.abbyy.com/finereader/">Abbyy FineReader</a></li>
-<li><a href="http://www.paperfile.net/index.html">Tesseract</a> (FreeOCR)</li>
+<li>Ulkoinen konvertointi OCR-ohjelmiston avulla</li>
+<li>Tiedoston laatu</li>
 </ul>
 
-    <aside class='notes'>
-      
-    </aside>
-   </section>
 </section>
 <section>
    <section class='class' data-state=''>
     <h3>HTML (Hypertext markup language)</h3>
     <ul class = "build incremental">
 <li>Internet-sivujen koodaus, jota selaimet tulkitsemat</li>
-<li>vrt XML = Extensible markup language
-&gt;- ei ennalta määrättyjä tageja</li>
+<li>vrt XML = Extensible markup language</li>
+<li>xml: ei ennalta määrättyjä tägejä</li>
+<li>html: vain ennalta määrätyt tägit</li>
 </ul>
 
     <aside class='notes'>
@@ -254,20 +250,79 @@ text-align:both;
    <section class='' data-state=''>
     <h3>Tägit (tags)</h3>
 
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
+<pre><code>&lt;html&gt;
+
+tietokone, joka lukee tätä koodia, tietää, että
+kaikki tämä on html-kieltä
+
 &lt;/html&gt;
 </code></pre>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <ul class = "build incremental">
+<li>&lt;  + tägin nimi + &gt; = tägi</li>
+</ul>
+
+<pre><code>&lt;p&gt;
+</code></pre>
+
+<p class='fragment'>tekstiä</p>
+
+<pre><code>&lt;/p&gt;
+</code></pre>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h3>Harjoitus</h3>
+
+<ul class = "build incremental">
+<li>Valitse parin kanssa mikä tahansa internetsivu</li>
+<li>Paina f12 sivulla ollessasi</li>
+<li>poimi niin monta eri tägiä kuin ehdit</li>
+<li>listaa frekventeimmät</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h3>Harjoituksen tuloksia</h3>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section class='' data-state='' id='slide-8'>
+  <h3>Muita käännöksissä kohdattavia tiedostomuotoja</h3>
+  <ul class = "build incremental">
+<li>Plain text (encoding!)</li>
+<li>taulukkotiedostot</li>
+<li>esitykset (ppt, odf, jne)</li>
+<li>tekstitykset (subrip)</li>
+<li>mitä vielä?</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-9'>
+  <h3>Lopuksi: Tukeeko Trados odt-tiedostoja?</h3>
+  <ul class = "build incremental">
+<li>Testitiedostoja Moodlessa</li>
+</ul>
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
 $('ul.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
 </script>
 
-    <aside class='notes'>
-      
-    </aside>
-   </section>
 </section>
     </div>
   </div>

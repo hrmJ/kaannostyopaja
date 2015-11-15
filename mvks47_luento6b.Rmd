@@ -153,6 +153,7 @@ text-align:both;
 >- Projektin viimeistelystä
 >- pdf-pikakurssi
 >- html-pikakurssi
+>- muita tiedostomuotoja
 
 ---
 
@@ -199,7 +200,7 @@ text-align:both;
 
 ![](images/vector_bitmap.svg.png)
 
----
+--- .class &vertical
 
 ### Pdf-tiedostojen käsittelyyn liittyviä kysymyksiä
 
@@ -209,15 +210,27 @@ text-align:both;
 >- Tradosin konvertoija vs. ulkoinen konvertoija?
 >- Konvertoidun tiedoston valmistelu?
 
+
+***
+
+>- Linux: pandoc, pdfreflow, pdftotext---
+>- Windows: Adobe Reader, calibre, [pdfripper](http://www.pdfpdf.com/pdfconverter.html)
+>- online-konvertoijat
+>- Google Docs
+>- Copypaste
+
+--- .class &vertical
+
 .fragment 2.  Tiedostot ilman tekstidataa
 
 >- Ulkoinen konvertointi OCR-ohjelmiston avulla
 >- Tiedoston laatu
+>- valmistelu (pre-processing) kuvaohjelmalla
+>- valmisteluun erikoistunut ohjelma: [ScanTailor](http://scantailor.org)
 
 ***
 
 ### OCR (optical character recognition)
-
 
 
 >- .minlist [Tiedostot ilman tekstidataa](novajagaz.pdf)
@@ -229,8 +242,8 @@ text-align:both;
 
 >- [Abbyy FineReader](http://www.abbyy.com/finereader/)
 >- [Tesseract](http://www.paperfile.net/index.html) (FreeOCR)
-
-
+>- [Tesseract](http://sourceforge.net/projects/gimagereader/) (gimagereader)
+>- [FineReader Online](https://finereaderonline.com/)
 
 --- .class &vertical
 
@@ -238,16 +251,60 @@ text-align:both;
 
 >- Internet-sivujen koodaus, jota selaimet tulkitsemat
 >- vrt XML = Extensible markup language
-    >- ei ennalta määrättyjä tageja
+>- xml: ei ennalta määrättyjä tägejä
+>- html: vain ennalta määrätyt tägit
+
 *** 
 
 ### Tägit (tags)
 
-
-    <!DOCTYPE html>
     <html>
+
+    tietokone, joka lukee tätä koodia, tietää, että
+    kaikki tämä on html-kieltä
+
     </html>
 
+
+***
+
+>- \<  + tägin nimi + \> = tägi
+
+    <p>
+
+.fragment tekstiä
+
+    </p>
+
+***
+
+### Harjoitus
+
+>- Valitse parin kanssa mikä tahansa internetsivu
+>- Paina f12 sivulla ollessasi
+>- poimi niin monta eri tägiä kuin ehdit
+>- listaa frekventeimmät
+
+***
+
+### Harjoituksen tuloksia
+
+---
+
+### Muita käännöksissä kohdattavia tiedostomuotoja
+
+>- Plain text (encoding!)
+>- taulukkotiedostot
+>- esitykset (ppt, odf, jne)
+>- tekstitykset (subrip)
+>- mitä vielä?
+
+
+---
+
+### Lopuksi: Tukeeko Trados odt-tiedostoja?
+
+>- Testitiedostoja Moodlessa
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
