@@ -244,6 +244,7 @@ text-align:both;
 >- [Tesseract](http://www.paperfile.net/index.html) (FreeOCR)
 >- [Tesseract](http://sourceforge.net/projects/gimagereader/) (gimagereader)
 >- [FineReader Online](https://finereaderonline.com/)
+>- Joskus OCR voi olla paras ratkaisu myös tekstidataa sisältäviin pdf-tiedostoihin!
 
 --- .class &vertical
 
