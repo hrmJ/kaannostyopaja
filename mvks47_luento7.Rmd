@@ -122,7 +122,7 @@ text-align:both;
 
 ## MVKS47 Käännösteknologian harjoituskurssi 2015 - 2016
 
-##### 16.11.2015: Muut tiedostomuodot: harjoituksia
+##### 20.11.2015: Muut tiedostomuodot: harjoituksia
 
 --- 
 
