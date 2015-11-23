@@ -136,9 +136,9 @@ text-align:both;
 - .minlist pe 13.11 Projektien luominen ja käännöseditori
 - .minlist ma 16.11. Muut tiedostomuodot / teoriaa
 - .minlist pe 20.11 Muut tiedostomuodot / harjoituksia
-- .minlisthl ma 23.11. Edistyneemmät editoritoiminnot
-- .minlisthlr pe 27.11 Ei tuntia
-- .minlist ma 30.11. Tekstien kohdistus: teoriaa
+- .minlist ma 23.11. Edistyneemmät editoritoiminnot
+- .minlist pe 27.11 Ei tuntia
+- .minlisthl ma 30.11. Tekstien kohdistus: teoriaa
 - .minlist pe 4.12 Tekstien kohdistus: käytäntöä
 - .minlist ma 7.12. Termipankit: teoriaa
 - .minlist pe 11.12. Termipankit: käytäntöä
@@ -149,89 +149,40 @@ text-align:both;
 
 #### Tänään
 
->- Kurssin arvioinnin perusteet
->- Tradosin yleisten asetusten säätämistä
->- Hyödyllisiä pikanäppäimiä
->- Segmenttien filtteröinti (+verifiointi)
->- Kertaus konkordanssihausta
->- Navigointi tiedoston sisällä
->- Viimekertaisten käännösten jatkamista
-
---- .class &vertical
-
-### Kurssin arvioinnin perusteet
-
->- .minlisthl Vastaukset kertaustehtäviin
->- .minlisthl Oppimispäiväkirjatyyppinen essee 
->- .minlisthl Yksi viimeistelty ja palautettu käännös
->- .minlisthl Palautettu termitietokanta
-
-***
-
-### Oppimispäiväkirjatyyppinen essee
-
->1. .smaller2 Pohdi omaa suhdettasi Tradosiin/muihin CAT-ohjelmiin:
-    - .smaller2 Mikä oli käsityksesi omasta osaamisestasi ennen kurssia?
-    - .smaller2 Mikä oli käsityksesi CAT-ohjelmien hyödyllisyydestä ennen kurssia?
-    - .smaller2 Muuttuivatko nämä jotenkin kurssin aikana ja jos muuttuivat, miten?
-    - .smaller2 Onko käännösmuistiohjelmien käytöllä mielestäsi negatiivisia tai positiivisia vaikutuksia käännöksen laatuun?
->2. .smaller2 Erittele CAT-ohjelmien ominaisuuksia:
-    - .smaller2 miten niillä kääntäminen eroaa siitä, että kääntäisit esimerkiksi vain suoraan tekstinkäsittelyohjelmalla?
-    - .smaller2 Mistä ominaisuuksista uskot olevan itsellesi hyötyä tulevaisuudessa?
-
-<br><br>
-
-.fragment ohjeellinen pituus n. 2-4 sivua
-
-
---- .class &vertical
-
-##### Tradosin asetusten säätäminen
-
->- .minlisthl Fontit, värit, jne
->- .minlisthl Muistin ja konkordanssihaun asetukset
->- .minlisthl Automaattiset tekstit
-
-***
-
-##### Hyödyllisiä pikanäppäimiä
-
->- .minlisthl Ctrl-s: Tallenna
->- .minlisthl F3: konkordanssihaku
->- .minlisthl Crtl-Enter: vahvista
->- .minlisthl Alt-Insert: Kopioi lähdekielen segmentti
->- .minlisthl Ctrl-T: Syötä käännösmuistin ehdotus
->- .minlisthl Alt-Del: Pyyhi käännös
->- .minlisthl Ctrl-Alt-Alas: Syötä tägi lähdesegmentistä
->- .minlisthl Ctrl-G: Liiku segmenttien välillä
->- .minlisthl Ctrl-J: Toista edellinen liike
->- .minlisthl F6: Siirry lähde-/kohdekielen puolelle
-
-###### Valitse kaikki segmentit: 
-
->1. .smaller2 Klikkaa ensimmäistä segmenttiä
->2. .smaller2 Paina shift pohjaan
->3. .smaller2 Klikkaa viimeistä segmenttiä
-
-***
-
-### Välilehtivalikot
-
-- .minlisthl Home
-- .minlisthl Review
-- .minlisthl Advanced
-- .minlisthl View
-- .minlisthl Add-Ins
-
+>- Kohdistamisen määritelmä
+>- Kohdistamisen käyttötarkoituksia
+>- Valmiiksi kohdistettuja resursseja
+>- Tradosin oma kohdistuseditori
+>- Ensi kerraksi
 
 ---
 
-#### Navigointi vasemman laidan paneelin avulla
+### 1. Kohdistamisen määritelmä
 
+.fragment *Kahden tekstin, tavallisimmin alkuperäistekstin + käännöksen, muokkaaminen käännösmuistiksi*
+
+>- .smaller2 Muokkaus voi tapahtua miten vain
+>- .smaller2 Yksi mahdollinen muokkain on Tradosin oma kohdistuseditori
 
 ---
 
+### 2. Kohdistamisen käyttötarkoituksia
+
+>- .smaller2 Omien käännösten muokkaaminen muistiksi
+>- .smaller2 Valmiiden monikielisten resurssien muokkaaminen muistiksi
+    - katso kuitenkin, ettei muokkausta ole jo tehty!
+>- .smaller2 Korpuksen luominen
+
 ---
+
+### 3. Valmiiksi kohdistettuja resursseja
+
+>- .smaller2 [Proz.com-foorumin lista](http://wiki.proz.com/wiki/index.php/Publicly_accessible_translation_memories_(TMs))
+>- .smaller2 [Opus](http://opus.lingfil.uu.se/)
+    - älä pelästy käyttöliittymää
+>- .smaller2 [CSC:n/TaYn korpukset](https://korp.csc.fi/?mode=parallel#lang=fi)
+
+
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list

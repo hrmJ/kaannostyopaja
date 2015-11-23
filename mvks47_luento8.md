@@ -149,39 +149,76 @@ text-align:both;
 
 #### Tänään
 
+>- Kurssin arvioinnin perusteet
 >- Tradosin yleisten asetusten säätämistä
+>- Hyödyllisiä pikanäppäimiä
 >- Segmenttien filtteröinti
 >- Kertaus konkordanssihausta
 >- Navigointi tiedoston sisällä
->- Autosuggest-sanakirjat
->- Open document -tiedostotyypit
+>- Viimekertaisten käännösten jatkamista
+
+--- .class &vertical
+
+### Kurssin arvioinnin perusteet
+
+>- .minlisthl Vastaukset kertaustehtäviin
+>- .minlisthl Oppimispäiväkirjatyyppinen essee 
+>- .minlisthl Yksi viimeistelty ja palautettu käännös
+>- .minlisthl Palautettu termitietokanta
+
+***
+
+### Oppimispäiväkirjatyyppinen essee
+
+>1. .smaller2 Pohdi omaa suhdettasi Tradosiin/muihin CAT-ohjelmiin:
+    - .smaller2 Mikä oli käsityksesi omasta osaamisestasi ennen kurssia?
+    - .smaller2 Mikä oli käsityksesi CAT-ohjelmien hyödyllisyydestä ennen kurssia?
+    - .smaller2 Muuttuivatko nämä jotenkin kurssin aikana ja jos muuttuivat, miten?
+    - .smaller2 Onko käännösmuistiohjelmien käytöllä mielestäsi negatiivisia tai positiivisia vaikutuksia käännöksen laatuun?
+>2. .smaller2 Erittele CAT-ohjelmien ominaisuuksia:
+    - .smaller2 miten niillä kääntäminen eroaa siitä, että kääntäisit esimerkiksi vain suoraan tekstinkäsittelyohjelmalla?
+    - .smaller2 Mistä ominaisuuksista uskot olevan itsellesi hyötyä tulevaisuudessa?
+
+<br><br>
+
+.fragment ohjeellinen pituus n. 2-4 sivua
+
 
 --- .class &vertical
 
 ##### Tradosin asetusten säätäminen
 
->- Fontit, värit, jne
->- Muistin ja konkordanssihaun asetukset
->- Pikanäppäimet
->- Automaattiset tekstit
->- Pikanäppäimet erikoismerkeille [ks. esim. täältä](http://www.copypastecharacter.com/alphabetical-order)
+>- .minlisthl Fontit, värit, jne
+>- .minlisthl Muistin ja konkordanssihaun asetukset
+>- .minlisthl Automaattiset tekstit
 
 ***
 
 ##### Hyödyllisiä pikanäppäimiä
 
-- .minlisthl Ctrl-s: Tallenna
-- .minlisthl F3: konkordanssihaku
-- .minlisthl Crtl-Enter: vahvista
-- .minlisthl Alt-Insert: Kopioi lähdekielen segmentti
-- .minlisthl Ctrl-Alt-Alas: Syötä tägi lähdesegmentistä
-- .minlisthl Ctrl-G: Liiku segmenttien välillä
-- .minlisthl Ctrl-J: Toista edellinen liike
-- .minlisthl F6: Siirry lähde-/kohdekielen puolelle
+>- .minlisthl Ctrl-s: Tallenna
+>- .minlisthl F3: konkordanssihaku
+>- .minlisthl Crtl-Enter: vahvista
+>- .minlisthl Alt-Insert: Kopioi lähdekielen segmentti
+>- .minlisthl Ctrl-T: Syötä käännösmuistin ehdotus
+>- .minlisthl Alt-Del: Pyyhi käännös
+>- .minlisthl Ctrl-Alt-Alas: Syötä tägi lähdesegmentistä
+>- .minlisthl Ctrl-G: Liiku segmenttien välillä
+>- .minlisthl Ctrl-J: Toista edellinen liike
+>- .minlisthl F6: Siirry lähde-/kohdekielen puolelle
+
+***
+
+### Välilehtivalikot
+
+- .minlisthl Home
+- .minlisthl Review
+- .minlisthl Advanced
+- .minlisthl View
+- .minlisthl Add-Ins
 
 
-
-----
+---
 
 ##### Navigointi
 
