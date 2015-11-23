@@ -152,9 +152,10 @@ text-align:both;
 >- Kurssin arvioinnin perusteet
 >- Tradosin yleisten asetusten säätämistä
 >- Hyödyllisiä pikanäppäimiä
->- Segmenttien filtteröinti
+>- Segmenttien filtteröinti (+verifiointi)
 >- Kertaus konkordanssihausta
 >- Navigointi tiedoston sisällä
+>- Muistin muokkaaminen käännöseditorin kautta
 >- Viimekertaisten käännösten jatkamista
 
 --- .class &vertical
@@ -207,6 +208,12 @@ text-align:both;
 >- .minlisthl Ctrl-J: Toista edellinen liike
 >- .minlisthl F6: Siirry lähde-/kohdekielen puolelle
 
+###### Valitse kaikki segmentit: 
+
+>1. .smaller2 Klikkaa ensimmäistä segmenttiä
+>2. .smaller2 Paina shift pohjaan
+>3. .smaller2 Klikkaa viimeistä segmenttiä
+
 ***
 
 ### Välilehtivalikot
@@ -220,15 +227,10 @@ text-align:both;
 
 ---
 
-##### Navigointi
-
-
-
+#### Navigointi vasemman laidan paneelin avulla
 
 ---
 
-
----
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list

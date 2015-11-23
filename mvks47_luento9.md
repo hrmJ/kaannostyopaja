@@ -18,6 +18,22 @@ logo        : slidify_logo.png
     padding-bottom: 20px;
 }
 
+.reveal h3{
+    padding-bottom: 20px;
+}
+
+.reveal h4{
+    padding-bottom: 20px;
+}
+
+.reveal h5{
+    padding-bottom: 20px;
+}
+
+.reveal h6{
+    padding-bottom: 20px;
+}
+
 p { text-align: left;
 }
 
@@ -153,6 +169,7 @@ text-align:both;
 >- Kohdistamisen käyttötarkoituksia
 >- Valmiiksi kohdistettuja resursseja
 >- Tradosin oma kohdistuseditori
+>- Muita kohdistimia
 >- Ensi kerraksi
 
 ---
@@ -180,8 +197,27 @@ text-align:both;
 >- .smaller2 [Proz.com-foorumin lista](http://wiki.proz.com/wiki/index.php/Publicly_accessible_translation_memories_(TMs))
 >- .smaller2 [Opus](http://opus.lingfil.uu.se/)
     - älä pelästy käyttöliittymää
->- .smaller2 [CSC:n/TaYn korpukset](https://korp.csc.fi)
+>- .smaller2 [CSC:n/TaYn korpukset](https://korp.csc.fi/?mode=parallel#lang=fi)
 
+<br><br><br>
+.fragment Tutustumista + harjoitus ensi kerralla
+
+---
+
+### 4. Tradosin oma kohdistuseditori
+
+>- Lataa Moodlesta harjoitustiedostot
+
+---
+
+### 5. Muita kohdistimia
+
+
+>- [LF aligner](http://sourceforge.net/projects/aligner/) (Andras Farkas)
+>- [YouAlign](http://www.youalign.com/)
+>- [StringRay aligner](http://www.maxprograms.com/products/stingray.html)
+>- [Linkkilista](http://www.linuxfortranslators.org/align.html)
+>- Vanhat Tradosin WinAlign-ohjelmat
 
 
 <script>

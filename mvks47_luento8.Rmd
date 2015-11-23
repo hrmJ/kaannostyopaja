@@ -229,10 +229,8 @@ text-align:both;
 
 #### Navigointi vasemman laidan paneelin avulla
 
-
 ---
 
----
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
