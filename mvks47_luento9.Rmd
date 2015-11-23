@@ -138,7 +138,7 @@ text-align:both;
 
 ## MVKS47 Käännösteknologian harjoituskurssi 2015 - 2016
 
-##### 23.11.2015: Edistyneemmät editoritoiminnot
+##### 30.11.2015. Tekstien kohdistus: teoriaa
 
 --- 
 
@@ -158,12 +158,14 @@ text-align:both;
 - .minlist pe 4.12 Tekstien kohdistus: käytäntöä
 - .minlist ma 7.12. Termipankit: teoriaa
 - .minlist pe 11.12. Termipankit: käytäntöä
-- .minlist ma 14.12. Harjoituksia
-- .minlist pe 18.12. Q&A
+- .minlist ma 14.12. Käännösten arviointi ja muutoshistoria
+- .minlist pe 18.12. Harjoituksia + kysymyksiä
 
 ---
 
 #### Tänään
+
+<!-- http://multifarious.filkin.com/2014/05/21/studio_aligning/  -->
 
 >- Kohdistamisen määritelmä
 >- Kohdistamisen käyttötarkoituksia
@@ -174,7 +176,7 @@ text-align:both;
 
 ---
 
-### 1. Kohdistamisen määritelmä
+### 1. Kohdistamisen (align) määritelmä
 
 .fragment *Kahden tekstin, tavallisimmin alkuperäistekstin + käännöksen, muokkaaminen käännösmuistiksi*
 
@@ -194,19 +196,37 @@ text-align:both;
 
 ### 3. Valmiiksi kohdistettuja resursseja
 
->- .smaller2 [Proz.com-foorumin lista](http://wiki.proz.com/wiki/index.php/Publicly_accessible_translation_memories_(TMs))
+>- .smaller2 http://wiki.proz.com/wiki/index.php/Publicly_accessible_translation_memories_(TMs)
 >- .smaller2 [Opus](http://opus.lingfil.uu.se/)
     - älä pelästy käyttöliittymää
 >- .smaller2 [CSC:n/TaYn korpukset](https://korp.csc.fi/?mode=parallel#lang=fi)
 
 <br><br><br>
+
 .fragment Tutustumista + harjoitus ensi kerralla
 
----
+--- .class &vertical
 
 ### 4. Tradosin oma kohdistuseditori
 
->- Lataa Moodlesta harjoitustiedostot
+
+>- .smaller2 Ladataan Moodlesta harjoitustiedostot
+>- .smaller2 Home -- Align single File Pair
+>- .smaller2 Normal mode / alignment edit mode
+>- .smaller2 Kohdistuksen oletettu laatu
+>- .smaller2 Siirto käännösmuistiin
+    - .smaller2 Joko kaikki mahdollinen tai
+    - .smaller2 kohdistuslaadun perusteella rajoitettu joukko
+>- mahdollisesti jatkokäsittely sdlxliff-tiedostona 
+
+***
+
+
+### Vinkkejä
+
+
+>- .minlisthl Katkaise kaikki > yhdistä muutama manuaalisesti > Realign (kunnioittaa tehtyjä manuaalisia korjauksia)
+>- .minlisthl Muista raahaus!
 
 ---
 
@@ -218,6 +238,14 @@ text-align:both;
 >- [StringRay aligner](http://www.maxprograms.com/products/stingray.html)
 >- [Linkkilista](http://www.linuxfortranslators.org/align.html)
 >- Vanhat Tradosin WinAlign-ohjelmat
+
+---
+
+### 6. Ensi kerraksi:
+
+>1. .minlisthl Etsi yksi tai useampia omia käännöksiäsi (esim. kurssilta) ja niiden lähdetekstejä ja ota mukaan
+    - Huom! Myös paperiset käyvät
+>2. .minlisthl Etsi jonkin yrityksen nettisivu, joka on saatavissa sekä B-työkelelläsi että suomeksi
 
 
 <script>
