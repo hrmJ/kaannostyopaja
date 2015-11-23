@@ -155,6 +155,7 @@ text-align:both;
 >- Segmenttien filtteröinti (+verifiointi)
 >- Kertaus konkordanssihausta
 >- Navigointi tiedoston sisällä
+>- Muistin muokkaaminen käännöseditorin kautta
 >- Viimekertaisten käännösten jatkamista
 
 --- .class &vertical
