@@ -159,7 +159,7 @@ text-align:both;
 - .minlist ma 7.12. Termipankit: teoriaa
 - .minlist pe 11.12. Termipankit: käytäntöä
 - .minlist ma 14.12. Käännösten arviointi ja muutoshistoria
-- .minlist pe 18.12. Harjoituksia + kysymyksiä
+- .minlist pe 18.12. Edistyneempää käännöstiedonhakua
 
 ---
 
@@ -197,13 +197,11 @@ text-align:both;
 ### 3. Valmiiksi kohdistettuja resursseja
 
 >- .smaller2 http://wiki.proz.com/wiki/index.php/Publicly_accessible_translation_memories_(TMs)
+>- .smaller2 http://anyterm.info/eur+lex/index.php?jezik=angl
 >- .smaller2 [Opus](http://opus.lingfil.uu.se/)
     - älä pelästy käyttöliittymää
 >- .smaller2 [CSC:n/TaYn korpukset](https://korp.csc.fi/?mode=parallel#lang=fi)
 
-<br><br><br>
-
-.fragment Tutustumista + harjoitus ensi kerralla
 
 --- .class &vertical
 
