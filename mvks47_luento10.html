@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KÃ¤Ã¤nnÃ¶smuisteista ja kÃ¤Ã¤nnÃ¶sohjelmistoista</title>
+  <meta name="description" content="">
+  <meta name="author" content="Juho HÃ¤rme">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/solarized.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  
+  <style>
+.reveal h2{
+    padding-bottom: 20px;
+}
+
+.reveal h3{
+    padding-bottom: 20px;
+}
+
+.reveal h4{
+    padding-bottom: 20px;
+}
+
+.reveal h5{
+    padding-bottom: 20px;
+}
+
+.reveal h6{
+    padding-bottom: 20px;
+}
+
+p { text-align: left;
+}
+
+li.fragment.visible, li {
+    font-size: 78%;
+    line-height: 150%;
+}
+
+li.smaller{
+    font-size: 76%;
+    line-height: 180%;
+}
+
+li.smaller2{
+    font-size: 76%;
+}
+
+li.minlist{
+font-size:69%; 
+color:darkgrey;}
+
+li.minlisthlr{font-size:69%;
+color:rgb(247, 131, 131);
+}
+
+li.minlisthl{font-size:69%;}
+
+
+.reveal a:not(.image) {
+text-decoration:underline;
+}
+
+.coldiv {width:47%;float:left;}
+.coldiv2 {float:left;width:30%;}
+
+.rowdiv {width:100%;clear:left;}
+
+.reveal section img { background:none; border:none; box-shadow:none; }
+
+p.smaller {font-size:70%;}
+
+
+table { 
+width: 100%;
+}
+
+
+table tr:nth-child(2n+1) { /* background: #E8F2FF; */ background: #D5E5FD; }
+
+.reveal table th, .reveal table td {
+
+font-size:55%;
+
+}
+
+div.bubble{
+float: left;
+text-align: left;
+border: 2px dotted black;
+padding: 2em;
+border-radius: 7px;
+margin-left: 14px;
+color:black;
+}
+
+
+div.bubblenob{
+float: left;
+width:30%;
+}
+
+
+div.mmbubble{
+font-size:60%;
+float: left;
+text-align: left;
+border: 2px dotted black;
+padding: 1.5em;
+border-radius: 7px;
+margin:4%;
+box-shadow: 10px 10px 5px #888888;
+color:black;
+}
+
+div.bgred{background: burlywood;}
+div.bgblue{background: cornflowerblue;}
+div.bggreen{background: darkseagreen;}
+div.bgcyan{background: gold;}
+
+p.quotestyle{
+frjoitusont-size:80%;
+font-style:italic;
+text-align:both;
+}
+
+
+.firstcharacter { float: left; color: #903; font-size: 300%; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: Georgia; }
+
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<h2>MVKS47 Käännösteknologian harjoituskurssi 2015 - 2016</h2>
+
+<h5>4.12.2015. Tekstien kohdistus: käytäntöä</h5>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h3>Kurssin aikataulu</h3>
+  <ul>
+<li class='minlist'>pe 30.10. Trados käännöstyökaluna</li>
+<li class='minlist'>ma 2.11.  Asennus + teoriaa muisteista</li>
+<li class='minlist'>pe 6.11 Käytännön harjoituksia muisteista</li>
+<li class='minlist'>ma 9.11. Word-tiedostot + johdatus projektiajatteluun</li>
+<li class='minlist'>pe 13.11 Projektien luominen ja käännöseditori</li>
+<li class='minlist'>ma 16.11. Muut tiedostomuodot / teoriaa</li>
+<li class='minlist'>pe 20.11 Muut tiedostomuodot / harjoituksia</li>
+<li class='minlist'>ma 23.11. Edistyneemmät editoritoiminnot</li>
+<li class='minlist'>pe 27.11 Ei tuntia</li>
+<li class='minlist'>ma 30.11. Tekstien kohdistus: teoriaa</li>
+<li class='minlisthl'>pe 4.12 Tekstien kohdistus: käytäntöä</li>
+<li class='minlist'>ma 7.12. Termipankit: teoriaa</li>
+<li class='minlist'>pe 11.12. Termipankit: käytäntöä</li>
+<li class='minlist'>ma 14.12. Käännösten arviointi ja muutoshistoria</li>
+<li class='minlist'>pe 18.12. Edistyneempää käännöstiedonhakua</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-3'>
+  <h4>Tänään</h4>
+  <ul class = "build incremental">
+<li class='smaller2'>Omien kurssikäännösten kohdistamista</li>
+<li class='smaller2'>Nettisivujen kohdistus LF-aligner-ohjelmalla</li>
+<li class='smaller2'>Opus-datan testaamista</li>
+<li class='smaller2'>(Mahdollisesti:) ensi viikkoon valmistautumista</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h4>Harjoitus 1</h4>
+  <ul class = "build incremental">
+<li class='smaller2'>Luo uusi käännösmuisti</li>
+<li class='smaller2'>Kohdista omat kurssikäännöksesi ja liitä ne muistiin</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-5'>
+  <h4>Harjoitus 2</h4>
+  <ul class = "build incremental">
+<li class='smaller2'>Lataa omalle verkkolevylle <a href="http://sourceforge.net/projects/aligner/">LF aligner</a></li>
+<li class='smaller2'>Asenna ohjelma (ei vaadi järjestelmävalvojan oikeuksia)</li>
+<li class='smaller2'>Tee raakakohdistus etukäteen valitsemastasi sivusta/sivuista</li>
+<li class='smaller2'>Korjaa kohdistus LF alignerin editorilla</li>
+<li class='smaller2'>Tuo tmx käännösmuistiin Tradosissa</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-6'>
+  <h4>Harjoitus 3</h4>
+  <ul class = "build incremental">
+<li class='smaller2'>Mene <a href="http://opus.lingfil.uu.se/">Opus-korpusten</a> etusivulle</li>
+<li class='smaller2'>Lataa valitsemasi tmx-resurssi</li>
+<li class='smaller2'>Tuo tmx osaksi (uutta) muistia Tradosissa</li>
+<li class='smaller2'>Tutki, kuinka hyvälaatuista data on</li>
+</ul>
+
+<script>
+$('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+$('ul.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
+</script>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: false,
+    theme: Reveal.getQueryHash().theme || 'solarized', 
+    transition: Reveal.getQueryHash().transition || 'linear', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
