@@ -1,0 +1,45 @@
+\documentclass[russian]{standalone}
+
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage[T2A]{fontenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\begin{document}
+\pagestyle{empty}
+
+
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+text width=7em, text centered, rounded corners, minimum height=4em]
+
+\tikzstyle{line} = [draw, -latex']
+
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,text width=7em, text centered,
+minimum height=2em]
+
+
+\begin{tikzpicture}[node distance = 4cm, auto]
+% Place nodes
+\node [cloud] (definingfactors) {Определяющие факторы};
+\node [block, below of=definingfactors] (position) {позиция 1,2,3,4..};
+\node [cloud, below of=position] (restricting) {Ограничивающие факторы};
+\node [block, left of=restricting, node distance=5cm] (availability) {доступность позиции};
+%% Draw edges
+\path [line] (definingfactors) -- (position);
+\path [line] (position) -- (restricting);
+\path [line, dashed] (restricting) --  (availability);
+\path [line, dashed] (availability) |- node [near start] {не доступно} (position);
+%\path [line] (update) |- (identify);
+%\path [line] (decide) -- node {no}(stop);
+%\path [line,dashed] (expert) -- (init);
+%\path [line,dashed] (system) -- (init);
+%\path [line,dashed] (system) |- (evaluate);
+\end{tikzpicture}
+
+
+\end{document}
