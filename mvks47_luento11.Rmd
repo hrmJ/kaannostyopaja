@@ -1,9 +1,9 @@
 ---
-title       : Käännösmuisteista ja käännösohjelmistoista
+title       : Trados-kurssi
 author      : Juho Härme
 job         : tohtorikoulutettava / käännöstiede venäjä
 framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
-revealjs    : {theme: solarized, transition: linear, center: "false"}
+revealjs    : {theme: sky, transition: linear, center: "false"}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : mathjax            # {mathjax, quiz, bootstrap}
@@ -14,6 +14,28 @@ logo        : slidify_logo.png
 ---
 
 <style>
+
+article.longtab{
+overflow-y:scroll;
+max-height:400px;
+padding:4%;
+box-shadow: 10px 10px 5px #888888;
+border-radius:9px;
+border-top:2px dashed black;
+border-left:2px dashed black;
+}
+
+.reveal td, th {
+  width: 4rem;
+  height: 2rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.reveal th {
+  background: lightblue;
+  border-color: white;
+}
+
 .reveal h2{
     padding-bottom: 20px;
 }
@@ -66,14 +88,25 @@ li.minlisthl{font-size:69%;}
 text-decoration:underline;
 }
 
-.coldiv {width:47%;float:left;}
-.coldiv2 {float:left;width:30%;}
+article.coldiv {margin-left:1%;
+float:left;
+padding:1px;
+vertical-align: top;
+line-height: 10px;
+height: 10px;
+}
+
+
+article.coldiv2 {float:left;width:30%;}
 
 .rowdiv {width:100%;clear:left;}
 
 .reveal section img { background:none; border:none; box-shadow:none; }
 
 p.smaller {font-size:70%;}
+
+p.smaller2 {font-size:50%;}
+span.smaller2 {font-size:50%;}
 
 
 table { 
@@ -89,7 +122,7 @@ font-size:55%;
 
 }
 
-div.bubble{
+article.bubble{
 float: left;
 text-align: left;
 border: 2px dotted black;
@@ -100,13 +133,13 @@ color:black;
 }
 
 
-div.bubblenob{
+article.bubblenob{
 float: left;
 width:30%;
 }
 
 
-div.mmbubble{
+article.mmbubble{
 font-size:60%;
 float: left;
 text-align: left;
@@ -118,10 +151,10 @@ box-shadow: 10px 10px 5px #888888;
 color:black;
 }
 
-div.bgred{background: burlywood;}
-div.bgblue{background: cornflowerblue;}
-div.bggreen{background: darkseagreen;}
-div.bgcyan{background: gold;}
+article.bgred{background: burlywood;}
+article.bgblue{background: cornflowerblue;}
+article.bggreen{background: darkseagreen;}
+article.bgcyan{background: gold;}
 
 p.quotestyle{
 frjoitusont-size:80%;
@@ -138,7 +171,7 @@ text-align:both;
 
 ## MVKS47 Käännösteknologian harjoituskurssi 2015 - 2016
 
-##### 4.12.2015. Tekstien kohdistus: käytäntöä
+##### 7.12.2015. Termipankit: teoriaa
 
 --- 
 
@@ -155,8 +188,8 @@ text-align:both;
 - .minlist ma 23.11. Edistyneemmät editoritoiminnot
 - .minlist pe 27.11 Ei tuntia
 - .minlist ma 30.11. Tekstien kohdistus: teoriaa
-- .minlisthl pe 4.12 Tekstien kohdistus: käytäntöä
-- .minlist ma 7.12. Termipankit: teoriaa
+- .minlist pe 4.12 Tekstien kohdistus: käytäntöä
+- .minlisthl ma 7.12. Termipankit: teoriaa
 - .minlist pe 11.12. Termipankit: käytäntöä
 - .minlist ma 14.12. Käännösten arviointi ja muutoshistoria
 - .minlist pe 18.12. Edistyneempää käännöstiedonhakua
@@ -165,36 +198,168 @@ text-align:both;
 
 #### Tänään
 
->- .smaller2 Omien kurssikäännösten kohdistamista
->- .smaller2 Nettisivujen kohdistus LF-aligner-ohjelmalla
->- .smaller2 Opus-datan testaamista
->- .smaller2 (Mahdollisesti:) ensi viikkoon valmistautumista
+>- Mitä termipankit ovat?
+>- Miten ne eroavat esimerkiksi sanakirjoista?
+>- Termilista harjoitustekstistä
+>- Termipankin luomista
 
 ---
 
-#### Harjoitus 1
+## Mitä termipankit ovat?
 
->- .smaller2 Luo uusi käännösmuisti
->- .smaller2 Kohdista omat kurssikäännöksesi ja liitä ne muistiin
+<article class='mmbubble bgred fragment'>
+
+**1. Sanakirjat**
+
+>- Paperiset / sähköiset
+>- Yleisteokset vs. erikoisala
+>- Käytössä?
+
+</article>
+
+<article class='mmbubble bgblue fragment'>
+
+**2. Sanastot** (Glossaries)
+
+>- Omat ratkaisut kootusti
+>- Aihepiirit
+>- Käytössä?
+
+</article>
+
+<article class='mmbubble bgcyan fragment'>
+
+**3. Termipankit**
+
+>- Sanastoja, joissa on muutakin kuin vain vastaava lähdekielinen sana
+>- Käyttöesimerkit
+>- Morfologia
+>- Tietokantamuotoisia (vrt. käännösmuistit)
+
+</article>
 
 ---
 
-#### Harjoitus 2
+<!-- Esimerkki sanakirjasta... -->
 
->- .smaller2 Lataa omalle verkkolevylle [LF aligner](http://sourceforge.net/projects/aligner/)
->- .smaller2 Asenna ohjelma (ei vaadi järjestelmävalvojan oikeuksia)
->- .smaller2 Tee raakakohdistus etukäteen valitsemastasi sivusta/sivuista
->- .smaller2 Korjaa kohdistus LF alignerin editorilla
->- .smaller2 Tuo tmx käännösmuistiin Tradosissa
+## Sanastot
+
+
+<article class='longtab'>
+
+```{r, echo=FALSE}
+library(pander)
+panderOptions("table.split.table", Inf) 
+
+ex2 <- read.csv('data/termexample.csv')
+pander(ex2,style='rmarkdown')
+
+```
+
+</article>
+
+--- 
+
+## Termipankit
+
+
+<article class='longtab'>
+
+```{r, echo=FALSE}
+
+tbex <- read.csv('data/termb.csv')
+tbex2 <- data.frame(tbex$Entry_ID,tbex$Entry_Created,tbex$Entry_Creator, tbex$Russian, tbex$Finnish, tbex$Term_Example, tbex$Russian_Def)
+colnames(tbex2) <- c('ID','pvm','tekijä','ru','fi','esimerkki','määritelmä')
+pander(tbex2[1:6],style='rmarkdown')
+
+```
+
+</article>
+
 
 ---
 
-#### Harjoitus 3
+#### Termien syöttäminen suoraan termipankkiin
 
->- .smaller2 Mene [Opus-korpusten](http://opus.lingfil.uu.se/) etusivulle
->- .smaller2 Lataa valitsemasi tmx-resurssi
->- .smaller2 Tuo tmx osaksi (uutta) muistia Tradosissa
->- .smaller2 Tutki, kuinka hyvälaatuista data on
+.smaller2 (Esimerkkinä suomi-saksa-termitietokanta)
+
+.smaller2 Termi / suomi: <input id='ip1'> 
+
+<hr>
+
+.smaller2 Lisää termin määritelmä: <textarea id='def'></textarea>
+
+.smaller2 Lisää saksankielinen termi: <input id='trans'>
+
+.smaller2 Anna käyttöesimerkkejä: <textarea id='examples'></textarea>
+
+<article>
+
+<article class='coldiv'>
+<span class='smaller2'>Sanaluokka:</span>
+</article>
+
+<article class='coldiv' style='display: inline-block;'>
+<select>
+<option> N
+<option> A
+<option> V
+<option> PART
+</select>
+</article>
+
+</article>
+
+<br>
+
+<article class='mmbubble bgred fragment'>
+
+>- Käyttäjä määrittelee joka kerta erikseen, mitä kenttiä termipankissa on
+>- Kenttien tyypit: teksti / monivalinta / pidempi teksti, jne...
+>- Vrt. Esimerkiksi [tieteen termipankkiin](http://tieteentermipankki.fi/wiki/Kielitiede:baski)
+>- Tradosissa:
+    - Entry-tason  kentät
+    - Kielikohtaiset kentät
+    - Termitason kentät
+>- Henkilökohtaiset / projektikohtaiset / teemakohtaiset rakenteet
+
+</article>
+
+---
+
+... Termipankki = sanasto, jossa on sen verran enemmän informaatiota, että se on järkevä varastoida tietokantana
+
+
+---
+
+### Ehdotuksia Termipankin kentiksi
+
+>- Termi / kieli 1
+>- Termi /  kieli 2
+>- Sanakirjakäännös
+>- Wikipediamääritelmä
+>- Esimerkki
+
+---
+
+## Harjoitustehtävä, osa 1: sanastot / termit työskentelytapana
+
+>- Lataa Moodlesta oman B-työkielesi mukainen Eu_info-tiedosto
+>- Tee tiedostolle 'termiskannaus'
+    - Avaa taulukkotiedosto rinnakkain käännöstiedoston kanssa
+    - Kopioi taulukkotiedoston A-sarakkeeseen kaikki termit, joista et ole varma
+    - asd
+
+
+## Harjoitustehtävä, osa 2: projekti + apuja
+
+>- Luo projekti (B-työkieli-suomi)
+>- Luo avuksesi muisti Internet-materiaalin avulla:
+    - Lataa [Opus-korpusten](http://opus.lingfil.uu.se/) sivuilta tmx-tiedosto/useita tmx-tiedostoja
+    - Luo uusi muisti Tradosissa (esim. nimellä EU_de/en/ru-fi)
+    - tuo tmx-muisti(t) osaksi tätä muistia
+>- 
+
 
 <script>
 $('ol.incremental li').addClass('fragment')//note to anyone reading this code, you may need to change to ul from ol depending on ordered vs unordered list
