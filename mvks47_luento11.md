@@ -248,14 +248,26 @@ text-align:both;
 
 <article class='longtab'>
 
-```{r, echo=FALSE}
-library(pander)
-panderOptions("table.split.table", Inf) 
 
-ex2 <- read.csv('data/termexample.csv')
-pander(ex2,style='rmarkdown')
-
-```
+|                       ven�.j�.                        |                        suomi                         |
+|:-----------------------------------------------------:|:----------------------------------------------------:|
+|              бесперебойный               |      keskeytymätön/hyvin toimiva huolto esim.      |
+| лесозаготовительная техника |                 metsätyötekniikka                  |
+|           лесозаготовитель            |              metsuri/metsätyöntekijä              |
+|                  внедрение                   |           hyödyntäminen/käyttöönotto            |
+|                  заготовка                   |                   hankinta/hakkuu                    |
+|     высокопроизводительный      |       tehokas/hyvätuottoinen/runsastuloksinen       |
+|                    делянка                     |          palsta/metsäpalsta/hakkuupalsta/           |
+|                   дать сбой                   |                   toimintahäiriö                   |
+|                    аксиома                     |                       selviö                        |
+|                  хлыстовый                   | tukki(latvuksineen)/puutavaran kuljetus latvuksineen |
+|                  неполадки                   |               viat/häiriöt/koneviat                |
+|                 дислокаций                  |                       sijoitus                       |
+|              буферный склад              |                  puskurivarasto(?)                   |
+|      навесное оборудование.       |                   riippu/kannatin                    |
+|         клапан гидромотора.          |                  venttiili/läppä                   |
+|                  форвардер                   |                      forwarderi                      |
+|              всестороннего               |                          -                           |
 
 </article>
 
@@ -266,13 +278,21 @@ pander(ex2,style='rmarkdown')
 
 <article class='longtab'>
 
-```{r, echo=FALSE}
 
-tbex <- read.csv('data/termb.csv')
-tbex2 <- data.frame(tbex$Entry_ID,tbex$Entry_Created,tbex$Entry_Creator, tbex$Russian, tbex$Finnish, tbex$Term_Example, tbex$Russian_Def)
-colnames(tbex2) <- c('ID','pvm','tekijä','ru','fi','esimerkki','määritelmä')
-pander(tbex2[1:6],style='rmarkdown')
+```
+## Error in data.frame(tbex$Entry_ID, tbex$Entry_Created, tbex$Entry_Creator, : arguments imply differing number of rows: 0, 36
+```
 
+```
+## Error in colnames(tbex2) <- c("ID", "pvm", "tekijä", "ru", "fi", "esimerkki", : object 'tbex2' not found
+```
+
+```
+## Error in pander(tbex2[1:6], style = "rmarkdown"): object 'tbex2' not found
+```
+
+```
+## Error in if (tail(stdout, 1) == "") stdout <- c(stdout, ""): argument is of length zero
 ```
 
 </article>
