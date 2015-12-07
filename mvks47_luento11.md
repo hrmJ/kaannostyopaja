@@ -393,7 +393,7 @@ text-align:both;
     - [venäjä](https://learning2.uta.fi/pluginfile.php/411793/mod_folder/content/0/euinfo_ru.doc?forcedownload=1)
     - [saksa](https://learning2.uta.fi/pluginfile.php/411793/mod_folder/content/0/euinfo_de.doc?forcedownload=1)
 >- Tee tiedostolle 'termiskannaus'
-    - Luokaa kieliryhmittäin yksi taulukkotiedosto, jota voitte muokata yhdessä (Google drive / office 365)
+    - Luokaa kieliryhmittäin yksi taulukkotiedosto, jota voitte muokata yhdessä ([Google drive](https://www.google.com/sheets/about/) /[office 365](https://office.live.com/start/Excel.aspx))
     - Avaa käännöstiedosto taulukkotiedoston rinnalle
     - Kopioi taulukkotiedoston A-sarakkeeseen kaikki termit, joista et ole varma
     - Lisätkää B, C, jne. -sarakkeisiin ehdotuksia termeiksi
