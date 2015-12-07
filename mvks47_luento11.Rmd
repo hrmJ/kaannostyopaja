@@ -269,8 +269,8 @@ pander(ex2,style='rmarkdown')
 ```{r, echo=FALSE}
 
 tbex <- read.csv('data/termb.csv')
-tbex2 <- data.frame(tbex$Entry_ID,tbex$Entry_Created,tbex$Entry_Creator, tbex$Russian, tbex$Finnish, tbex$Term_Example, tbex$Russian_Def)
-colnames(tbex2) <- c('ID','pvm','tekijä','ru','fi','esimerkki','määritelmä')
+tbex2 <- data.frame(tbex$Entry_Created,tbex$Entry_Creator, tbex$Russian, tbex$Finnish, tbex$Term_Example, tbex$Russian_Def)
+colnames(tbex2) <- c('pvm','tekijä','ru','fi','esimerkki','määritelmä')
 pander(tbex2[1:6],style='rmarkdown')
 
 ```
