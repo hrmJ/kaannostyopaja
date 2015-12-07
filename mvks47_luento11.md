@@ -366,9 +366,9 @@ text-align:both;
 ### Harjoitustehtävä, osa 1: sanastot / termit työskentelytapana
 
 >- Lataa Moodlesta oman B-työkielesi mukainen Eu_info-tiedosto
-    - [englanti](https://learning2.uta.fi/pluginfile.php/411793/mod_folder/content/0/euinfo_de.doc?forcedownload=1)
+    - [englanti](https://learning2.uta.fi/pluginfile.php/411793/mod_folder/content/0/euinfo_en.doc?forcedownload=1)
     - [venäjä](https://learning2.uta.fi/pluginfile.php/411793/mod_folder/content/0/euinfo_ru.doc?forcedownload=1)
-    - [saksa](https://learning2.uta.fi/pluginfile.php/411793/mod_folder/content/0/euinfo_en.doc?forcedownload=1)
+    - [saksa](https://learning2.uta.fi/pluginfile.php/411793/mod_folder/content/0/euinfo_de.doc?forcedownload=1)
 >- Tee tiedostolle 'termiskannaus'
     - Luokaa kieliryhmittäin yksi taulukkotiedosto, jota voitte muokata yhdessä (Google drive / office 365)
     - Avaa käännöstiedosto taulukkotiedoston rinnalle
