@@ -363,7 +363,7 @@ text-align:both;
 
 ---
 
-## Harjoitustehtävä, osa 1: sanastot / termit työskentelytapana
+### Harjoitustehtävä, osa 1: sanastot / termit työskentelytapana
 
 >- Lataa Moodlesta oman B-työkielesi mukainen Eu_info-tiedosto
     - [englanti](https://learning2.uta.fi/pluginfile.php/411793/mod_folder/content/0/euinfo_de.doc?forcedownload=1)

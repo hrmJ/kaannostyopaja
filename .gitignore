@@ -1,1 +1,6 @@
 .*.swp
+.cache/unnamed-chunk-1_12f88cd332cd141224805973863afa4a.RData
+.cache/unnamed-chunk-1_12f88cd332cd141224805973863afa4a.rdb
+*.rdx
+.cache/unnamed-chunk-2_84a7b04fe987d459b0a5cac906562dfe.RData
+.cache/unnamed-chunk-2_84a7b04fe987d459b0a5cac906562dfe.rdb
