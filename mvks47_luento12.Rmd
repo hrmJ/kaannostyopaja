@@ -138,7 +138,7 @@ text-align:both;
 
 ## MVKS47 Käännösteknologian harjoituskurssi 2015 - 2016
 
-##### 4.12.2015. Tekstien kohdistus: käytäntöä
+##### 11.12.2015. Termipankit: käytäntöä
 
 --- 
 
@@ -155,9 +155,9 @@ text-align:both;
 - .minlist ma 23.11. Edistyneemmät editoritoiminnot
 - .minlist pe 27.11 Ei tuntia
 - .minlist ma 30.11. Tekstien kohdistus: teoriaa
-- .minlisthl pe 4.12 Tekstien kohdistus: käytäntöä
+- .minlist pe 4.12 Tekstien kohdistus: käytäntöä
 - .minlist ma 7.12. Termipankit: teoriaa
-- .minlist pe 11.12. Termipankit: käytäntöä
+- .minlisthl pe 11.12. Termipankit: käytäntöä
 - .minlist ma 14.12. Käännösten arviointi ja muutoshistoria
 - .minlist pe 18.12. Edistyneempää käännöstiedonhakua
 
@@ -165,17 +165,22 @@ text-align:both;
 
 #### Tänään
 
->- .smaller2 Omien kurssikäännösten kohdistamista
->- .smaller2 Nettisivujen kohdistus LF-aligner-ohjelmalla
->- .smaller2 Opus-datan testaamista
->- .smaller2 (Mahdollisesti:) ensi viikkoon valmistautumista
+>- .smaller2 Käytännön asioita
+>- .smaller2 Termipankin luominen taulukkotiedostosta
+>- .smaller2 Useiden resurssien liittäminen projektiin
+>- .smaller2 Termipankin käyttäminen osana käännöstä
 
 ---
 
-#### Harjoitus 1
 
->- .smaller2 Luo uusi käännösmuisti
->- .smaller2 Kohdista omat kurssikäännöksesi ja liitä ne muistiin
+## Harjoitustehtävä, osa 2: käännösmuisti
+
+>- Luo avuksesi muisti Internet-materiaalin avulla:
+    - englanti, saksa: [Suoraan komission sivuilta (DGT)](https://ec.europa.eu/jrc/en/language-technologies/dgt-translation-memory#Download the DGT Translation Memory)
+    - venäjä : lataa [Opus-korpusten](http://opus.lingfil.uu.se/) sivuilta tmx-tiedosto Eu-Bookshop-korpuksesta
+    - Luo uusi muisti Tradosissa (esim. nimellä EU_de/en/ru-fi)
+    - tuo tmx-muisti(t) osaksi tätä muistia
+
 
 ---
 

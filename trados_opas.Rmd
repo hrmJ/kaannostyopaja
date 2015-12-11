@@ -380,10 +380,103 @@ Minkä tahansa muistin voi eksportoida jaettavaksi tmx-muodossa.
 <li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/finnishexport.gif")'>Valitse, minne haluat tallentaa tiedoston ja paina Finnish</a>
 </ol>
 
+Termitietokannat
+================
 
 
-Termejä
-========
+Mitkä ihmeen termitietokannat?
+------------------------------
+
+Termitietokannat voi ajatella osana seuraavanlaista jatkumoa:
+
+### 1. Sanakirjat / erityisalojen sanakirhat
+
+- Perinteisesti kääntäjä on voinut etsiä sanojen ja termien merkityksiä joko yleissanakirjoista tai esimerkiksi tekniikan alan sanakirjasta. Hän
+on kaivanut kirjahyllystä sanakirjan, selannut esiin oikean kohdan ja pohtinut, onko termi käyttökelpoinen. Tämän työskentelytavan
+nykyaikaisempi muoto ovat elektroniset sanakirjat.
+- Sanakirjan sisältö on aina jonkun muun määrittelemä ja joku muu on tehnyt myös arvion siitä, miten hyvin ja mihin mikin termi/ilmaus soveltuu
+
+### 2. Sanastot (glossaries)
+
+-  Sanastot voi määrittää kääntäjän itsensä kokoamiksi aineistoiksi, jotka usein ovat huomattavasti sanakirjoja suppeampia. Sanastoja on syntynyt esimerkiksi
+edellisten käännöstöiden yhdeydessä tai valmistauduttauessa tulkkaustoimeksiantoon.
+- Sanastot sisältävät usein sanoja ja termejä enemmän tai vähemmän tarkkaan rajatulta alueelta
+- Kääntäjä on usein (ei toki aina) itse nähnyt termin etsimisen ja arvioimisen vaivan ja kääntäjällä on käsitys siitä, mihin termiä sovelletaan tai jopa muistikuva
+siitä, mihen itse on sitä aiemmin soveltanut
+- sanastot ovat usein taulukkotiedostoja ja sisältävät yleensä kaksi saraketta: lähdekieli + kohdekieli
+
+### 3. Termipankit / termitietokannat
+
+- Käytännössä termipankit ovat ihan vain sanastoja
+- Kun sanastoaan haluaa käyttää suoraan Tradosissa tai muussa CAT-ohjelmassa, se onnistuu parhaiten muuntamalla sanasto ensin termitietokannaksi
+- Termitietokannan etu siis on, että sitä pystyy katselemaan suoraan Tradosissa
+- Lisäksi Trados osaa automaattisesti etsiä lähdekielestä sanat, joille löytyy ehdotuksia termitietokannasta: manuaalista sanaston (sanakirjasta puhumattakaan) pläräämistä ei siis tarvita.
+- Usein vähänkin monimutkaisempi sanasto käy vaikeaksi hallita. Siksi termipankit ovat *tietokantamuotoisia*. 
+- Tietokantoihin on helppo lisätä muitakin sarakkeita (kenttiä) kuin vain lähdekieli ja kohdekieli
+- usein termitietokannat sisältävätkin mm. oman sarakkeen käyttöesimerkeille ja synonyymeille sekä esimerkiksi arvion ratkaisun luotettavuudesta
+    - *Sinä päätät*, mistä kentistä tietokanta koostuu.
+    - Termitietokannan pitää sisältää vähintään sarakkeet lähde- ja kohdekielelle
+
+
+
+Termitietokannan luominen taulukkotiedostosta
+---------------------------------------------
+
+
+### Termitaulukon konvertointi
+
+<ol>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/excelterms1.gif")'>Luo / muokkaa taulukkotiedosto, jossa on ensimmäisellä rivillä kenttien otsikot</a>
+<ul>
+<li> Taulukko voi olla joko excel-muodossa (.xslx) tai csv-muodossa
+</ul> 
+<li>Käynnistä Trados multiterm convert -ohjelma
+<ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/startconv.gif")'>Esimerkiksi painamalla Windows-näppäintä / klikkaamalla Käynnistä-valikkoa ja kirjoittamalla 'Convert'</a>
+</ul> 
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/convfile.gif")'>Valitse tuotavat tiedostot</a>
+<ol>
+<li> Valitse ensimmäisesti dialogi-ikkunasta 'Microsoft excel format' (jos taulukkotiedosto on xls/xlsx-muodossa)
+<li> Paina 'Browse'-nappulaa Input file -kentän oikealla puolella ja navigoi taulukkotiedostoosi
+<li>
+</ol> 
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/termlang.gif")'>Määritä, mitkä kentät ovat kielikenttiä</a>
+<ul>
+<li>Esimerkkitaulukossamme ne ovat sarakkeet nimeltä *englanti* ja *suomi*
+<li> Tällä tarkoitetaan vain niitä sarakkeita, joissa tse termit ovat (erotuksena esimerkiksi esimerkeistä, synonyymeista, sanaluokasta jne)
+<li> Muut kentät ovat automaattisesti kuvailevia (descriptive fields) eikä niille tarvitse tehdä mitään
+</ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/termlevel.gif")'>Aseta muut kentät joko termikohtaisiksi tai kielikohtaisiksi</a>
+<ol>
+<li> Tavallisesti voit automaattisesti tehdä kentistä termikohtaisia
+<li> Tämä tapahtuu niin,että klikkaat oikealla termin nimeä, sen jälkeen vasemmalta kohtaa 'Term' (sen kielen alapuolella, kumpaan kenttä liittyy) ja lopuksi keskeltä 'Add'
+</ol> 
+<li> Paina lopuksi Next, Next ja Finnish
+</ol>
+
+
+### Termitietokannan luominen konvertoidun tiedoston pohjalta
+
+<ol>
+<li> Avaa SDL multiterm 2015(/2014jne) Desktop
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/newtermbase.gif")'>Valitse File-New-Create termbase</a>
+<li> Valitse termitietokannan sijainti ja kirjoita tiedostonimi
+<li> Hae äskeisessä konvertoinnissa luotu määrittelytiedosto
+<ul>
+<li> Valitse 'Load existing termbase definition file'
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/tbdef.gif")'>Navigoi taulukkotiedostosi kansioon ja valitse siellä näkyvä .xdt-tiedosto</a>
+</ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/tbcreationend.gif")'>Anna termitietokannalle nimi ja halutessasi kuvaus</a>
+<li> Paina kaikkiin loppuihin kysymyksiin next-nappia, lopuksi Finish-nappia
+<li> Klikkaa File--import\& export -- Import termbase
+<li> Navigoi taulukkotiedostosi kansioon ja valitse sieltä xml-tiedosto
+<li> Valmis! Voit liittää termitietokannan osaksi käännösprojektia
+</ol>
+
+
+
+Trados-sanastoa
+===============
 
 ## Match
 
@@ -498,8 +591,16 @@ Wordfast Anywhere -harjoitus
 <div id="index">
 <a href='javascript:void(0);' onClick='tocind()'>Näytä sisällysluettelo</a>
 <ul>
+
 <h2>1</h2>
+<li><a href="#sanakirjat-erityisalojen-sanakirhat">1. Sanakirjat / erityisalojen sanakirhat</a>
 <li><a href="#match-cm">100% match (CM)</a>
+
+<h2>2</h2>
+<li><a href="#sanastot-glossaries">2. Sanastot (glossaries)</a>
+
+<h2>3</h2>
+<li><a href="#termipankit-termitietokannat">3. Termipankit / termitietokannat</a>
 
 <h2>C</h2>
 <li><a href="#context-match-cm">Context match (CM)</a>
@@ -534,6 +635,7 @@ Wordfast Anywhere -harjoitus
 <li><a href="#missä-tiedostot-sijaitsevat">Missä tiedostot sijaitsevat?</a>
 <li><a href="#miten-käännän-tradosilla">Miten käännän Tradosilla?</a>
 <li><a href="#miten-käännösmuisti-päivittyy">Miten käännösmuisti päivittyy?</a>
+<li><a href="#mitkä-ihmeen-termitietokannat">Mitkä ihmeen termitietokannat?</a>
 <li><a href="#muistin-eksportointi">Muistin eksportointi</a>
 
 <h2>P</h2>
@@ -552,7 +654,11 @@ Wordfast Anywhere -harjoitus
 <li><a href="#tagien-tägien-syöttäminen">Tagien (/tägien) syöttäminen</a>
 <li><a href="#tehtävä-1-käännä-ilman-muistia-harjoitustiedosto-agency_contract_sh.docx">Tehtävä 1: Käännä ilman muistia harjoitustiedosto Agency_COntract_sh.docx</a>
 <li><a href="#tehtävä-2-avaa-harjoitustiedosto-agencyagreement.doc-ja-tutki-miten-äsken-luotu-muisti-toimii">Tehtävä 2: Avaa harjoitustiedosto agencyagreement.doc ja tutki, miten äsken luotu muisti toimii</a>
-<li><a href="#termejä">Termejä</a>
+<li><a href="#termitaulukon-konvertointi">Termitaulukon konvertointi</a>
+<li><a href="#termitietokannan-luominen-konvertoidun-tiedoston-pohjalta">Termitietokannan luominen konvertoidun tiedoston pohjalta</a>
+<li><a href="#termitietokannan-luominen-taulukkotiedostosta">Termitietokannan luominen taulukkotiedostosta</a>
+<li><a href="#termitietokannat">Termitietokannat</a>
+<li><a href="#trados-sanastoa">Trados-sanastoa</a>
 <li><a href="#tradosin-tuottamia-tiedostoja">Tradosin tuottamia tiedostoja</a>
 <li><a href="#tärkeitä-toimintoja">Tärkeitä toimintoja</a>
 
@@ -566,7 +672,6 @@ Wordfast Anywhere -harjoitus
 <h2>Y</h2>
 <li><a href="#yksittäiset-tiedostot">Yksittäiset tiedostot</a>
 <li><a href="#yleisnäkymä">Yleisnäkymä</a>
-
 </ul>
 </div>
 
