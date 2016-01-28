@@ -643,6 +643,7 @@ Wordfast Anywhere -harjoitus
 
 
 <div id="index">
+<a href='javascript:void(0);' onClick='tocind()'>Näytä sisällysluettelo</a>
 <ul>
 <h2>1</h2>
 <li><a href="#sanakirjat-erityisalojen-sanakirhat">1. Sanakirjat / erityisalojen sanakirhat</a>
