@@ -245,10 +245,6 @@ Projektiin liitetyn käännösmuistin muokkaaminen voi olla tarpeen esimerkiksi,
 </ol>
 
 
-### Tagien (/tägien) syöttäminen
-
-tulossa...
-
 Projektin asetusten muuttaminen kääntämisen aikana
 --------------------------------------------------
 
@@ -379,6 +375,63 @@ Minkä tahansa muistin voi eksportoida jaettavaksi tmx-muodossa.
 <li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/exportbutton.gif")'>Katso, että olet valinnut muistin vasemmasta listasta ja paina ylhäältä Export-kuvaketta</a>
 <li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/finnishexport.gif")'>Valitse, minne haluat tallentaa tiedoston ja paina Finnish</a>
 </ol>
+
+Tägit
+=====
+
+Taustaa
+-------
+
+Käänsitpä sitten varsinaista xml- tai html-tiedosta tai ihan vain word-tiedostoa ta pdf-tiedostoa, jossain vaiheessa eteesi 
+tulee vääjämättä tilanne, jossa lähdekielinen tiedosto sisältää informaatiota, joka on koodattu siihen *tägein*.
+Tägeillä tarkoitetaan <- ja >-merkkien väliin syötettyä tunnistetta.
+Esimerkiksi html-tiedostossa linkkinä toimiva teksti erotetaan seuraavalla
+tägillä:
+
+    <a>
+
+Jotta informaatiota lukeva kone (tai ihminen) tietäisi myös, miten linkkinä toimiva teksti rajataan -- mikä teksti ei enää ole linkkiä -- tägejä syötetään yleensä kaksi. 
+Jotta informaation *lopusta* kertova tägi erotettaisiin informaation *alusta* kertovasta tägistä, lopputägiin lisätään <- ja >-merkkien lisäksi kauttaviiva:
+
+    </a>
+
+Näin ollen teksti, joka halutaan tulkittavan linkiksi, erotetaan seuraavasti:
+
+    Tämä on lause, tämä on toinen ja tässä kolmannessa on <a>linkki</a>,
+    joka on erotettu muusta tekstistä a-tägien avulla
+
+Html-tägien lisäksi on kuitenkin olemassa muitakin yhteyksiä, joissa tägit
+tulevat vastaan. Esimerkiksi Word-dokumenttien muotoilut koodautuvat tägien
+sisään, ja samoin tapahtuu, kun Trados lukee esimerkiksi pdf-tiedostoja (jotka
+se ensin muuntaa Word-muotoon). Näin ollen Tradosilla kääntäessäsi näet tägejä paljon myös siellä,
+missä et olettaisi niitä näkeväsi. 
+
+Tägien näyttäminen
+------------------
+
+Jotta kohdekielinen asiakirja näyttäisi muotoilultaan juuri siltä, miltä pitää, Trados ja muut
+CAT-ohjelmat ovat yleensä hyvin tarkkoja siitä, että **kaikki** tägit, joita on lähdetekstissä,
+tulisivat myös kohdetekstiin. Trados kuitenkin saattaa piilottaa tägin tarkan sisällön, jotta se ei pomppisi
+käyttäjän silmille häiritsevästi. Voita säätää sitä, miten tägit näkyvät tekstissä 
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/tagview.gif")'>Menemällä View-välilehdelle ja painamalla joko No tag text, full tag text tai tag id</a>-painikkeita.
+
+Tägien syöttäminen
+------------------
+
+Tägejä voi syöttää Tradosissa kohdekielisiin segmentteihin ainakin seuraavilla kolmella tavalla:
+
+<ol>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/copypastetag.gif")'>Kopioi maalaamalla tägi lähdekielisestä tekstistä ja liitä (ctrl-v) kohdetekstiin</a>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/altinstag.gif")'>Kopioi ennen kohdesegmentin kääntämistä koko lähdekielinen segmentti ALT-INSERT-toiminnolla</a>
+<li><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/ctrlaltalas.gif")'>Paina CTRL+ALT+ALANUOLI, jolloin Trados avaa pikku valikon, joka sisältää kaikki lähdesegmentin tägit</a>
+<ul>
+<li>Tällöinkin on usein kätevää maalata se pätkä tekstiä, jonka haluat "kääriä" tägeihin" ja vasta sitten painaa ctrl+alt+alas
+<li>Tradosin avaamassa minivalikossa liikutaan nuolinäppäimin ja haluttu tägi valitaan painamalla Enter
+</ul>
+</ol>
+
+
+
 
 Termitietokannat
 ================
@@ -517,6 +570,7 @@ Lähteitä ja lisää lukemista
 
 [Trados 2015 migration guide](http://producthelp.sdl.com/SDL_Trados_Studio_2015/client_en/Guides/SDL_Trados_Studio_Migration_Guide_en.pdf)
 
+
 Wordfast Anywhere -harjoitus
 ============================
 
@@ -589,9 +643,7 @@ Wordfast Anywhere -harjoitus
 
 
 <div id="index">
-<a href='javascript:void(0);' onClick='tocind()'>Näytä sisällysluettelo</a>
 <ul>
-
 <h2>1</h2>
 <li><a href="#sanakirjat-erityisalojen-sanakirhat">1. Sanakirjat / erityisalojen sanakirhat</a>
 <li><a href="#match-cm">100% match (CM)</a>
@@ -651,7 +703,7 @@ Wordfast Anywhere -harjoitus
 <li><a href="#segmenttien-suodattaminen-ja-tilastot">Segmenttien suodattaminen ja tilastot</a>
 
 <h2>T</h2>
-<li><a href="#tagien-tägien-syöttäminen">Tagien (/tägien) syöttäminen</a>
+<li><a href="#taustaa">Taustaa</a>
 <li><a href="#tehtävä-1-käännä-ilman-muistia-harjoitustiedosto-agency_contract_sh.docx">Tehtävä 1: Käännä ilman muistia harjoitustiedosto Agency_COntract_sh.docx</a>
 <li><a href="#tehtävä-2-avaa-harjoitustiedosto-agencyagreement.doc-ja-tutki-miten-äsken-luotu-muisti-toimii">Tehtävä 2: Avaa harjoitustiedosto agencyagreement.doc ja tutki, miten äsken luotu muisti toimii</a>
 <li><a href="#termitaulukon-konvertointi">Termitaulukon konvertointi</a>
@@ -660,6 +712,9 @@ Wordfast Anywhere -harjoitus
 <li><a href="#termitietokannat">Termitietokannat</a>
 <li><a href="#trados-sanastoa">Trados-sanastoa</a>
 <li><a href="#tradosin-tuottamia-tiedostoja">Tradosin tuottamia tiedostoja</a>
+<li><a href="#tägien-näyttäminen">Tägien näyttäminen</a>
+<li><a href="#tägien-syöttäminen">Tägien syöttäminen</a>
+<li><a href="#tägit">Tägit</a>
 <li><a href="#tärkeitä-toimintoja">Tärkeitä toimintoja</a>
 
 <h2>V</h2>
@@ -672,6 +727,7 @@ Wordfast Anywhere -harjoitus
 <h2>Y</h2>
 <li><a href="#yksittäiset-tiedostot">Yksittäiset tiedostot</a>
 <li><a href="#yleisnäkymä">Yleisnäkymä</a>
+
 </ul>
 </div>
 

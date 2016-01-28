@@ -189,7 +189,6 @@
 <li><a href="#konkordanssihaku">Konkordanssihaku</a></li>
 <li><a href="#segmenttien-suodattaminen-ja-tilastot">Segmenttien suodattaminen ja tilastot</a></li>
 <li><a href="#käännösmuistin-muokkaaminen">Käännösmuistin muokkaaminen</a></li>
-<li><a href="#tagien-tägien-syöttäminen">Tagien (/tägien) syöttäminen</a></li>
 </ul></li>
 <li><a href="#projektin-asetusten-muuttaminen-kääntämisen-aikana">Projektin asetusten muuttaminen kääntämisen aikana</a></li>
 </ul></li>
@@ -208,6 +207,11 @@
 </ul></li>
 <li><a href="#missä-tiedostot-sijaitsevat">Missä tiedostot sijaitsevat?</a></li>
 <li><a href="#muistin-eksportointi">Muistin eksportointi</a></li>
+</ul></li>
+<li><a href="#tägit">Tägit</a><ul>
+<li><a href="#taustaa">Taustaa</a></li>
+<li><a href="#tägien-näyttäminen">Tägien näyttäminen</a></li>
+<li><a href="#tägien-syöttäminen">Tägien syöttäminen</a></li>
 </ul></li>
 <li><a href="#termitietokannat">Termitietokannat</a><ul>
 <li><a href="#mitkä-ihmeen-termitietokannat">Mitkä ihmeen termitietokannat?</a><ul>
@@ -498,8 +502,6 @@ Jos et ole varma, missä nykyisen projektin käännösmuisti sijaitsee:
 <li>
 <strong>HUOM! Jotta muutokset tallentuisivat muistiin, paina lopuksi <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/commitchange.gif")'>Commit changes-kuvaketta</a></strong>
 </ol>
-<h3 id="tagien-tägien-syöttäminen">Tagien (/tägien) syöttäminen</h3>
-<p>tulossa...</p>
 <h2 id="projektin-asetusten-muuttaminen-kääntämisen-aikana">Projektin asetusten muuttaminen kääntämisen aikana</h2>
 <p><a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/projset.gif")'>Klikkaa Project settings käännöseditorin vasemmasta yläkulmasta</a></p>
 <h1 id="kääntämisen-jälkeen">Kääntämisen jälkeen</h1>
@@ -607,6 +609,34 @@ Selvitä, missä käännösmuisti sijaitsee (ohje <a href="#missa-muisti-on">tä
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/exportbutton.gif")'>Katso, että olet valinnut muistin vasemmasta listasta ja paina ylhäältä Export-kuvaketta</a>
 <li>
 <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/finnishexport.gif")'>Valitse, minne haluat tallentaa tiedoston ja paina Finnish</a>
+</ol>
+<h1 id="tägit">Tägit</h1>
+<h2 id="taustaa">Taustaa</h2>
+<p>Käänsitpä sitten varsinaista xml- tai html-tiedosta tai ihan vain word-tiedostoa ta pdf-tiedostoa, jossain vaiheessa eteesi tulee vääjämättä tilanne, jossa lähdekielinen tiedosto sisältää informaatiota, joka on koodattu siihen <em>tägein</em>. Tägeillä tarkoitetaan &lt;- ja &gt;-merkkien väliin syötettyä tunnistetta. Esimerkiksi html-tiedostossa linkkinä toimiva teksti erotetaan seuraavalla tägillä:</p>
+<pre><code>&lt;a&gt;</code></pre>
+<p>Jotta informaatiota lukeva kone (tai ihminen) tietäisi myös, miten linkkinä toimiva teksti rajataan -- mikä teksti ei enää ole linkkiä -- tägejä syötetään yleensä kaksi. Jotta informaation <em>lopusta</em> kertova tägi erotettaisiin informaation <em>alusta</em> kertovasta tägistä, lopputägiin lisätään &lt;- ja &gt;-merkkien lisäksi kauttaviiva:</p>
+<pre><code>&lt;/a&gt;</code></pre>
+<p>Näin ollen teksti, joka halutaan tulkittavan linkiksi, erotetaan seuraavasti:</p>
+<pre><code>Tämä on lause, tämä on toinen ja tässä kolmannessa on &lt;a&gt;linkki&lt;/a&gt;,
+joka on erotettu muusta tekstistä a-tägien avulla</code></pre>
+<p>Html-tägien lisäksi on kuitenkin olemassa muitakin yhteyksiä, joissa tägit tulevat vastaan. Esimerkiksi Word-dokumenttien muotoilut koodautuvat tägien sisään, ja samoin tapahtuu, kun Trados lukee esimerkiksi pdf-tiedostoja (jotka se ensin muuntaa Word-muotoon). Näin ollen Tradosilla kääntäessäsi näet tägejä paljon myös siellä, missä et olettaisi niitä näkeväsi.</p>
+<h2 id="tägien-näyttäminen">Tägien näyttäminen</h2>
+<p>Jotta kohdekielinen asiakirja näyttäisi muotoilultaan juuri siltä, miltä pitää, Trados ja muut CAT-ohjelmat ovat yleensä hyvin tarkkoja siitä, että <strong>kaikki</strong> tägit, joita on lähdetekstissä, tulisivat myös kohdetekstiin. Trados kuitenkin saattaa piilottaa tägin tarkan sisällön, jotta se ei pomppisi käyttäjän silmille häiritsevästi. Voita säätää sitä, miten tägit näkyvät tekstissä <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/tagview.gif")'>Menemällä View-välilehdelle ja painamalla joko No tag text, full tag text tai tag id</a>-painikkeita.</p>
+<h2 id="tägien-syöttäminen">Tägien syöttäminen</h2>
+<p>Tägejä voi syöttää Tradosissa kohdekielisiin segmentteihin ainakin seuraavilla kolmella tavalla:</p>
+<ol>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/copypastetag.gif")'>Kopioi maalaamalla tägi lähdekielisestä tekstistä ja liitä (ctrl-v) kohdetekstiin</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/altinstag.gif")'>Kopioi ennen kohdesegmentin kääntämistä koko lähdekielinen segmentti ALT-INSERT-toiminnolla</a>
+<li>
+<a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/ctrlaltalas.gif")'>Paina CTRL+ALT+ALANUOLI, jolloin Trados avaa pikku valikon, joka sisältää kaikki lähdesegmentin tägit</a>
+<ul>
+<li>
+Tällöinkin on usein kätevää maalata se pätkä tekstiä, jonka haluat &quot;kääriä&quot; tägeihin&quot; ja vasta sitten painaa ctrl+alt+alas
+<li>
+Tradosin avaamassa minivalikossa liikutaan nuolinäppäimin ja haluttu tägi valitaan painamalla Enter
+</ul>
 </ol>
 <h1 id="termitietokannat">Termitietokannat</h1>
 <h2 id="mitkä-ihmeen-termitietokannat">Mitkä ihmeen termitietokannat?</h2>
@@ -838,7 +868,6 @@ Paina OK (anna valinnan olla oletuksessa eli 'Download')
 </div>
 </article>
 <div id="index">
-<a href='javascript:void(0);' onClick='tocind()'>Näytä sisällysluettelo</a>
 <ul>
 <h2>
 1
@@ -947,7 +976,7 @@ S
 T
 </h2>
 <li>
-<a href="#tagien-tägien-syöttäminen">Tagien (/tägien) syöttäminen</a>
+<a href="#taustaa">Taustaa</a>
 <li>
 <a href="#tehtävä-1-käännä-ilman-muistia-harjoitustiedosto-agency_contract_sh.docx">Tehtävä 1: Käännä ilman muistia harjoitustiedosto Agency_COntract_sh.docx</a>
 <li>
@@ -964,6 +993,12 @@ T
 <a href="#trados-sanastoa">Trados-sanastoa</a>
 <li>
 <a href="#tradosin-tuottamia-tiedostoja">Tradosin tuottamia tiedostoja</a>
+<li>
+<a href="#tägien-näyttäminen">Tägien näyttäminen</a>
+<li>
+<a href="#tägien-syöttäminen">Tägien syöttäminen</a>
+<li>
+<a href="#tägit">Tägit</a>
 <li>
 <p><a href="#tärkeitä-toimintoja">Tärkeitä toimintoja</a></p>
 <h2>
@@ -984,7 +1019,7 @@ Y
 <li>
 <a href="#yksittäiset-tiedostot">Yksittäiset tiedostot</a>
 <li>
-<a href="#yleisnäkymä">Yleisnäkymä</a>
+<p><a href="#yleisnäkymä">Yleisnäkymä</a></p>
 </ul>
 </div>
 <script language='javascript'>
