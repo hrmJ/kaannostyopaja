@@ -595,7 +595,7 @@ tehtäväsi on luoda uusi projekti.
 
 ### Projektin luominen
 
-1. Klikkaa Start-ruudussa Ylhäällä näkyvää  <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/new_proj_icon.png")'>New project-linkkiä</a>
+1. Klikkaa Start-ruudussa Ylhäällä näkyvää  <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_project_icon.png")'>New project-linkkiä</a>
 2. Eteesi avautuu dialogi, joka muistuttaa hyvin paljon vastaavaa projektinluomisdialogi Trados 2015:ssa.
 3. Ensimmäisestä ruudusta voit suoraan klikata Next-painiketta
 4. Tämän jälkeen sinun tulee valita <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_proj1.gif")'>projektille nimi ja asettaa deadline</a>. Deadlinen asettaminen ei ole pakollista, mutta jos jätät
@@ -607,10 +607,10 @@ Tämäkin muistuttaa paljon uudempia versioita, mutta pari eroakin on:
 6. Loput dialogin vaiheet voit vain ohittaa Next-painikkeella. 
 
 Projektinluontidialogi sulkeutuu ja eteesi avautuu taas Start-näkymä. Nyt kannattaa muistaa, että <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_navigation.png")'>navigaatiopalkki</a>
-on keino päästä käsiksi itse projektiin. Voit käydä ensin <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/project_pane.png")'>Projects-ruudussa</a> katsomassa, että projekti on tullut luoduksi. Täällä voit tutkia
+on keino päästä käsiksi itse projektiin. Voit käydä ensin <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_project_pane.png")'>Projects-ruudussa</a> katsomassa, että projekti on tullut luoduksi. Täällä voit tutkia
 myös projektin Deadlinea ja statusta (onko jo käännetty vai vielä kesken). 
 
-Kohti kääntämistä pääset, kun klikkaat itsesi <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/file_pane.png")'>Files-ruudulle</a>. 
+Kohti kääntämistä pääset, kun klikkaat itsesi <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_file_pane.png")'>Files-ruudulle</a>. 
 Kuten huomaat, ruudut ovat hyvin samanlaisia kuin Trados 2015:ssa. Varsinaiset erot alkavat, kun ryhdyt kääntämään. Se tapahtuu klikkaamalla käännettävän tiedoston
 nimeä hiiren oikealla näppäimellä ja valitsemalla  <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_start_translating.gif")'>"Open for Translation"</a>
 
@@ -639,7 +639,7 @@ Nyt on aika tutustua TagEditor-ohjelman työkalupalkkiin, joka sijaitsee ruudun 
 4. Kun haluat kääntää jotakin segmenttiä, paina <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_tb1.png")'>jompaakumpaa avautuvista sulkumerkeistä</a>, mieluummin sitä, jossa on sulkumerkki ja nuoli alaspäin.
 5. Kirjoita käännöksesi. Jos Muisti antaa vastaavuuksia, teksti tulee näkyviin tässä kohtaa.
     - Segmentti vahvistetaan painamalla <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_tb2.png")'>sulkumerkki kiinni + ylänuoli -painiketta</a>. 
-	- Jos haluat vain sulkea segmentin vahvistamatta, paina <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_tb1.png")'>pelkkää sulkumerkkiä</a>.
+	- Jos haluat vain sulkea segmentin vahvistamatta, paina <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_tb2.png")'>pelkkää sulkumerkkiä</a>.
 	- Esimerkki koko prosessista <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_trans1.gif")'>tässä</a>
 6. Tähän tapaan käy läpi kaikki teksti, jota ruudulla voit klikata. Muista, että sinun on aina ensin suljettava edellinen segmentti ennen kuin voit avatta jonkin toisen segmentin
 
