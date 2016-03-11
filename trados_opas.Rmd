@@ -625,6 +625,8 @@ Nyt alkavat versioiden väliset erot:
 1. Trados avaa ensinnäkin **erillisen käännöseditoriohjelman** omaan ikkunaansa. <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_tag_editor.png")'>(SDL Trados Tag editor)</a>
 2. Myös käännösmuistia hallinnoidaan ja konkordanssihakuja tehdään **oman erillisen ikkunansa** kautta. ( <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_workbench.png")'>SDL Trados Translator's workbench</a>)
 
+**HUOM!** Trados 2007 ei tue uudempia word-tiedostoja (docx-pääte). Tämän vuoksi **tallenna tiedosto erikseen ennen kääntämistä doc-muotoon**.
+
 ### Kääntäminen TagEditor-ikkunassa
 
 1. Varsinaiseen kääntämiseen pääset käsiksi, kun avaat <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_tag_editor.png")'>(SDL Trados Tag editor)</a>-ikkunan.
