@@ -578,6 +578,8 @@ Trados 2007-version ja 2015-version välillä on selkeitä eroja. Kuitenkin peru
 kääntämisen taustalla on sama. Eroja ei kannata pelästyä, vaan tätä ohjetta hyödyntäen käydä rauhassa 
 läpi sitä, miten kääntäminen onnistuu myös 2007-version avulla.
 
+**HUOM!** Trados 2007 ei tue uudempia word-tiedostoja (docx-pääte). Tämän
+vuoksi **tallenna tiedosto erikseen ennen projektin luomista doc-muotoon**.
 
 Trados 2007: Käyttöliittymä
 -------------------------------------
@@ -602,6 +604,7 @@ tehtäväsi on luoda uusi projekti.
 sen asettamatta, ohjelma huomauttaa, että deadline on TÄNÄÄN ja pyytää sinua klikkaamaan OK. Valitse seuraavassa ruudussa kielet - tämä tapahtuu juuri niin kuin Trados 2015:ssa.
 5. Seuraavaksi sinun tulee <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/07_proj2.gif")'>valita käännettävät tiedostot ja lisätä käännösmuistit</a>
 Tämäkin muistuttaa paljon uudempia versioita, mutta pari eroakin on:
+    - DOCX-muotoa ei tueta, vaan tiedostot pitää ennen kääntämistä tallentaa erikseen doc-muodossa (word 97 - 2003)
     - Painike tiedostojen ja muistien lisäämiseksi löytyy ruudun alalaidasta (Add)
 	- Muistin avaamisen jälkeen Trados pyytää sinua syöttämään käyttäjä-ID:n. Tämä voi olla vaikka nimesi tai nimikirjaimesi.
 6. Loput dialogin vaiheet voit vain ohittaa Next-painikkeella. 
