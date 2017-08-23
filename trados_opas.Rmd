@@ -99,11 +99,42 @@ Miten käännän Tradosilla?
 -------------------------
 
 Trados ja muut käännösohjelmat tarjoavat ison joukon työkaluja ja
-työskentelytapoja, joiden paljouteen voi välillä hukkua. Tässä yksi esimerkki tavasta, jolla
+työskentelytapoja, joiden paljouteen voi välillä hukkua. Tässä esimerkkejä tavoista, jolla
 Tradosilla voit kääntää ja siitä, millainen workflow voisi olla.
 
-### Esimerkkimetodi 
+### Esimerkkimetodi 1
 
+
+<ol>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pretrans1.gif")'>Anna Tradosin esikääntää teksti (Pre-translate)</a>
+<ul>
+<li> Tämä vaihe on jo tehtynä, jos olet projektin luomisen yhteydessä sen valinnut
+</ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/translating.gif")'>Lähde kääntämään segmentti segmentiltä ylhäältä alas.</a>
+<ul>
+<li> Vahvista segmentti ja siirry seuraavaan segmenttiin *painamalla Control+ENTER*. Tekemäsi raakakäännösratkaisut tallentuvat muistiin.
+</ul>
+<li> Käännä loppuun asti, muista <a href='#tärkeitä-toimintoja'>*tärkeät toiminnot*</a>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/empty.png")'>Nyt sinulla on raakakäännös. Siirry uudestaan alkuun</a>
+<ul>
+<li> Lähde nyt liikkeelle alusta asti ja **poista vahvistus** niistä segmenteistä, joihin et vielä ole tyytyväinen.
+<li> Pidä ne segmentit vahvistettuina, jotka ovat mielestäsi valmiita.
+</ul>
+<li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/filtering.gif")'>Filtteröi näkyviin ainoastaan vahvistamattomat käännökset</a>
+<ul>
+<li> Käy näitä läpi ja hio, kunnes katsot voivasi vahvistaa nekin.
+<li> Filtteröi välillä uudestaan, niin että vahvistamattomien segmenttien määrä koko ajan vähenee
+<li> **Huomaa**, *että Trados laskee sinulle tilastot siitä, kuinka monta on vahvistamatta, kuinka monta vahvistettu jne.*
+<li>Tarkemmin ks. <a href='#segmenttien-suodattaminen-ja-tilastot'>Segmenttien suodattaminen ja tilastot</a>
+</ul>
+</ol>
+
+
+### Esimerkkimetodi 2: lyhyet tekstit
+
+Jos työskentelet lyhyen tekstin parissa ja Trados toimii sinulle enemmän käännöseditorina kuin käyttöliittymnänä käännösmuistille,
+voit tehdä edellä kuvatusta esimerkkimetodista yksinkertaistetun version ja lähteä kääntämään niin, että *vaihvistat jo alun perinkin
+vain ne segmentit, joista olet varma*. Huomaa kuitenkin, että tällöin tekemäsi ratkaisut eivät tallennu vielä muistiin.
 
 <ol>
 <li> <a href='javascript:void(0);' onClick='javascript:ChangeUpper(this,"guide_images/pretrans1.gif")'>Anna Tradosin esikääntää teksti (Pre-translate)</a>
@@ -130,6 +161,10 @@ Tradosilla voit kääntää ja siitä, millainen workflow voisi olla.
 </ul>
 </ol>
 
+
+#### V
+
+- Yllä kuvattuun käännösmetodiin liittyy eräs ongelm
 
 
 ### Miten käännösmuisti päivittyy?
